@@ -1,0 +1,9 @@
+@use 'helpers' as *;
+
+body, body[data-theme='dark'] {
+	background-color: black;
+}
+
+body[data-theme='light'] {
+	background-color: lightblue;
+}

@@ -1,5 +1,5 @@
 import "./Header.scss";
 
 export const Header = () => {
-  return <></>;
+  return <header className={'header'}></header>;
 };

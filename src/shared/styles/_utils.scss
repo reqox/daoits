@@ -1,1 +1,23 @@
 @use 'helpers' as *;
+
+.container {
+    max-width: calc(var(--container-width) - var(--container-padding-x) * 2);
+    min-width: auto;
+    padding-inline: var(--container-padding-x);
+}
+
+.hidden-mobile {
+    @include mobile {
+        display: none;
+    }
+}
+
+.visible-mobile {
+    @include mobile-above {
+        display: none;
+    }
+}
+
+.visually-hidden {
+    @include visually-hidden;
+}

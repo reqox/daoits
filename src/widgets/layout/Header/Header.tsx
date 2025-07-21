@@ -13,20 +13,26 @@ export const Header = () => {
     <header className={"header"}>
       <div className={"header__inner container"}>
         <div className="header__actions">
-          <a className="header__email" href={"#"}>
+          <a className="header__email" href={"mailto:daoits@gmail.com"}>
             <span className="header__email-text">daoits@gmail.com</span>
           </a>
           <div className="header__interaction">
             <SwitchTheme />
-            <a href="#" className="header__interaction-link"></a>
+            <a
+              href="https://t.me/daoits"
+              className="header__interaction-link"
+              aria-label={t("attr.sendTg")}
+              title={t("attr.sendTg")}
+            ></a>
             <button
               type="button"
               className="header__interaction-lang"
               onClick={toggleLang}
+              aria-label={t("attr.changeLang")}
             >
               {t("interaction.lang")}
             </button>
-            <a href="#footer" className="header__interaction-accent">
+            <a href="#" className="header__interaction-accent">
               {t("interaction.contactUs")}
             </a>
           </div>

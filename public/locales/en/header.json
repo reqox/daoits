@@ -2,5 +2,16 @@
 	"interaction": {
 		"lang": "EN",
 		"contactUs": "Contact us"
+	},
+	"attr": {
+		"changeLang": "Change the language",
+		"sendEmail": "Send an email",
+		"sendTg": "Send a message in Telegram",
+		"theme": {
+			"switch": "Switch the theme",
+			"to": "to",
+			"dark": "dark",
+			"light": "light"
+		}
 	}
 }

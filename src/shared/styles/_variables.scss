@@ -2,16 +2,17 @@
 
 :root {
     --color-dark: #030610;
-    --color-dark-alt: #161823;
+    --color-dark-alt: #13151F;
     --color-light: #FFFFFF;
+    --color-light-grey: #a7aab2;
     --color-accent: #146EF5;
     --color-accent-alt: #0d5dd5;
-    --color-grey: #696D7C;
+    --color-grey: #87888B;
 
     --font-family-base: 'Onest';
     --font-family-accent: 'Play';
 
-    --container-width: #{rem(1440)};
+    --container-width: #{rem(1220)};
     --container-padding-x: #{rem(15)};
     --container-padding-y: #{rem(60)};
 
@@ -21,11 +22,11 @@
     --border-radius-lg: #{rem(24)};
     --border: #{rem(1)} solid var(--color-grey);
 
-    --transition-duration: 0.2s;
+    --layer-mn: 10;
+    --layer-md: 50;
+    --layer-lg: 100;
 
-    @include desktop {
-        --container-width: #{rem(1220)};
-    }
+    --transition-duration: 0.2s;
 
     @include tablet {
         --container-padding-y: #{rem(30)};

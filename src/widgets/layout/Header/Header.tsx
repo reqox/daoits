@@ -1,7 +1,8 @@
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
 import { LogoSvg } from "@/shared/assets/icons";
-import { SwitchTheme } from "@/shared/ui";
+import { NavigationMenu, SwitchTheme } from "@/shared/ui";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   const { i18n, t } = useTranslation("header");
@@ -13,8 +14,8 @@ export const Header = () => {
     <header className={"header"}>
       <div className={"header__inner container"}>
         <div className="header__actions">
-          <a className="header__email" href={"mailto:daoits@gmail.com"}>
-            <span className="header__email-text">daoits@gmail.com</span>
+          <a className="header__email" href={"mailto:daoitscom@gmail.com"}>
+            <span className="header__email-text">daoitscom@gmail.com</span>
           </a>
           <div className="header__interaction">
             <SwitchTheme />
@@ -33,22 +34,24 @@ export const Header = () => {
               {t("interaction.lang")}
             </button>
             <a href="#" className="header__interaction-accent">
-              {t("interaction.contactUs")}
+              <span className="header__interaction-accent-text">
+                {t("interaction.contactUs")}
+              </span>
             </a>
           </div>
         </div>
         <div className="header__navigation">
-          <img
-            className="header__navigation-logo"
-            src={LogoSvg}
-            alt="ITS"
-            width={100}
-            height={75}
-            loading="lazy"
-          />
-          <nav className="header__navigation-menu">
-            <ul className="header__navigation-list"></ul>
-          </nav>
+          <NavLink to={"/"} className={"header__navigation-logo"}>
+            <img
+              className="header__navigation-image"
+              src={LogoSvg}
+              alt="Logo ITS"
+              width={100}
+              height={75}
+              loading="lazy"
+            />
+          </NavLink>
+          <NavigationMenu />
         </div>
       </div>
     </header>

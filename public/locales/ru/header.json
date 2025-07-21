@@ -13,5 +13,36 @@
 			"dark": "тёмную",
 			"light": "светлую"
 		}
+	},
+	"navigation": {
+		"coop": {
+			"title": "DAO ITS Кооператив"
+		},
+		"services": {
+			"title": "Услуги",
+			"dropdown": {
+				"app": "Разработка приложений",
+				"web": "Разработка сайтов",
+				"promotion": "Продвижение проектов"
+			}
+		},
+		"developments": {
+			"title": "Наши разработки",
+			"dropdown": {
+				"defibridge": "Кошелек DefiBridge",
+				"economy": "Мировая экономика",
+				"feonyx": "Блокчейн FEONYX"
+			}
+		},
+		"blockchain": {
+			"title": "Блокчейн"
+		},
+		"tokenomics": {
+			"title": "Токеномика",
+			"dropdown": {
+				"ifehu": "iFehu",
+				"investor": "Инвестору"
+			}
+		}
 	}
 }

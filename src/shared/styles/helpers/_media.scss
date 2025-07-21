@@ -55,16 +55,26 @@ $mobile-s: 480.98;
 		@content;
 	}
 }
-@mixin hover ($active: true) {
+@mixin hover ($active: true, $focus: true) {
 	@media (any-hover: hover) {
 		&:hover {
 			@content;
+		}
+		@if ($focus) {
+			&:focus-visible {
+				@content;
+			}
 		}
 	}
 	@if ($active) {
 		@media (any-hover: none) {
 			&:active {
 				@content;
+			}
+			@if ($focus) {
+				&:focus-visible {
+					@content;
+				}
 			}
 		}
 	}

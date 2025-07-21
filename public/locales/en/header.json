@@ -13,5 +13,36 @@
 			"dark": "dark",
 			"light": "light"
 		}
+	},
+	"navigation": {
+		"coop": {
+			"title": "DAO ITS Cooperative"
+		},
+		"services": {
+			"title": "Services",
+			"dropdown": {
+				"app": "Application development",
+				"web": "Website development",
+				"promotion": "Project promotion"
+			}
+		},
+		"developments": {
+			"title": "Our developments",
+			"dropdown": {
+				"defibridge": "DefiBridge wallet",
+				"economy": "World economy",
+				"feonyx": "FEONYX Blockchain"
+			}
+		},
+		"blockchain": {
+			"title": "Blockchain"
+		},
+		"tokenomics": {
+			"title": "Tokenomics",
+			"dropdown": {
+				"ifehu": "iFehu",
+				"investor": "For investors"
+			}
+		}
 	}
 }

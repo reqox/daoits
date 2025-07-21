@@ -1,0 +1,70 @@
+.header {
+	padding-block: rem(16);
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		gap: rem(16);
+	}
+
+	&__actions {
+		@include flex(flex, space-between, center);
+		column-gap: rem(32);
+	}
+	
+	&__email {
+		position: relative;
+		text-decoration: none;
+
+		&::before {
+			@include square(rem(28));
+			position: absolute;
+			content: '';
+			top: rem(-2);
+			left: 0;
+			background: url('/src/shared/assets/icons/Email.svg') center/contain no-repeat;
+		}
+
+		&-text {
+			color: var(--color-grey);
+			padding-left: rem(35);
+		}
+	}
+
+	&__interaction {
+		@include flex();
+		column-gap: rem(16);
+
+		&-link, &-lang {
+			@include square(#{rem(35)});
+		}
+
+		&-link {
+			background: url('/src/shared/assets/icons/Telegram.svg') center/contain no-repeat;
+		}
+
+		&-lang {
+			border-radius: 50%;
+			border: var(--border);
+			background-color: transparent;
+			font-size: rem(12);
+			color: inherit;
+		}
+
+		&-accent {
+			@include flex;
+			padding-block: rem(10);
+			background-color: var(--color-accent);
+			color: var(--color-light);
+			text-decoration: none;
+			transition-duration: var(--transition-duration);
+			width: rem(170);
+			border-radius: var(--border-radius-rg);
+			white-space: nowrap;
+
+			@include hover {
+				background-color: var(--color-accent-alt);
+			}
+		}
+	}
+}

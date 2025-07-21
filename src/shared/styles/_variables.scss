@@ -5,27 +5,29 @@
     --color-dark-alt: #161823;
     --color-light: #FFFFFF;
     --color-accent: #146EF5;
+    --color-accent-alt: #0d5dd5;
     --color-grey: #696D7C;
 
     --font-family-base: 'Onest';
     --font-family-accent: 'Play';
 
-    --container-width: rem(1440);
-    --container-padding-x: rem(15);
-    --container-padding-y: rem(60);
+    --container-width: #{rem(1440)};
+    --container-padding-x: #{rem(15)};
+    --container-padding-y: #{rem(60)};
 
-    --border-radius-sm: rem(4);
-    --border-radius-rg: rem(8);
-    --border-radius-md: rem(12);
-    --border-radius-lg: rem(24);
+    --border-radius-sm: #{rem(4)};
+    --border-radius-rg: #{rem(8)};
+    --border-radius-md: #{rem(12)};
+    --border-radius-lg: #{rem(24)};
+    --border: #{rem(1)} solid var(--color-grey);
 
     --transition-duration: 0.2s;
 
     @include desktop {
-        --container-width: rem(1220);
+        --container-width: #{rem(1220)};
     }
 
     @include tablet {
-        --container-padding-y: rem(30);
+        --container-padding-y: #{rem(30)};
     }
 }

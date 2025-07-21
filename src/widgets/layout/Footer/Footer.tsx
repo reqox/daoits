@@ -1,5 +1,9 @@
 import "./Footer.scss";
 
 export const Footer = () => {
-  return <></>;
+  return (
+    <footer className={"footer"} id={"footer"}>
+      footer
+    </footer>
+  );
 };

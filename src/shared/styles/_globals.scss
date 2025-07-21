@@ -5,8 +5,10 @@ body {
 	flex-direction: column;
 	font-family: var(--font-family-base), 'Arial', sans-serif;
 	line-height: 1.25;
-	color: rem(18);
+	font-size: rem(18);
 	background-color: var(--color-dark);
+	transition-property: background-color, color;
+	transition-duration: var(--transition-duration);
 }
 
 #root {
@@ -36,4 +38,10 @@ h6 {
 	font-family: var(--font-family-accent), 'Arial', sans-serif;
 	font-weight: 700;
 	line-height: 1;
+}
+
+:focus-visible {
+	outline: rem(2) dashed var(--color-grey);
+	outline-offset: rem(4);
+	transition-duration: 0s !important;
 }

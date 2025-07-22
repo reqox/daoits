@@ -32,9 +32,6 @@
 		}
 
 		@include hover {
-			&:not(.active) {
-				color: var(--color-light-grey);
-			}
 			& ~ .navigation__dropdown {
 				@include show;
 				transform: translateX(-50%) translateY(0);
@@ -60,6 +57,13 @@
 		transition-property: opacity, visibility, transform;
 		transition-duration: var(--transition-duration);
 		transition-timing-function: ease-in-out;
+
+		body[data-theme='dark'] & {
+			background-color: var(--color-dark);
+		}
+		body[data-theme='light'] & {
+			background-color: var(--color-light);
+		}
 
 		&:focus-within {
 			@include show;

@@ -12,12 +12,20 @@
 		position: absolute;
 		width: 100%;
 		height: rem(3);
-		background-color: var(--color-light);
 		border-radius: var(--border-radius-rg);
-		transition-property: transform, opacity;
+		transition-property: transform, opacity, background-color;
 		transition-duration: var(--transition-duration);
 		transform-origin: center;
 		z-index: var(--layer-lg);
+		background-color: var(--color-light);
+
+		body[data-theme='light'] & {
+			background-color: var(--color-dark);
+		}
+
+		body[data-theme='dark'] & {
+			background-color: var(--color-light);
+		}
 
 		&:first-child {
 			transform: translateY(#{rem(-8)});
@@ -32,7 +40,7 @@
 		}
 	}
 
-	&--open &-line {
+	&--active &-line {
 		&:first-child {
 			transform: translateY(0) rotate(-45deg);;
 		}

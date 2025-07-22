@@ -7,3 +7,8 @@
 		@error 'Не используйте единицы измерения при работе с функцией rem()! Передавайте аргументом только числа.'
 	}
 }
+
+@mixin backdrop($blur) {
+	backdrop-filter: blur(#{$blur}px);
+	-webkit-backdrop-filter: blur(#{$blur}px);
+}

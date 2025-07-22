@@ -1,4 +1,9 @@
 .header {
+	position: sticky;
+	top: 0;
+	z-index: var(--layer-lg);
+	background-color: rgba(8, 10, 18, 0.67);
+	@include backdrop(24);
 	padding-block: rem(16);
 
 	&__inner {
@@ -10,6 +15,10 @@
 	&__actions {
 		@include flex(flex, space-between, center);
 		column-gap: rem(32);
+
+		&--hidden {
+			display: none;
+		}
 	}
 	
 	&__email {
@@ -93,6 +102,12 @@
 		&-image {
 			width: auto;
 			height: clamp(#{rem(50)}, 0.479rem + 5.519vw, #{rem(75)});
+			transition-property: opacity, visibility;
+			transition-duration: var(--transition-duration);
+
+			&--hidden {
+				@include hide;
+			}
 		}
 	}
 }

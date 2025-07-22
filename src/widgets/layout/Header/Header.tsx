@@ -1,11 +1,21 @@
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
 import { LogoSvg } from "@/shared/assets/icons";
-import { BurgerButton, NavigationMenu, SwitchTheme } from "@/shared/ui";
+import {
+  BurgerButton,
+  BurgerMenu,
+  NavigationMenu,
+  SwitchTheme,
+} from "@/shared/ui";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import clsx from "clsx";
+import { useScroll } from "@/shared/hooks";
 
 export const Header = () => {
+  const [isActive, setIsActive] = useState<boolean>(false);
   const { i18n, t } = useTranslation("header");
+  const isScrolled = useScroll(40, 100);
   const toggleLang = () => {
     const newLang = i18n.language === "ru" ? "en" : "ru";
     return i18n.changeLanguage(newLang);
@@ -13,7 +23,12 @@ export const Header = () => {
   return (
     <header className={"header"}>
       <div className={"header__inner container"}>
-        <div className="header__actions hidden-mobile">
+        <div
+          className={clsx(
+            "header__actions hidden-mobile",
+            isScrolled && "header__actions--hidden",
+          )}
+        >
           <a className="header__email" href={"mailto:daoitscom@gmail.com"}>
             <span className="header__email-text">daoitscom@gmail.com</span>
           </a>
@@ -43,7 +58,10 @@ export const Header = () => {
         <div className="header__navigation">
           <NavLink to={"/"} className={"header__navigation-logo"}>
             <img
-              className="header__navigation-image"
+              className={clsx(
+                "header__navigation-image",
+                isActive && "header__navigation-image--hidden",
+              )}
               src={LogoSvg}
               alt="Logo ITS"
               width={100}
@@ -52,7 +70,11 @@ export const Header = () => {
             />
           </NavLink>
           <NavigationMenu />
-          <BurgerButton />
+          <BurgerButton
+            onClick={() => setIsActive(!isActive)}
+            isActive={isActive}
+          />
+          <BurgerMenu isOpen={isActive} />
         </div>
       </div>
     </header>

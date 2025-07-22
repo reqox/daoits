@@ -1,6 +1,8 @@
 import "./NavigationMenu.scss";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import * as React from "react";
+import clsx from "clsx";
 
 interface DropdownItem {
   title: string;
@@ -13,7 +15,11 @@ interface NavigationItem {
   dropdown?: DropdownItem[];
 }
 
-export const NavigationMenu = () => {
+interface iNavigationMenu {
+  isHidden?: boolean;
+}
+
+export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden }) => {
   const { t } = useTranslation("header");
 
   const navigationItems: NavigationItem[] = [
@@ -72,7 +78,9 @@ export const NavigationMenu = () => {
   ];
 
   return (
-    <nav className="navigation">
+    <nav
+      className={clsx("navigation", isHidden && "navigation--mobile-hidden")}
+    >
       <ul className={"navigation-list"}>
         {navigationItems.map((item) => (
           <li key={item.to} className={"navigation-item"}>

@@ -16,7 +16,7 @@ export const BurgerButton: React.FC<iBurgerButton> = ({
   return (
     <button
       type={"button"}
-      className={clsx("burger visible-mobile", isActive && "burger--active")}
+      className={clsx("burger visible-tablet", isActive && "burger--active")}
       onClick={onClick}
       aria-label={clsx(isActive ? t("attr.closeMenu") : t("attr.openMenu"))}
       aria-expanded={isActive}

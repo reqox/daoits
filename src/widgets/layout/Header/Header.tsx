@@ -25,7 +25,7 @@ export const Header = () => {
       <div className={"header__inner container"}>
         <div
           className={clsx(
-            "header__actions hidden-mobile",
+            "header__actions hidden-tablet",
             isScrolled && "header__actions--hidden",
           )}
         >
@@ -69,7 +69,7 @@ export const Header = () => {
               loading="lazy"
             />
           </NavLink>
-          <NavigationMenu />
+          <NavigationMenu isHidden={true} />
           <BurgerButton
             onClick={() => setIsActive(!isActive)}
             isActive={isActive}

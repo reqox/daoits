@@ -4,6 +4,7 @@ import * as React from "react";
 import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { LogoSvg } from "@/shared/assets/icons";
+import { NavigationMenu } from "@/shared/ui";
 
 interface iBurgerMenu {
   isOpen: boolean;
@@ -28,7 +29,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen }) => {
   return (
     <div
       id={"mobile-menu"}
-      className={clsx("menu visible-mobile", isOpen && "menu--open")}
+      className={clsx("menu visible-tablet", isOpen && "menu--open")}
       aria-hidden={!isOpen}
     >
       <div className="menu__inner">
@@ -42,6 +43,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen }) => {
             loading="lazy"
           />
         </NavLink>
+        <NavigationMenu />
       </div>
     </div>
   );

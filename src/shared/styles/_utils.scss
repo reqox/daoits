@@ -12,8 +12,20 @@
     }
 }
 
+.hidden-tablet {
+    @include tablet {
+        display: none;
+    }
+}
+
 .visible-mobile {
     @include mobile-above {
+        display: none;
+    }
+}
+
+.visible-tablet {
+    @include tablet-above {
         display: none;
     }
 }

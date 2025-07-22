@@ -1,7 +1,7 @@
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
 import { LogoSvg } from "@/shared/assets/icons";
-import { NavigationMenu, SwitchTheme } from "@/shared/ui";
+import { BurgerButton, NavigationMenu, SwitchTheme } from "@/shared/ui";
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <header className={"header"}>
       <div className={"header__inner container"}>
-        <div className="header__actions">
+        <div className="header__actions hidden-mobile">
           <a className="header__email" href={"mailto:daoitscom@gmail.com"}>
             <span className="header__email-text">daoitscom@gmail.com</span>
           </a>
@@ -52,6 +52,7 @@ export const Header = () => {
             />
           </NavLink>
           <NavigationMenu />
+          <BurgerButton />
         </div>
       </div>
     </header>

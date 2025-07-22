@@ -85,7 +85,11 @@ export const NavigationMenu = () => {
             </NavLink>
 
             {item.dropdown && (
-              <div className={"navigation__dropdown"} role={"menu"}>
+              <div
+                className={"navigation__dropdown"}
+                aria-label={item.title}
+                role={"menu"}
+              >
                 {item.dropdown.map((subItem) => (
                   <NavLink
                     key={subItem.to}

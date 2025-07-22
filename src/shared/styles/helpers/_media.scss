@@ -55,15 +55,14 @@ $mobile-s: 480.98;
 		@content;
 	}
 }
-@mixin hover ($active: true, $focus: true) {
+
+@mixin hover ($active: true) {
 	@media (any-hover: hover) {
 		&:hover {
 			@content;
 		}
-		@if ($focus) {
-			&:focus-visible {
-				@content;
-			}
+		&:focus-visible {
+			@content;
 		}
 	}
 	@if ($active) {
@@ -71,10 +70,8 @@ $mobile-s: 480.98;
 			&:active {
 				@content;
 			}
-			@if ($focus) {
-				&:focus-visible {
-					@content;
-				}
+			&:focus-visible {
+				@content;
 			}
 		}
 	}

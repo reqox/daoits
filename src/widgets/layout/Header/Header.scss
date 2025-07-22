@@ -6,6 +6,12 @@
 	@include backdrop(24);
 	padding-block: rem(16);
 
+	&--hidden {
+		background: none;
+		backdrop-filter: none;
+		-webkit-backdrop-filter: none;
+	}
+
 	&__inner {
 		display: flex;
 		flex-direction: column;

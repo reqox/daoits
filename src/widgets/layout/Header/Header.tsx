@@ -21,7 +21,7 @@ export const Header = () => {
     return i18n.changeLanguage(newLang);
   };
   return (
-    <header className={"header"}>
+    <header className={clsx("header", isActive && "header--hidden")}>
       <div className={"header__inner container"}>
         <div
           className={clsx(

@@ -12,7 +12,9 @@
 			"to": "на",
 			"dark": "тёмную",
 			"light": "светлую"
-		}
+		},
+		"closeMenu": "Закрыть меню",
+		"openMenu": "Открыть меню"
 	},
 	"navigation": {
 		"coop": {

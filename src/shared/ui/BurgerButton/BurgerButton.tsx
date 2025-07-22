@@ -1,6 +1,7 @@
 import "./BurgerButton.scss";
 import * as React from "react";
 import clsx from "clsx";
+import { useTranslation } from "react-i18next";
 
 interface iBurgerButton {
   isActive: boolean;
@@ -11,12 +12,13 @@ export const BurgerButton: React.FC<iBurgerButton> = ({
   isActive,
   onClick,
 }) => {
+  const { t } = useTranslation("header");
   return (
     <button
       type={"button"}
       className={clsx("burger visible-mobile", isActive && "burger--active")}
       onClick={onClick}
-      aria-label={`${isActive ? "Закрыть" : "Открыть"} меню`}
+      aria-label={clsx(isActive ? t("attr.closeMenu") : t("attr.openMenu"))}
       aria-expanded={isActive}
       aria-controls={"mobile-menu"}
     >

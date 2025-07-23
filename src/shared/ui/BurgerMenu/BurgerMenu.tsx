@@ -1,10 +1,9 @@
 import "./BurgerMenu.scss";
-import clsx from "clsx";
 import * as React from "react";
 import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { LogoSvg } from "@/shared/assets/icons";
-import { NavigationMenu } from "@/shared/ui";
+import { NavigationMenu, SwitchLanguage, SwitchTheme } from "@/shared/ui";
 import { useTranslation } from "react-i18next";
 
 interface iBurgerMenu {
@@ -29,10 +28,13 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
       style.overflow = "auto";
     };
   }, [isOpen]);
+
+  if (!isOpen) return null;
+
   return (
     <div
       id={"mobile-menu"}
-      className={clsx("menu visible-tablet", isOpen && "menu--open")}
+      className={"menu visible-tablet"}
       aria-hidden={!isOpen}
     >
       <div className="menu__inner">
@@ -61,7 +63,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
                 {t("burger.menu.language")}
               </div>
               <div className="menu__settings__language-main">
-                {/*<SwitchButton />*/}
+                <SwitchLanguage />
               </div>
             </div>
             <div className="menu__settings__theme">
@@ -69,7 +71,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
                 {t("burger.menu.theme")}
               </div>
               <div className="menu__settings__settings-main">
-                {/*<SwitchButton />*/}
+                <SwitchTheme />
               </div>
             </div>
           </div>
@@ -77,13 +79,18 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
             <a
               href={`https://t.me/${import.meta.env.VITE_TELEGRAM}`}
               className="menu__telegram-link"
+              target={"_blank"}
             >
-              {t("burger.menu.contactUs")}
+              <span className="menu__telegram-link-text">
+                {t("burger.menu.telegram")}
+              </span>
             </a>
           </div>
           <div className="menu__contact-us">
             <a href="#contact-us" className="menu__contact-us-link">
-              {t("burger.menu.contactUs")}
+              <span className="menu__contact-us-link-text">
+                {t("burger.menu.contactUs")}
+              </span>
             </a>
           </div>
         </div>

@@ -14,7 +14,7 @@
 	}
 
 	&--hidden {
-		background: none;
+		background: none !important;
 		backdrop-filter: none;
 		-webkit-backdrop-filter: none;
 	}
@@ -58,20 +58,10 @@
 		@include flex();
 		column-gap: rem(16);
 
-		&-link, &-lang {
+		&-link {
 			@include square(#{rem(35)});
 			border-radius: 50%;
-		}
-
-		&-link {
 			background: url('/src/shared/assets/icons/Telegram.svg') center/contain no-repeat;
-		}
-
-		&-lang {
-			border: var(--border);
-			background-color: transparent;
-			font-size: rem(12);
-			color: inherit;
 		}
 
 		&-accent {

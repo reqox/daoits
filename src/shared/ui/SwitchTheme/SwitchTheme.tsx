@@ -9,7 +9,7 @@ export const SwitchTheme = () => {
   return (
     <button
       type={"button"}
-      className={clsx("button", { "button--dark": theme === "dark" })}
+      className={clsx("button", theme === "dark" && "button--dark")}
       onClick={toggleTheme}
       aria-pressed={theme === "dark"}
       title={`${t("attr.theme.switch")} ${t("attr.theme.to")} ${theme === "light" ? t("attr.theme.dark") : t("attr.theme.light")}`}

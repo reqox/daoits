@@ -5,6 +5,7 @@ import {
   BurgerButton,
   BurgerMenu,
   NavigationMenu,
+  SwitchLanguage,
   SwitchTheme,
 } from "@/shared/ui";
 import { NavLink } from "react-router-dom";
@@ -14,12 +15,8 @@ import { useScroll } from "@/shared/hooks";
 
 export const Header = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
-  const { i18n, t } = useTranslation("header");
+  const { t } = useTranslation("header");
   const isScrolled = useScroll(40, 100);
-  const toggleLang = () => {
-    const newLang = i18n.language === "ru" ? "en" : "ru";
-    return i18n.changeLanguage(newLang);
-  };
   return (
     <header className={clsx("header", isActive && "header--hidden")}>
       <div className={"header__inner container"}>
@@ -39,15 +36,9 @@ export const Header = () => {
               className="header__interaction-link"
               aria-label={t("attr.sendTg")}
               title={t("attr.sendTg")}
+              target={"_blank"}
             ></a>
-            <button
-              type="button"
-              className="header__interaction-lang"
-              onClick={toggleLang}
-              aria-label={t("attr.changeLang")}
-            >
-              {t("interaction.lang")}
-            </button>
+            <SwitchLanguage />
             <a href="#contact-us" className="header__interaction-accent">
               <span className="header__interaction-accent-text">
                 {t("interaction.contactUs")}

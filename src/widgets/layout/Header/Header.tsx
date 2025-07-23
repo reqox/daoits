@@ -66,7 +66,6 @@ export const Header = () => {
               alt="Logo ITS"
               width={100}
               height={75}
-              loading="lazy"
             />
           </NavLink>
           <NavigationMenu isHidden={true} />
@@ -74,7 +73,7 @@ export const Header = () => {
             onClick={() => setIsActive(!isActive)}
             isActive={isActive}
           />
-          <BurgerMenu isOpen={isActive} />
+          <BurgerMenu isOpen={isActive} f={() => setIsActive(!isActive)} />
         </div>
       </div>
     </header>

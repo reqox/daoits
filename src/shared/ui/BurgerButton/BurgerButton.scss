@@ -41,6 +41,7 @@
 	}
 
 	&--active &-line {
+		background-color: var(--color-light) !important;
 		&:first-child {
 			transform: translateY(0) rotate(-45deg);;
 		}

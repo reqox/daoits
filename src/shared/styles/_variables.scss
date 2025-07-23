@@ -7,7 +7,8 @@
     --color-light-grey: #a7aab2;
     --color-accent: #146EF5;
     --color-accent-alt: #0d5dd5;
-    --color-grey: #87888B;
+    --color-grey: #87888B80;
+    --color-grey-alt: #b6b6b6;
 
     --font-family-base: 'Onest';
     --font-family-accent: 'Play';
@@ -21,6 +22,7 @@
     --border-radius-md: #{rem(12)};
     --border-radius-lg: #{rem(24)};
     --border: #{rem(1)} solid var(--color-grey);
+    --border-2: #{rem(2)} solid var(--color-grey);
 
     --layer-mn: 10;
     --layer-md: 50;

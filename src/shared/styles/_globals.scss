@@ -41,7 +41,8 @@ h6 {
 }
 
 :focus-visible {
-	outline: rem(2) dashed var(--color-grey);
+	outline: rem(2) dashed var(--color-accent);
 	outline-offset: rem(4);
 	transition-duration: 0s !important;
+	z-index: var(--layer-lg);
 }

@@ -6,6 +6,13 @@
 	@include backdrop(24);
 	padding-block: rem(16);
 
+	body[data-theme='dark'] & {
+		background-color: rgba(8, 10, 18, 0.67);
+	}
+	body[data-theme='light'] & {
+		background-color: rgba(255, 255, 255, 0.67);
+	}
+
 	&--hidden {
 		background: none;
 		backdrop-filter: none;

@@ -22,10 +22,14 @@
 	}
 
 	&__inner {
+		@include flex(flex, center, start);
+		flex-direction: column;
+
 		position: relative;
-		padding-block: rem(80) rem(12);
+		padding-block: rem(100) rem(12);
 		padding-inline: rem(20) rem(12);
 		height: 100%;
+		color: var(--color-light);
 	}
 
 	&__logo {
@@ -34,5 +38,28 @@
 			top: 0;
 			left: rem(20);
 		}
+	}
+
+	&__main,
+	&__settings {
+		&-title {
+			padding-bottom: rem(8);
+			border-bottom: var(--border-2);
+			width: 100%;
+			color: var(--color-grey-alt);
+			text-transform: uppercase;
+			font-size: rem(14);
+			font-weight: 700;
+			margin-bottom: rem(20);
+		}
+	}
+
+	&__main {
+		flex-grow: 1;
+		width: 100%;
+	}
+
+	&__extra {
+		width: 100%;
 	}
 }

@@ -8,9 +8,10 @@ import { NavigationMenu } from "@/shared/ui";
 
 interface iBurgerMenu {
   isOpen: boolean;
+  f: () => void;
 }
 
-export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen }) => {
+export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
   const bodyRef = useRef(document.body);
   useEffect(() => {
     const style = bodyRef.current.style;
@@ -41,9 +42,32 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen }) => {
             width="100"
             height="100"
             loading="lazy"
+            onClick={f}
           />
         </NavLink>
-        <NavigationMenu />
+        <div className="menu__main">
+          <div className="menu__main-title">Навигация</div>
+          <NavigationMenu f={f} />
+        </div>
+        <div className="menu__extra">
+          <div className="menu__settings">
+            <div className="menu__settings-title">Настройки</div>
+            <div className="menu__settings__language">
+              <div className="menu__settings__language-info">Язык:</div>
+              <div className="menu__settings__language-main">
+                {/*<SwitchButton />*/}
+              </div>
+            </div>
+            <div className="menu__settings__theme">
+              <div className="menu__settings__settings-info">Тема:</div>
+              <div className="menu__settings__settings-main">
+                {/*<SwitchButton />*/}
+              </div>
+            </div>
+          </div>
+          <div className="menu__telegram"></div>
+          <div className="menu__contact-us"></div>
+        </div>
       </div>
     </div>
   );

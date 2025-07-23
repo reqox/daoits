@@ -17,9 +17,10 @@ interface NavigationItem {
 
 interface iNavigationMenu {
   isHidden?: boolean;
+  f?: () => void;
 }
 
-export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden }) => {
+export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
   const { t } = useTranslation("header");
 
   const navigationItems: NavigationItem[] = [
@@ -80,6 +81,7 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden }) => {
   return (
     <nav
       className={clsx("navigation", isHidden && "navigation--mobile-hidden")}
+      aria-label={"navigation menu"}
     >
       <ul className={"navigation-list"}>
         {navigationItems.map((item) => (
@@ -87,7 +89,8 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden }) => {
             <NavLink
               to={item.to}
               className={"navigation-link"}
-              aria-haspopup={item.dropdown ? "true" : undefined}
+              aria-haspopup={item.dropdown && !isHidden ? "true" : undefined}
+              onClick={f}
             >
               {item.title}
             </NavLink>

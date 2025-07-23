@@ -46,5 +46,15 @@
 				"investor": "Инвестору"
 			}
 		}
+	},
+	"burger": {
+		"menu": {
+			"navigation": "Навигация",
+			"settings": "Настройки",
+			"language": "Язык:",
+			"theme": "Тема:",
+			"telegram": "Телеграм",
+			"contactUs": "Связаться с нами"
+		}
 	}
 }

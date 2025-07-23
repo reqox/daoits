@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { LogoSvg } from "@/shared/assets/icons";
 import { NavigationMenu } from "@/shared/ui";
+import { useTranslation } from "react-i18next";
 
 interface iBurgerMenu {
   isOpen: boolean;
@@ -12,6 +13,7 @@ interface iBurgerMenu {
 }
 
 export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
+  const { t } = useTranslation("header");
   const bodyRef = useRef(document.body);
   useEffect(() => {
     const style = bodyRef.current.style;
@@ -46,27 +48,44 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
           />
         </NavLink>
         <div className="menu__main">
-          <div className="menu__main-title">Навигация</div>
+          <div className="menu__main-title">{t("burger.menu.navigation")}</div>
           <NavigationMenu f={f} />
         </div>
         <div className="menu__extra">
           <div className="menu__settings">
-            <div className="menu__settings-title">Настройки</div>
+            <div className="menu__settings-title">
+              {t("burger.menu.settings")}
+            </div>
             <div className="menu__settings__language">
-              <div className="menu__settings__language-info">Язык:</div>
+              <div className="menu__settings__language-info">
+                {t("burger.menu.language")}
+              </div>
               <div className="menu__settings__language-main">
                 {/*<SwitchButton />*/}
               </div>
             </div>
             <div className="menu__settings__theme">
-              <div className="menu__settings__settings-info">Тема:</div>
+              <div className="menu__settings__settings-info">
+                {t("burger.menu.theme")}
+              </div>
               <div className="menu__settings__settings-main">
                 {/*<SwitchButton />*/}
               </div>
             </div>
           </div>
-          <div className="menu__telegram"></div>
-          <div className="menu__contact-us"></div>
+          <div className="menu__telegram">
+            <a
+              href={`https://t.me/${import.meta.env.VITE_TELEGRAM}`}
+              className="menu__telegram-link"
+            >
+              {t("burger.menu.contactUs")}
+            </a>
+          </div>
+          <div className="menu__contact-us">
+            <a href="#contact-us" className="menu__contact-us-link">
+              {t("burger.menu.contactUs")}
+            </a>
+          </div>
         </div>
       </div>
     </div>

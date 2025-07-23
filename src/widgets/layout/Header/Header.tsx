@@ -35,7 +35,7 @@ export const Header = () => {
           <div className="header__interaction">
             <SwitchTheme />
             <a
-              href="https://t.me/daoits"
+              href={`https://t.me/${import.meta.env.VITE_TELEGRAM}`}
               className="header__interaction-link"
               aria-label={t("attr.sendTg")}
               title={t("attr.sendTg")}
@@ -48,7 +48,7 @@ export const Header = () => {
             >
               {t("interaction.lang")}
             </button>
-            <a href="#" className="header__interaction-accent">
+            <a href="#contact-us" className="header__interaction-accent">
               <span className="header__interaction-accent-text">
                 {t("interaction.contactUs")}
               </span>

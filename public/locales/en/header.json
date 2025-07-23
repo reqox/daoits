@@ -46,5 +46,15 @@
 				"investor": "For investors"
 			}
 		}
+	},
+	"burger": {
+		"menu": {
+			"navigation": "Navigation",
+			"settings": "Settings",
+			"language": "Language:",
+			"theme": "Theme:",
+			"telegram": "Telegram",
+			"contactUs": "Contact us"
+		}
 	}
 }

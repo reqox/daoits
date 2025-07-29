@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <Fragment>
       <Banner />
-      {/* <Description /> */}
+      <Description />
     </Fragment>
   );
 };

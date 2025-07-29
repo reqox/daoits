@@ -3,6 +3,9 @@
 
   &__inner {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: clamp(#{rem(28)}, 0.206rem + 5.147vw, #{rem(56)});
   }
 
   &__body {
@@ -27,7 +30,7 @@
 
     &-item {
       @include flex(flex, center, start);
-      column-gap: rem(24);
+      column-gap: clamp(#{rem(8)}, -1.5rem + 10vw, #{rem(24)});
 
       &:first-child {
         & > .description__body-icon {
@@ -58,7 +61,7 @@
     }
 
     &-icon {
-      @include square(rem(50));
+      @include square(#{clamp(#{rem(30)}, -0.625rem + 12.5vw, #{rem(50)})});
       position: relative;
       border-radius: var(--border-radius-sm);
       background-color: var(--color-dark-alt);
@@ -69,7 +72,7 @@
       }
 
       &::after {
-        @include square(rem(24));
+        @include square(#{clamp(#{rem(18)}, 0.375rem + 3.75vw, #{rem(24)})});
         @include abs-center();
         content: '';
       }

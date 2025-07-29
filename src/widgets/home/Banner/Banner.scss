@@ -13,7 +13,7 @@
   &__main {
     @include flex(flex, center, start);
     flex-direction: column;
-    row-gap: rem(48);
+    row-gap: clamp(#{rem(32)}, 10vw, #{rem(48)});
   }
 
   &-title,

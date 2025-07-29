@@ -7,6 +7,10 @@ export const Description = () => {
   return (
     <section className={'description'}>
       <div className="description__inner container">
+        <h2 className="descrtiption-title">
+          <span className="company">{import.meta.env.VITE_COMPANY}</span> -{' '}
+          {t('description.title')}
+        </h2>
         <div className="description__body">
           <ul className="description__body-list">
             <li className="description__body-item">

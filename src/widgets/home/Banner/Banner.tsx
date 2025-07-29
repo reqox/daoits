@@ -13,10 +13,16 @@ export const Banner = () => {
             <div className="banner__subtitle-description">
               <p>{t('banner.world')}</p>
               <p>
-                <span className={'its'}>ITS</span> – {t('banner.company')}
+                <span className={'company'}>
+                  {import.meta.env.VITE_COMPANY}
+                </span>{' '}
+                – {t('banner.company')}
               </p>
               <p>
-                <span className={'its'}>ITS</span> — {t('banner.ecosystem')}
+                <span className={'company'}>
+                  {import.meta.env.VITE_COMPANY}
+                </span>{' '}
+                — {t('banner.ecosystem')}
               </p>
             </div>
           </div>

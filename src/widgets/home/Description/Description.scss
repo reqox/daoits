@@ -1,136 +1,110 @@
 .description {
-	padding-block: var(--section-padding-y);
+  padding-block: var(--section-padding-y);
 
-	&__inner {
-		position: relative;
+  &__inner {
+    position: relative;
+  }
 
-		&::after,
-		&::before {
-			position: absolute;
-			content: '';
-		}
+  &__body {
+    @include flex(flex, space-between, center);
 
-		&::after {
-			@include square(rem(400));
-			top: 50%;
-			right: 0;
-			transform: translateY(-50%);
-			background: url('/src/shared/assets/images/description/chart.svg') center/contain no-repeat;
-			z-index: -1;
-		}
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+      row-gap: rem(20);
+    }
 
-		&::before {
-			top: 0;
-			right: 0;
-			width: rem(560);
-			height: 100%;
-			background: url('/src/shared/assets/images/description/Vector.svg') center/contain no-repeat;
-			z-index: -10;
-		}
+    &-list {
+      @include flex(flex, center, start);
+      flex-direction: column;
+      row-gap: rem(24);
+      max-width: clamp(#{rem(677)}, 9.659rem + 51.02vw, #{rem(777)});
 
-		& p {
-			position: relative;
-			max-width: rem(777);
-			padding-left: rem(50 + 24);
+      @include tablet {
+        max-width: unset;
+      }
+    }
 
-			&::before {
-				@include square(rem(50));
-				position: absolute;
-				content: '';
-				top: 0;
-				left: 0;
-				border-radius: var(--border-radius-sm);
-			}
+    &-item {
+      @include flex(flex, center, start);
+      column-gap: rem(24);
 
-			&:first-child {
-				&::before {
-					background: url('/src/shared/assets/images/description/Icon1.svg') center/contain no-repeat;
-				}
-			}
+      &:first-child {
+        & > .description__body-icon {
+          &::after {
+            background: url('/src/shared/assets/images/description/Icon1.svg')
+              center/contain no-repeat;
+          }
+        }
+      }
 
-			&:nth-child(2) {
-				&::before {
-					background: url('/src/shared/assets/images/description/Icon2.svg') center/contain no-repeat;
-				}
-			}
+      &:nth-child(2) {
+        & > .description__body-icon {
+          &::after {
+            background: url('/src/shared/assets/images/description/Icon2.svg')
+              center/contain no-repeat;
+          }
+        }
+      }
 
-			&:last-child {
-				&::before {
-					background: url('/src/shared/assets/images/description/Icon3.svg') center/contain no-repeat;
-				}
-			}
-		}
-	}
+      &:last-child {
+        & > .description__body-icon {
+          &::after {
+            background: url('/src/shared/assets/images/description/Icon3.svg')
+              center/contain no-repeat;
+          }
+        }
+      }
+    }
 
-	&__body {
-		&-list {
-			@include flex(flex, center, start);
-			flex-direction: column;
-			row-gap: rem(24);
-			max-width: rem(777);
-		}
+    &-icon {
+      @include square(rem(50));
+      position: relative;
+      border-radius: var(--border-radius-sm);
+      background-color: var(--color-dark-alt);
+      flex-shrink: 0;
 
-		&-item {
-			@include flex(flex, center, start);
-			column-gap: rem(24);
+      body[data-theme='light'] & {
+        background-color: var(--color-light-grey);
+      }
 
-			&:first-child {
-				&>.description__body-icon {
-					&::after {
-						background: url('/src/shared/assets/images/description/Icon1.svg') center/contain no-repeat;
-					}
-				}
-			}
+      &::after {
+        @include square(rem(24));
+        @include abs-center();
+        content: '';
+      }
+    }
+  }
 
-			&:nth-child(2) {
-				&>.description__body-icon {
-					&::after {
-						background: url('/src/shared/assets/images/description/Icon2.svg') center/contain no-repeat;
-					}
-				}
-			}
+  &__images {
+    position: relative;
+    align-self: center;
 
-			&:last-child {
-				&>.description__body-icon {
-					&::after {
-						background: url('/src/shared/assets/images/description/Icon3.svg') center/contain no-repeat;
-					}
-				}
-			}
-		}
+    &-chart {
+      position: relative;
+      z-index: -1;
+      width: rem(400);
+      height: auto;
+    }
 
-		&-icon {
-			@include square(rem(50));
-			position: relative;
-			border-radius: var(--border-radius-sm);
-			background-color: var(--color-dark-alt);
-			flex-shrink: 0;
+    &-text {
+      position: absolute;
+      top: 50%;
+      right: rem(15);
+      transform: translateY(-50%);
+      padding: rem(16);
+      border: var(--border);
+      border-radius: rem(100);
+      background: rgba(0, 0, 0, 0.5);
+      @include backdrop(1);
 
-			body[data-theme='light'] & {
-				background-color: var(--color-light-grey);
-			}
+      body[data-theme='light'] & {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
 
-			&::after {
-				@include square(rem(24));
-				@include abs-center();
-				content: '';
-			}
-		}
-	}
-
-	&-info {
-		position: absolute;
-		top: 50%;
-		right: 0;
-		transform: translateY(-50%);
-		padding: rem(16);
-		border: var(--border);
-		border-radius: rem(100);
-		background: rgba(0, 0, 0, 0.5);
-		@include backdrop(1);
-
-		body[data-theme='light'] & {
-			background: rgba(255, 255, 255, 0.5);
-		}
-	}
+    @include mobile-s {
+      display: none;
+    }
+  }
 }

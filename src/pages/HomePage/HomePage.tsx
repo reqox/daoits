@@ -1,12 +1,12 @@
-import "./HomePage.scss";
-import { Fragment } from "react";
-import { Banner, Description } from "@/widgets/home";
+import './HomePage.scss';
+import { Fragment } from 'react';
+import { Banner, Description } from '@/widgets/home';
 
 export const HomePage = () => {
   return (
     <Fragment>
       <Banner />
-      <Description />
+      {/* <Description /> */}
     </Fragment>
   );
 };

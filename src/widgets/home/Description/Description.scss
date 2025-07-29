@@ -44,6 +44,7 @@
 
 			&:first-child {
 				&::before {
+					background: url('/src/shared/assets/images/description/Icon1.svg') center/contain no-repeat;
 				}
 			}
 
@@ -74,21 +75,23 @@
 			column-gap: rem(24);
 
 			&:first-child {
-				& > .description__body-icon {
+				&>.description__body-icon {
 					&::after {
 						background: url('/src/shared/assets/images/description/Icon1.svg') center/contain no-repeat;
 					}
 				}
 			}
+
 			&:nth-child(2) {
-				& > .description__body-icon {
+				&>.description__body-icon {
 					&::after {
 						background: url('/src/shared/assets/images/description/Icon2.svg') center/contain no-repeat;
 					}
 				}
 			}
+
 			&:last-child {
-				& > .description__body-icon {
+				&>.description__body-icon {
 					&::after {
 						background: url('/src/shared/assets/images/description/Icon3.svg') center/contain no-repeat;
 					}

@@ -1,0 +1,60 @@
+{
+	"interaction": {
+		"lang": "RU",
+		"contactUs": "Связаться с нами"
+	},
+	"attr": {
+		"changeLang": "Изменить язык",
+		"sendEmail": "Написать на почту",
+		"sendTg": "Написать сообщение в телеграм",
+		"theme": {
+			"switch": "Переключить тему",
+			"to": "на",
+			"dark": "тёмную",
+			"light": "светлую"
+		},
+		"closeMenu": "Закрыть меню",
+		"openMenu": "Открыть меню"
+	},
+	"navigation": {
+		"coop": {
+			"title": "DAO ITS Coop"
+		},
+		"services": {
+			"title": "Услуги",
+			"dropdown": {
+				"app": "Разработка приложений",
+				"web": "Разработка сайтов",
+				"promotion": "Продвижение проектов"
+			}
+		},
+		"developments": {
+			"title": "Наши разработки",
+			"dropdown": {
+				"defibridge": "Кошелек DefiBridge",
+				"economy": "Мировая экономика",
+				"feonyx": "Блокчейн FEONYX"
+			}
+		},
+		"blockchain": {
+			"title": "Блокчейн"
+		},
+		"tokenomics": {
+			"title": "Токеномика",
+			"dropdown": {
+				"ifehu": "iFehu",
+				"investor": "Инвестору"
+			}
+		}
+	},
+	"burger": {
+		"menu": {
+			"navigation": "Навигация",
+			"settings": "Настройки",
+			"language": "Язык:",
+			"theme": "Тема:",
+			"telegram": "Телеграм",
+			"contactUs": "Связаться с нами"
+		}
+	}
+}

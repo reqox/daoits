@@ -1,0 +1,60 @@
+{
+	"interaction": {
+		"lang": "EN",
+		"contactUs": "Contact us"
+	},
+	"attr": {
+		"changeLang": "Change the language",
+		"sendEmail": "Send an email",
+		"sendTg": "Send a message in Telegram",
+		"theme": {
+			"switch": "Switch the theme",
+			"to": "to",
+			"dark": "dark",
+			"light": "light"
+		},
+		"closeMenu": "Close menu",
+		"openMenu": "Open menu"
+	},
+	"navigation": {
+		"coop": {
+			"title": "DAO ITS Coop"
+		},
+		"services": {
+			"title": "Services",
+			"dropdown": {
+				"app": "Application development",
+				"web": "Website development",
+				"promotion": "Project promotion"
+			}
+		},
+		"developments": {
+			"title": "Our developments",
+			"dropdown": {
+				"defibridge": "DefiBridge wallet",
+				"economy": "World economy",
+				"feonyx": "FEONYX Blockchain"
+			}
+		},
+		"blockchain": {
+			"title": "Blockchain"
+		},
+		"tokenomics": {
+			"title": "Tokenomics",
+			"dropdown": {
+				"ifehu": "iFehu",
+				"investor": "For investors"
+			}
+		}
+	},
+	"burger": {
+		"menu": {
+			"navigation": "Navigation",
+			"settings": "Settings",
+			"language": "Language:",
+			"theme": "Theme:",
+			"telegram": "Telegram",
+			"contactUs": "Contact us"
+		}
+	}
+}

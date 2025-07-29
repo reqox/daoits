@@ -1,12 +1,12 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import App from "./app/App";
-import { BrowserRouter } from "react-router-dom";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './app/App';
+import { BrowserRouter } from 'react-router-dom';
 import '@/shared/config/i18n';
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </StrictMode>,

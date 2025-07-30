@@ -1,0 +1,12 @@
+.infocard {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(16);
+  padding: clamp(#{rem(16)}, 0.642rem + 1.79vw, #{rem(24)});
+  background-color: var(--color-dark-alt);
+  border-radius: var(--border-radius-md);
+
+  body[data-theme='light'] & {
+    background-color: var(--color-grey-alt);
+  }
+}

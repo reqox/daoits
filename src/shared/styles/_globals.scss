@@ -52,6 +52,10 @@ h2 {
   font-size: clamp(#{rem(30)}, 1.25rem + 3.125vw, #{rem(52)});
 }
 
+h3 {
+  font-size: clamp(#{rem(20)}, 0.827rem + 0.883vw, #{rem(24)});
+}
+
 :focus-visible {
   outline: rem(2) dashed var(--color-accent);
   outline-offset: rem(4);

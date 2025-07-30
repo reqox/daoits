@@ -11,5 +11,44 @@
     "text_1": "We strive to create a secure, transparent digital space for people and businesses around the world. The company's mission is to use the power of decentralization to improve everyday life and work by providing innovative solutions that deliver efficiency, reliability, and freedom of choice.",
     "text_2": "We believe that technology should serve people, not the other way around. And we strive to make our products and services accessible to everyone who participates in the digital economy.",
     "text_3": "ITS can act as a management company for your IT business. This will allow technical specialists to generate ideas and bring them to life without being distracted by administrative and management activities, advertising, paying taxes, obtaining licenses and accreditations."
+  },
+  "mission": {
+    "title": "Our mission",
+    "card": {
+      "1": {
+        "title": "Expansion to realize IT mission and attract investments",
+        "body": "As part of its mission, ITS plans to open commercial organizations in the Russian Federation and abroad. This expansion is aimed at actively attracting investments for the development and implementation of our IT solutions."
+      },
+      "2": {
+        "title": "Accessible blockchain for all companies through a single ecosystem",
+        "body": "We are connecting companies with blockchain solutions managed by ITS into a single global ecosystem. This will enable every company, regardless of size or industry, to use blockchain securely and seamlessly."
+      },
+      "3": {
+        "title": "ITS - a single center for management and development of the group of companies",
+        "body": "ITS acts as a management company uniting all key functions: from strategy and marketing to organization, motivation, control, as well as scientific and technical development and financial management for all companies in the group."
+      }
+    }
+  },
+  "about": {
+    "title": "Who we are and why we do it",
+    "subtitle": "ITS is a management company committed to creating a secure and transparent digital space for people and businesses around the world. Our mission is to use the power of decentralization to improve everyday life by implementing innovative IT solutions that provide efficiency, reliability and freedom of choice.",
+    "card": {
+      "1": {
+        "title": "Transparency:",
+        "body": "We build a business where everyone involved has access to key information and can control processes"
+      },
+      "2": {
+        "title": "Innovation:",
+        "body": "Our team develops unique solutions that enable businesses to grow and adapt in a dynamic digital economy"
+      },
+      "3": {
+        "title": "Secutity:",
+        "body": "Using advanced technology, we ensure data and finances are protected, minimizing risk through automated processes and smart contracts"
+      },
+      "4": {
+        "title": "Democratized governance:",
+        "body": "The DAO model ensures that every investor is involved in decision-making, making project management a truly collective endeavor"
+      }
+    }
   }
 }

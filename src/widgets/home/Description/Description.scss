@@ -5,7 +5,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    row-gap: clamp(#{rem(28)}, 0.206rem + 5.147vw, #{rem(56)});
+    row-gap: var(--inner-row-gap);
   }
 
   &__body {

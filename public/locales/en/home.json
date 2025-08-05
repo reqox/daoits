@@ -55,5 +55,15 @@
     "card": {
       "select": "Select"
     }
+  },
+  "projecting": {
+    "title": "Designing a decentralized world",
+    "card": {
+      "1": "Increase information security of the company and employees",
+      "2": "Automate work processes with smart contracts",
+      "3": "Bringing your business into a blockchain environment",
+      "4": "Anonymously and securely buy/sell digital financial assets for you",
+      "5": "Advice from professional analysts, lawyers and web specialists"
+    }
   }
 }

@@ -50,5 +50,10 @@
         "body": "The DAO model ensures that every investor is involved in decision-making, making project management a truly collective endeavor"
       }
     }
+  },
+  "services": {
+    "card": {
+      "select": "Select"
+    }
   }
 }

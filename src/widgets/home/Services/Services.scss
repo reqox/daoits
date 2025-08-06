@@ -26,4 +26,13 @@
       grid-template-columns: repeat(1, 1fr);
     }
   }
+
+  &-item {
+    &:last-child {
+      @include mobile {
+        grid-column: 1 / -1;
+        justify-self: center;
+      }
+    }
+  }
 }

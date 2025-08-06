@@ -1,8 +1,10 @@
 .servicecard {
-  display: flex;
+  @include flex(flex, space-between, start);
   flex-direction: column;
-  justify-content: space-between;
   row-gap: rem(24);
+  background-color: var(--color-dark-alt);
+  padding: rem(16);
+  border-radius: var(--border-radius-lg);
   height: 100%;
 
   &-image {
@@ -11,7 +13,7 @@
   }
 
   &__info {
-    display: flex;
+    @include flex(flex, center, start);
     flex-direction: column;
     row-gap: rem(16);
   }

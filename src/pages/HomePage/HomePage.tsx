@@ -9,6 +9,7 @@ import {
   Projecting,
   Services,
   Invest,
+  Feonyx,
 } from '@/widgets/home';
 
 export const HomePage = () => {
@@ -22,6 +23,7 @@ export const HomePage = () => {
       <Functions />
       <Services />
       <Invest />
+      <Feonyx />
     </Fragment>
   );
 };

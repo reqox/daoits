@@ -10,7 +10,7 @@
   &__title {
     display: flex;
     flex-direction: column;
-    row-gap: clamp(#{rem(16)}, 0.676rem + 1.081vw, #{rem(24)});
+    row-gap: var(--inner-title-row-gap);
   }
 
   &__body {

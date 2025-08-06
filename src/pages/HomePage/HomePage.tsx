@@ -6,6 +6,7 @@ import {
   Description,
   Mission,
   Projecting,
+  Services,
 } from '@/widgets/home';
 
 export const HomePage = () => {
@@ -16,6 +17,7 @@ export const HomePage = () => {
       <Mission />
       <AboutUs />
       <Projecting />
+      <Services />
     </Fragment>
   );
 };

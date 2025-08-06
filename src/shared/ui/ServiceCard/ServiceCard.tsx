@@ -18,17 +18,19 @@ export const ServiceCard: FC<ServiceCardProps> = ({
 
   return (
     <div className={'servicecard'}>
-      <div className="servicecard__body">
+      <div className="servicecard-image--wrap">
         <img
           src={srcImg}
           alt=""
-          className="servicecard__body-image"
+          className="servicecard-image"
           width={100}
           height={100}
           loading="lazy"
         />
-        <h3 className="servicecard__body-title">{title}</h3>
-        <div className="servicecard__body-description">{description}</div>
+      </div>
+      <div className="servicecard__info">
+        <h3 className="servicecard__info-title">{title}</h3>
+        <div className="servicecard__info-description">{description}</div>
       </div>
       <Link to={'#'} className={'servicecard-button'}>
         {t('services.card.select')}

@@ -4,6 +4,7 @@ import {
   AboutUs,
   Banner,
   Description,
+  Functions,
   Mission,
   Projecting,
   Services,
@@ -17,6 +18,7 @@ export const HomePage = () => {
       <Mission />
       <AboutUs />
       <Projecting />
+      <Functions />
       <Services />
     </Fragment>
   );

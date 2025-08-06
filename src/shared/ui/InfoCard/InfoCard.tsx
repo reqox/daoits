@@ -10,7 +10,9 @@ export const InfoCard: FC<InfoCardProps> = ({ title, body }) => {
   return (
     <div className="infocard">
       {title && <h3 className="infocard-title">{title}</h3>}
-      <div className="infocard-body">{body}</div>
+      <div className="infocard-body">
+        <p>{body}</p>
+      </div>
     </div>
   );
 };

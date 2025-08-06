@@ -52,8 +52,22 @@
     }
   },
   "services": {
+    "title": "Solutions for you",
+    "subtitle": "Comprehensive IT services for your business",
     "card": {
-      "select": "Select"
+      "select": "Select",
+      "1": {
+        "title": "Website development",
+        "description": "To introduce innovative technologies."
+      },
+      "2": {
+        "title": "Development of blockchain solutions",
+        "description": "Decentralization of business processes."
+      },
+      "3": {
+        "title": "Strategy and launch of cryptoprojects",
+        "description": "From whitepaper and tokenomics to marketing."
+      }
     }
   },
   "projecting": {

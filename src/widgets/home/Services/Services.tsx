@@ -5,37 +5,39 @@ import {
   Services2Image,
   Services3Image,
 } from '@/shared/assets/images';
+import { useTranslation } from 'react-i18next';
 
 export const Services = () => {
+  const { t } = useTranslation('home');
   return (
     <section className={'services'}>
       <div className="services__inner container">
         <div className="services__title">
-          <h2 className="services__title-title">Решения для вас</h2>
+          <h2 className="services__title-title">{t('services.title')}</h2>
           <div className="services__title-subtitle">
-            Комплексные IT-услуги для вашего бизнеса
+            {t('services.subtitle')}
           </div>
         </div>
         <ul className="services-list">
           <li className="services-item">
             <ServiceCard
               srcImg={Services3Image}
-              title={'Разработка сайтов'}
-              description={'Для внедрения иновационных технологий'}
+              title={t('services.card.1.title')}
+              description={t('services.card.1.description')}
             />
           </li>
           <li className="services-item">
             <ServiceCard
               srcImg={Services2Image}
-              title={'Разработка блокчейн-решений'}
-              description={'Децентрализация бизнес-процессов.'}
+              title={t('services.card.2.title')}
+              description={t('services.card.2.description')}
             />
           </li>
           <li className="services-item">
             <ServiceCard
               srcImg={Services1Image}
-              title={'Стратегия и запуск криптопроектов'}
-              description={'От whitepaper и токеномики до маркетинга.'}
+              title={t('services.card.3.title')}
+              description={t('services.card.3.description')}
             />
           </li>
         </ul>

@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import './ServiceCard.scss';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { AccentButton } from '../AccentButton/AccentButton';
 
 interface ServiceCardProps {
   srcImg: string;
@@ -32,9 +32,7 @@ export const ServiceCard: FC<ServiceCardProps> = ({
         <h3 className="servicecard__info-title">{title}</h3>
         <div className="servicecard__info-description">{description}</div>
       </div>
-      <Link to={'#'} className={'servicecard-button'}>
-        {t('services.card.select')}
-      </Link>
+      <AccentButton to={'#'}>{t('services.card.select')}</AccentButton>
     </div>
   );
 };

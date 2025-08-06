@@ -1,0 +1,18 @@
+.accentbutton {
+  @include flex();
+  background-color: var(--color-accent);
+  padding: rem(16);
+  border-radius: var(--border-radius-md);
+  max-width: clamp(#{rem(120)}, -2.5rem + 50vw, #{rem(200)});
+  text-decoration: none;
+  color: var(--color-light);
+  font-family: var(--font-family-accent);
+
+  @include hover {
+    background-color: var(--color-accent-alt);
+  }
+
+  @include mobile-s {
+    padding: rem(12);
+  }
+}

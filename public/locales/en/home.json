@@ -81,6 +81,20 @@
     }
   },
   "functions": {
-    "title": ""
+    "title": "Functions of the management company",
+    "card": {
+      "1": {
+        "title": "General management",
+        "body": "ITS assumes general management and strategic management of the activities of all companies in the group, ensuring a single vector of development."
+      },
+      "2": {
+        "title": "Administrative resource",
+        "body": "We provide a full administrative resource, freeing technicians from routine work. This allows them to focus on generating and implementing innovative ideas."
+      },
+      "3": {
+        "title": "Finance Department",
+        "body": "We perform centralized financial accounting, control and planning for all group entities. This ensures financial transparency and efficiency."
+      }
+    }
   }
 }

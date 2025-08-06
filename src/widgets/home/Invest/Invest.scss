@@ -25,13 +25,13 @@
 
     &-description {
       & > p:not(:last-child) {
-        margin-bottom: rem(12);
+        margin-bottom: rem(16);
       }
     }
   }
 
   &-image {
-    width: clamp(#{rem(160)}, 6.421rem + 17.897vw, #{rem(240)});
+    width: clamp(#{rem(120)}, 2.131rem + 26.846vw, #{rem(240)});
     height: auto;
   }
 }

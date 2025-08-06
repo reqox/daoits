@@ -18,16 +18,14 @@ export const ServiceCard: FC<ServiceCardProps> = ({
 
   return (
     <div className={'servicecard'}>
-      <div className="servicecard-image--wrap">
-        <img
-          src={srcImg}
-          alt=""
-          className="servicecard-image"
-          width={100}
-          height={100}
-          loading="lazy"
-        />
-      </div>
+      <img
+        src={srcImg}
+        alt=""
+        className="servicecard-image"
+        width={100}
+        height={100}
+        loading="lazy"
+      />
       <div className="servicecard__info">
         <h3 className="servicecard__info-title">{title}</h3>
         <div className="servicecard__info-description">{description}</div>

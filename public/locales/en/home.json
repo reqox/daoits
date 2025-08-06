@@ -106,7 +106,16 @@
     },
     "button": {
       "title": "Download the wallet and start investing",
-      "main": "Read More"
+      "main": "Read more"
     }
+  },
+  "feonyx": {
+    "title": "FEONYX Blockchain",
+    "description": {
+      "1": "Our technology development for scalable and secure solutions.",
+      "2": "FEONYX is a reliable platform for fast and secure transactions.",
+      "3": "Customized blockchain projects, smart contracts, asset tokenization and integration into business processes."
+    },
+    "button": "Read more"
   }
 }

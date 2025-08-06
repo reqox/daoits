@@ -96,5 +96,17 @@
         "body": "We perform centralized financial accounting, control and planning for all group entities. This ensures financial transparency and efficiency."
       }
     }
+  },
+  "invest": {
+    "title": "Invest in the future with us",
+    "description": {
+      "1": "Transparent DAO model where every decision is made collectively.",
+      "2": "A unique iFehu investment coin with a limited issue of 2,500,000 coins.",
+      "3": "Passive income opportunity through revenue sharing from project development."
+    },
+    "button": {
+      "title": "Download the wallet and start investing",
+      "main": "Read More"
+    }
   }
 }

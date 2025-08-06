@@ -6,3 +6,4 @@ export { BurgerMenu } from './BurgerMenu/BurgerMenu';
 export { InfoCard } from './InfoCard/InfoCard';
 export { ServiceCard } from './ServiceCard/ServiceCard';
 export { AccentButton } from './AccentButton/AccentButton';
+export { InfoLink } from './InfoLink/InfoLink';

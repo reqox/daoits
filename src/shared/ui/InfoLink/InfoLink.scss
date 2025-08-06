@@ -1,0 +1,19 @@
+.infolink {
+  @include flex(flex, space-between);
+  column-gap: rem(24);
+  background-color: var(--color-dark-alt);
+  padding: rem(24);
+  border-radius: var(--border-radius-md);
+
+  &-description {
+    font-family: var(--font-family-accent);
+    font-size: clamp(#{rem(16)}, 0.642rem + 1.79vw, #{rem(24)});
+  }
+
+  @include mobile-s {
+    flex-direction: column;
+    text-align: center;
+    row-gap: rem(16);
+    padding: rem(16);
+  }
+}

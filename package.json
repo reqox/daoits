@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prettier": "npx prettier .",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@a1rth/css-normalize": "^1.2.1",

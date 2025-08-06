@@ -7,6 +7,10 @@
   border-radius: var(--border-radius-lg);
   height: 100%;
 
+  body[data-theme='light'] & {
+    background-color: var(--color-light-grey);
+  }
+
   &-image {
     height: clamp(#{rem(90)}, 0.625rem + 25vw, #{rem(130)});
     width: auto;

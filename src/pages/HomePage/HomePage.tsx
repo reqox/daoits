@@ -10,7 +10,7 @@ import {
   Services,
   Invest,
   Feonyx,
-} from '@/widgets/home';
+} from '@/widgets/pages/home';
 
 export const HomePage = () => {
   return (

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 type UseScroll = (show: number, hide: number) => boolean;
 
@@ -16,11 +16,11 @@ export const useScroll: UseScroll = (show, hide) => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     handleScroll();
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [show, hide, isScrolled]);
 
   return isScrolled;

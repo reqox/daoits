@@ -4,7 +4,8 @@
   right: 0;
   width: calc(2 / 3 * 100%);
   height: 100dvh;
-  background: rgba(0, 0, 0, 0.47);
+  background: rgb(0 0 0 / 47%);
+
   @include backdrop(24);
   transform: translateX(100%);
   opacity: 0;
@@ -27,7 +28,6 @@
   &__inner {
     @include flex(flex, center, start);
     flex-direction: column;
-
     position: relative;
     padding-block: rem(100) rem(12);
     padding-inline: rem(20) rem(12);
@@ -47,6 +47,7 @@
   &__main,
   &__settings {
     width: 100%;
+
     &-title {
       padding-bottom: rem(8);
       border-bottom: var(--border-2);
@@ -90,10 +91,10 @@
   &__telegram,
   &__contact-us {
     width: 100%;
+
     &-link {
       @include reset-link;
       @include flex;
-
       padding: clamp(#{rem(8)}, -2.278rem + 6.838vh, #{rem(16)});
       font-size: rem(16);
       background-color: var(--color-accent);

@@ -1,5 +1,5 @@
 .accentbutton {
-  @include flex();
+  @include flex;
   background-color: var(--color-accent);
   padding: rem(16) rem(48);
   border-radius: var(--border-radius-md);

@@ -1,6 +1,6 @@
-import * as React from "react";
-import { Outlet } from "react-router-dom";
-import { Footer, Header } from "@/widgets/layout";
+import * as React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Footer, Header } from '@/widgets/layout';
 
 const Layout = () => {
   return (

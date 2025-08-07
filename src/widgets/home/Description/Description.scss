@@ -73,7 +73,7 @@
 
       &::after {
         @include square(#{clamp(#{rem(18)}, 0.375rem + 3.75vw, #{rem(24)})});
-        @include abs-center();
+        @include abs-center;
         content: '';
       }
     }
@@ -98,11 +98,12 @@
       padding: rem(16);
       border: var(--border);
       border-radius: rem(100);
-      background: rgba(0, 0, 0, 0.5);
+      background: rgb(0 0 0 / 50%);
+
       @include backdrop(1);
 
       body[data-theme='light'] & {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgb(255 255 255 / 50%);
       }
     }
 

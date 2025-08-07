@@ -1,4 +1,4 @@
-import "./CoopPage.scss";
+import './CoopPage.scss';
 
 export const CoopPage = () => {
   return (

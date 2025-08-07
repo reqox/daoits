@@ -1,4 +1,4 @@
-import "./AppPage.scss";
+import './AppPage.scss';
 
 export const AppPage = () => {
   return <></>;

@@ -1,0 +1,9 @@
+.preview {
+  padding-bottom: var(--section-padding-y);
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(var(--section-padding-y) * 2);
+  }
+}

@@ -46,6 +46,11 @@ h6 {
   font-family: var(--font-family-accent), 'Arial', sans-serif;
   font-weight: 700;
   line-height: 1;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(#{rem(40)}, 0.71rem + 8.949vw, #{rem(80)});
 }
 
 h2 {

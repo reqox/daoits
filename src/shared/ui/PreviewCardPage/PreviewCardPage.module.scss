@@ -1,0 +1,16 @@
+.previewCard {
+  @include flex(flex, space-between);
+  column-gap: rem(24);
+
+  &__body {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: rem(24);
+    max-width: rem(700);
+  }
+
+  &-image {
+    width: clamp(#{rem(400)}, 2.143rem + 35.714vw, #{rem(470)});
+    height: auto;
+  }
+}

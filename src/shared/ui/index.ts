@@ -7,3 +7,5 @@ export { ServiceCard } from './ServiceCard/ServiceCard';
 export { SwitchLanguage } from './SwitchLanguage/SwitchLanguage';
 export { SwitchTheme } from './SwitchTheme/SwitchTheme';
 export { BurgerMenu } from './BurgerMenu/BurgerMenu';
+export { BannerPage } from './BannerPage/BannerPage';
+export { PreviewCardPage } from './PreviewCardPage/PreviewCardPage';

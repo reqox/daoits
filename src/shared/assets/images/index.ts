@@ -5,8 +5,11 @@ import Services2Image from './services/2.png';
 import Services3Image from './services/3.png';
 import InvestFehuImage from './invest/fehu.png';
 import FenonyxImage from './feonyx/feonyx.png';
+import BannerAbstractImage from './banner/abstract.svg';
+import Preview1Image from './preview/1.jpg';
 
 export {
+  BannerAbstractImage,
   BannerImage,
   FenonyxImage,
   DescriptionChartImage,
@@ -14,4 +17,5 @@ export {
   Services2Image,
   Services3Image,
   InvestFehuImage,
+  Preview1Image,
 };

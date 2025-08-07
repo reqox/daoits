@@ -1,0 +1,34 @@
+.banner {
+  padding-bottom: var(--section-padding-y);
+
+  &__inner {
+    @include flex();
+    position: relative;
+    height: clamp(#{rem(200)}, 6.818rem + 28.409vw, #{rem(400)});
+  }
+
+  &-image {
+    position: absolute;
+    @include square(#{clamp(#{rem(150)}, 6.042rem + 16.667vw, #{rem(300)})});
+    @include abs-center;
+  }
+
+  &-title {
+    @include backdrop(2);
+    @include flex(inline-flex);
+    text-align: center;
+    padding: clamp(#{rem(10)}, -1.491rem + 4.415vw, #{rem(30)})
+      clamp(#{rem(20)}, -2.983rem + 8.83vw, #{rem(60)});
+    border-radius: var(--border-radius-lg);
+    background: rgba(100, 100, 100, 0.2);
+    z-index: 1;
+
+    body[data-theme='light'] & {
+      background: rgba(230, 230, 230, 0.1);
+    }
+
+    @include mobile-s {
+      border-radius: var(--border-radius-md);
+    }
+  }
+}

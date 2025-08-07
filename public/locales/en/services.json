@@ -1,0 +1,27 @@
+{
+  "banner": {
+    "title": "Our services"
+  },
+  "preview": {
+    "button": {
+      "text": "Read more"
+    },
+    "card": {
+      "1": {
+        "title": "Website development",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum sed eros sit amet imperdiet. Nullam at neque suscipit, consectetur lorem sed, pharetra ex. Praesent consectetur nunc in massa commodo luctus. Nam odio diam, vulputate vitae felis nec, bibendum rhoncus erat. Vestibulum ac purus gravida, fringilla metus vel, sollicitudin tellus. Proin et faucibus dolor. Cras fermentum nulla id posuere tristique. Morbi egestas sagittis purus ac ullamcorper. Aenean tincidunt velit at justo pretium pretium. Maecenas elementum consectetur quam vel ultrices. Praesent nunc mi, mattis at magna id, porta dapibus enim. Praesent auctor metus eget enim venenatis tincidunt. Aliquam blandit nisl at.",
+        "alt": ""
+      },
+      "2": {
+        "title": "Development of blockchain solutions",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum sed eros sit amet imperdiet. Nullam at neque suscipit, consectetur lorem sed, pharetra ex. Praesent consectetur nunc in massa commodo luctus. Nam odio diam, vulputate vitae felis nec, bibendum rhoncus erat. Vestibulum ac purus gravida, fringilla metus vel, sollicitudin tellus. Proin et faucibus dolor. Cras fermentum nulla id posuere tristique. Morbi egestas sagittis purus ac ullamcorper. Aenean tincidunt velit at justo pretium pretium. Maecenas elementum consectetur quam vel ultrices. Praesent nunc mi, mattis at magna id, porta dapibus enim. Praesent auctor metus eget enim venenatis tincidunt. Aliquam blandit nisl at.",
+        "alt": ""
+      },
+      "3": {
+        "title": "Strategy and launch of crypto projects",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum sed eros sit amet imperdiet. Nullam at neque suscipit, consectetur lorem sed, pharetra ex. Praesent consectetur nunc in massa commodo luctus. Nam odio diam, vulputate vitae felis nec, bibendum rhoncus erat. Vestibulum ac purus gravida, fringilla metus vel, sollicitudin tellus. Proin et faucibus dolor. Cras fermentum nulla id posuere tristique. Morbi egestas sagittis purus ac ullamcorper. Aenean tincidunt velit at justo pretium pretium. Maecenas elementum consectetur quam vel ultrices. Praesent nunc mi, mattis at magna id, porta dapibus enim. Praesent auctor metus eget enim venenatis tincidunt. Aliquam blandit nisl at.",
+        "alt": ""
+      }
+    }
+  }
+}

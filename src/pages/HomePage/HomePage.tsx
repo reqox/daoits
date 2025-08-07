@@ -1,20 +1,19 @@
-import './HomePage.scss';
-import { Fragment } from 'react';
 import {
   AboutUs,
   Banner,
   Description,
+  Feonyx,
   Functions,
+  Invest,
   Mission,
   Projecting,
   Services,
-  Invest,
-  Feonyx,
-} from '@/widgets/pages/home';
+} from '@/widgets/main/home';
+import React from 'react';
 
 export const HomePage = () => {
   return (
-    <Fragment>
+    <React.Fragment>
       <Banner />
       <Description />
       <Mission />
@@ -24,6 +23,6 @@ export const HomePage = () => {
       <Services />
       <Invest />
       <Feonyx />
-    </Fragment>
+    </React.Fragment>
   );
 };

@@ -24,7 +24,7 @@
     z-index: 1;
 
     body[data-theme='light'] & {
-      background: rgba(230, 230, 230, 0.1);
+      background: rgba(180, 180, 180, 0.1);
     }
 
     @include mobile-s {

@@ -24,7 +24,9 @@ export const PreviewCardPage: FC<PreviewCardPageProps> = ({
         <div className={styles['previewCard-description']}>
           <p>{description}</p>
         </div>
-        <AccentButton to={'#'}>{buttonText}</AccentButton>
+        <div className={styles['previewCard-button']}>
+          <AccentButton to={'#'}>{buttonText}</AccentButton>
+        </div>
       </div>
       <img
         src={srcImg}

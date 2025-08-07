@@ -12,5 +12,6 @@
   &-image {
     width: clamp(#{rem(400)}, 2.143rem + 35.714vw, #{rem(470)});
     height: auto;
+    border-radius: var(--border-radius-md);
   }
 }

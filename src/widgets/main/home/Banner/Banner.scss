@@ -23,6 +23,7 @@
 
   &-title {
     text-transform: uppercase;
+    font-size: clamp(#{rem(40)}, 0.71rem + 8.949vw, #{rem(80)});
   }
 
   &-image {

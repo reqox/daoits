@@ -23,5 +23,79 @@
         "alt": ""
       }
     }
+  },
+  "app": {
+    "title": "Application development",
+    "description": {
+      "title": "Blockchain solutions and software development",
+      "text": {
+        "1": "We are a team of professionals who transform complex technological challenges into simple and effective solutions. Our specialty is creating software and applications that not only solve business problems but also open up new opportunities for growth.",
+        "2": "We work on projects of any complexity, from mobile applications to large-scale blockchain solutions that change perceptions of security, transparency, and efficiency."
+      }
+    },
+    "about": {
+      "title": "Why choose us?",
+      "list": {
+        "1": {
+          "title": "Individual approach",
+          "description": "We do not offer cookie-cutter solutions. Each project begins with an in-depth analysis of your needs to ensure that the result meets your expectations."
+        },
+        "2": {
+          "title": "Full development cycle",
+          "description": "From concept to launch and support. We accompany the project at all stages, ensuring quality and timely execution."
+        },
+        "3": {
+          "title": "Cross-platform solutions",
+          "description": "We develop applications for iOS, Android, Windows, and other platforms to ensure that your product reaches the widest possible audience."
+        },
+        "4": {
+          "title": "Blockchain technologies",
+          "description": "We integrate blockchain into your projects, ensuring the highest level of security, transparency, and decentralization."
+        },
+        "5": {
+          "title": "Modern technologies and methodologies",
+          "description": "We use cutting-edge tools and approaches to ensure that your software is fast, reliable, and easily scalable."
+        }
+      }
+    },
+    "services": {
+      "title": "Our services",
+      "card": {
+        "1": {
+          "title": "Web applications",
+          "body": "Powerful and intuitive web solutions that simplify user interaction and optimize business processes."
+        },
+        "2": {
+          "title": "Mobile application development",
+          "body": "Convenient, functional, and stylish apps for smartphones and tablets that help your business stay connected with customers."
+        },
+        "3": {
+          "title": "Desktop applications",
+          "body": "PC software that boosts your productivity and efficiency."
+        },
+        "4": {
+          "title": "Integration with existing systems",
+          "body": "We help integrate new solutions with your current processes, ensuring seamless interaction."
+        },
+        "5": {
+          "title": "Blockchain solutions",
+          "body": "We offer a full range of blockchain solutions: from developing smart contracts for process automation and creating decentralized applications (dApps) to integrating blockchain technologies into existing systems to enhance security and transparency. We also develop cryptocurrency solutions and asset tokenization."
+        },
+        "6": {
+          "title": "Technical support and updates",
+          "body": "We are always available to ensure the stable operation of your software and to make improvements in a timely manner."
+        }
+      }
+    },
+    "step": {
+      "title": "Blockchain technologies: Your step into the future",
+      "subtitle": "Blockchain is not just a trend, it is a technology that is changing the rules of the game. We help our clients harness its potential to:",
+      "list": {
+        "1": "Improve data security",
+        "2": "Create decentralized applications",
+        "3": "Ensure transparency and immutability of accounting systems",
+        "4": "Automate processes with smart contracts"
+      }
+    }
   }
 }

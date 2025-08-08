@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Description.module.scss';
-import { DescriptionAppImage } from '@/shared/assets/images';
 import { useTranslation } from 'react-i18next';
+import { DescriptionAppImage } from '@/shared/assets/images';
 
 export const Description = () => {
   const { t } = useTranslation('services');

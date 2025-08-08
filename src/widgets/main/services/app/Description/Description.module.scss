@@ -20,5 +20,6 @@
   &-image {
     width: clamp(#{rem(350)}, 8.814rem + 20.408vw, #{rem(390)});
     height: auto;
+    border-radius: var(--border-radius-lg);
   }
 }

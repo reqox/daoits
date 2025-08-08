@@ -1,5 +1,5 @@
 import { BannerPage } from '@/shared/ui';
-import { About, Description } from '@/widgets/main/services/app';
+import { About, Description, Services } from '@/widgets/main/services/app';
 import { useTranslation } from 'react-i18next';
 import { Fragment } from 'react/jsx-runtime';
 
@@ -10,6 +10,7 @@ export const AppPage = () => {
       <BannerPage title={t('app.title')} />
       <Description />
       <About />
+      <Services />
     </Fragment>
   );
 };

@@ -20,7 +20,7 @@
     &-list {
       @include flex(flex, center, start);
       flex-direction: column;
-      row-gap: rem(24);
+      row-gap: var(--gap-grid);
       max-width: clamp(#{rem(677)}, 9.659rem + 51.02vw, #{rem(777)});
 
       @include tablet {

@@ -1,6 +1,6 @@
 .previewCard {
   @include flex(flex, space-between);
-  gap: rem(24);
+  gap: var(--gap-grid);
 
   @include tablet {
     display: grid;

@@ -1,7 +1,7 @@
 .servicecard {
   @include flex(flex, space-between, start);
   flex-direction: column;
-  row-gap: rem(24);
+  row-gap: var(--gap-grid);
   background-color: var(--color-dark-alt);
   padding: rem(16);
   border-radius: var(--border-radius-lg);

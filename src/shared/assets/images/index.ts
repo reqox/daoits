@@ -8,8 +8,10 @@ import InvestFehuImage from './invest/fehu.png';
 import FenonyxImage from './feonyx/feonyx.png';
 import BannerAbstractImage from './banner/abstract.svg';
 import Preview1Image from './preview/1.jpg';
+import StepImage from './step/step.jpg';
 
 export {
+  StepImage,
   BannerAbstractImage,
   BannerImage,
   FenonyxImage,

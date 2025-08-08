@@ -7,12 +7,14 @@ interface ServiceCardProps {
   srcImg: string;
   title: string;
   description: string;
+  to: string;
 }
 
 export const ServiceCard: FC<ServiceCardProps> = ({
   srcImg,
   title,
   description,
+  to,
 }) => {
   const { t } = useTranslation('home');
 
@@ -30,7 +32,7 @@ export const ServiceCard: FC<ServiceCardProps> = ({
         <h3 className="servicecard__info-title">{title}</h3>
         <div className="servicecard__info-description">{description}</div>
       </div>
-      <AccentButton to={'#'}>{t('services.card.select')}</AccentButton>
+      <AccentButton to={to}>{t('services.card.select')}</AccentButton>
     </div>
   );
 };

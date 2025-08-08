@@ -25,11 +25,12 @@
     }
   },
   "app": {
+    "title": "Application development",
     "description": {
-      "title": "Software and application development",
+      "title": "Blockchain solutions and software development",
       "text": {
-        "1": "We are a team of professionals who transform complex technological challenges into simple and effective solutions. We specialize in creating software and applications using blockchain technologies that not only solve business problems but also open up new opportunities for development.",
-        "2": "We work on projects of any complexity, from mobile applications to large-scale blockchain solutions that change the perception of security, transparency, and efficiency."
+        "1": "We are a team of professionals who transform complex technological challenges into simple and effective solutions. Our specialty is creating software and applications that not only solve business problems but also open up new opportunities for growth.",
+        "2": "We work on projects of any complexity, from mobile applications to large-scale blockchain solutions that change perceptions of security, transparency, and efficiency."
       }
     }
   }

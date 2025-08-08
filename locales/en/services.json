@@ -96,6 +96,19 @@
         "3": "Ensure transparency and immutability of accounting systems",
         "4": "Automate processes with smart contracts"
       }
+    },
+    "for": {
+      "title": "Our projects speak for us",
+      "description": "We are proud that <b>our solutions</b> help companies reach new heights. From startups to large corporations, we create products that change the rules of the game."
+    },
+    "ready": {
+      "title": {
+        "invite": "Ready to get started?",
+        "description": "Let's build your future together!"
+      },
+      "description": "We will help bring your ideas to life by creating software or an application that will give you a competitive advantage.",
+      "subtitle": "Contact us to discuss your project",
+      "button": "Contact us"
     }
   }
 }

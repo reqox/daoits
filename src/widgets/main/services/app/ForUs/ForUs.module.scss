@@ -1,0 +1,27 @@
+.for {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+
+    &-title {
+      @include mobile {
+        max-width: rem(550);
+      }
+    }
+  }
+
+  &-image {
+    @include square(#{clamp(#{rem(180)}, 3.789rem + 15.564vw, #{rem(220)})});
+    @include mobile {
+      display: none;
+    }
+  }
+}

@@ -7,6 +7,7 @@ interface PreviewCardPageProps {
   description: string;
   srcImg: string;
   alt: string;
+  to: string;
   buttonText: string;
 }
 
@@ -16,6 +17,7 @@ export const PreviewCardPage: FC<PreviewCardPageProps> = ({
   buttonText,
   srcImg,
   alt,
+  to,
 }) => {
   return (
     <div className={styles['previewCard']}>
@@ -25,7 +27,7 @@ export const PreviewCardPage: FC<PreviewCardPageProps> = ({
           <p>{description}</p>
         </div>
         <div className={styles['previewCard-button']}>
-          <AccentButton to={'#'}>{buttonText}</AccentButton>
+          <AccentButton to={to}>{buttonText}</AccentButton>
         </div>
       </div>
       <img

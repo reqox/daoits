@@ -27,6 +27,10 @@ $row-gap: #{rem(16)};
     width: 100%;
     background-color: var(--color-dark-alt);
 
+    body[data-theme='light'] & {
+      background-color: var(--color-light-grey);
+    }
+
     @include tablet {
       order: 1;
     }

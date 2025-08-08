@@ -32,6 +32,31 @@
         "1": "We are a team of professionals who transform complex technological challenges into simple and effective solutions. Our specialty is creating software and applications that not only solve business problems but also open up new opportunities for growth.",
         "2": "We work on projects of any complexity, from mobile applications to large-scale blockchain solutions that change perceptions of security, transparency, and efficiency."
       }
+    },
+    "about": {
+      "title": "Why choose us?",
+      "list": {
+        "1": {
+          "title": "Individual approach",
+          "description": "We do not offer cookie-cutter solutions. Each project begins with an in-depth analysis of your needs to ensure that the result meets your expectations."
+        },
+        "2": {
+          "title": "Full development cycle",
+          "description": "From concept to launch and support. We accompany the project at all stages, ensuring quality and timely execution."
+        },
+        "3": {
+          "title": "Cross-platform solutions",
+          "description": "We develop applications for iOS, Android, Windows, and other platforms to ensure that your product reaches the widest possible audience."
+        },
+        "4": {
+          "title": "Blockchain technologies",
+          "description": "We integrate blockchain into your projects, ensuring the highest level of security, transparency, and decentralization."
+        },
+        "5": {
+          "title": "Modern technologies and methodologies",
+          "description": "We use cutting-edge tools and approaches to ensure that your software is fast, reliable, and easily scalable."
+        }
+      }
     }
   }
 }

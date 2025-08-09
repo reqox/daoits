@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    @include flex(flex, space-between);
+    gap: rem(24);
+    padding-block: rem(24);
+    border-bottom: var(--border);
+
+    &:first-child {
+      border-top: var(--border);
+    }
+
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+
+    &-title {
+      @include flex();
+      column-gap: rem(24);
+      max-width: rem(500);
+    }
+
+    &-description {
+      max-width: rem(600);
+    }
+  }
+}

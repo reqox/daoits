@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './About.module.scss';
 import { useTranslation } from 'react-i18next';
+import { NumberedList } from '@/shared/ui';
 
 export const About = () => {
   const { t } = useTranslation('services');
@@ -30,19 +31,7 @@ export const About = () => {
     <section className={styles['about']}>
       <div className={clsx(styles['about__inner'], 'container')}>
         <h2 className={styles['about-title']}>{t('app.about.title')}</h2>
-        <ul className={styles['about-list']}>
-          {AboutList.map((item, index) => (
-            <li key={item.title} className={styles['about__item']}>
-              <h3 className={styles['about__item-title']}>
-                <span>{(index + 1).toString().padStart(2, '0')}</span>
-                <span>{item.title}</span>
-              </h3>
-              <div className={styles['about__item-description']}>
-                {item.description}
-              </div>
-            </li>
-          ))}
-        </ul>
+        <NumberedList list={AboutList} />
       </div>
     </section>
   );

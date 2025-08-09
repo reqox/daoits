@@ -9,4 +9,13 @@
   body[data-theme='light'] & {
     background-color: var(--color-light-grey);
   }
+
+  &__title {
+    @include flex(flex, start);
+    column-gap: rem(6);
+  }
+
+  &-image {
+    @include square(#{clamp(#{rem(18)}, 0.375rem + 3.75vw, #{rem(24)})});
+  }
 }

@@ -169,6 +169,35 @@
           "description": "We test the product on various devices."
         }
       }
+    },
+    "whyus": {
+      "title": "Why choose us",
+      "list": {
+        "1": {
+          "title": "Professionalism and experience:",
+          "body": "Our specialists are well versed in modern technologies, trends, and best practices in web development."
+        },
+        "2": {
+          "title": "A comprehensive approach:",
+          "body": "We employ designers, developers, copywriters, and testers who work together to create the product."
+        },
+        "3": {
+          "title": "Individual approach:",
+          "body": "We create a project tailored to your unique needs and goals, creating custom solutions instead of templates."
+        },
+        "4": {
+          "title": "Quality and reliability:",
+          "body": "Professional studios pay attention to testing websites to avoid bugs and flaws."
+        },
+        "5": {
+          "title": "Long-term cooperation:",
+          "body": "We are interested in creating a product that will be successful and convenient to use in the future."
+        },
+        "6": {
+          "title": "Transparency of the process:",
+          "body": "The preparation of technical specifications, development stages, and implementation monitoring allow the client to see what stage the project is at."
+        }
+      }
     }
   }
 }

@@ -9,11 +9,13 @@ import FenonyxImage from './feonyx/feonyx.png';
 import BannerAbstractImage from './banner/abstract.svg';
 import Preview1Image from './preview/1.jpg';
 import StepImage from './step/step.jpg';
+import WebDescriptionImage from './description/WebImage.png';
 import ForUsImage from './forus/for.png';
 
 export {
   StepImage,
   ForUsImage,
+  WebDescriptionImage,
   BannerAbstractImage,
   BannerImage,
   FenonyxImage,

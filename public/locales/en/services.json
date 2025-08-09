@@ -110,5 +110,15 @@
       "subtitle": "Contact us to discuss your project",
       "button": "Contact us"
     }
+  },
+  "web": {
+    "title": "Website development",
+    "description": {
+      "title": "We create websites that work for your success",
+      "text": {
+        "1": "We are a team of professionals who create effective and modern websites for your business.",
+        "2": "Our studio specializes in developing web solutions that not only attract attention but also achieve specific goals: whether it's increasing sales, growing brand awareness, or improving user experience."
+      }
+    }
   }
 }

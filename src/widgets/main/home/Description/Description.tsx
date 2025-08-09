@@ -1,32 +1,38 @@
-import { DescriptionChartImage } from '@/shared/assets/images';
+import {
+  DescriptionChartImage,
+  DescriptionHomeIcon1Image,
+  DescriptionHomeIcon2Image,
+  DescriptionHomeIcon3Image,
+} from '@/shared/assets/images';
 import './Description.scss';
 import { useTranslation } from 'react-i18next';
+import { SquareIcon } from '@/shared/ui';
 
 export const Description = () => {
   const { t } = useTranslation('home');
   return (
     <section className={'description'}>
       <div className="description__inner container">
-        <h2 className="descrtiption-title">
-          <span className="company">{import.meta.env.VITE_COMPANY}</span> -{' '}
-          {t('description.title')}
-        </h2>
+        <h2
+          className={'description-title'}
+          dangerouslySetInnerHTML={{ __html: t('description.title') }}
+        ></h2>
         <div className="description__body">
           <ul className="description__body-list">
             <li className="description__body-item">
-              <div className="description__body-icon"></div>
+              <SquareIcon srcImg={DescriptionHomeIcon1Image} />
               <div className="description__body-text">
                 {t('description.text_1')}
               </div>
             </li>
             <li className="description__body-item">
-              <div className="description__body-icon"></div>
+              <SquareIcon srcImg={DescriptionHomeIcon2Image} />
               <div className="description__body-text">
                 {t('description.text_2')}
               </div>
             </li>
             <li className="description__body-item">
-              <div className="description__body-icon"></div>
+              <SquareIcon srcImg={DescriptionHomeIcon3Image} />
               <div className="description__body-text">
                 {t('description.text_3')}
               </div>

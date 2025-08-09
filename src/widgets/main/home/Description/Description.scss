@@ -31,51 +31,6 @@
     &-item {
       @include flex(flex, center, start);
       column-gap: clamp(#{rem(8)}, -1.5rem + 10vw, #{rem(24)});
-
-      &:first-child {
-        & > .description__body-icon {
-          &::after {
-            background: url('/src/shared/assets/images/description/Icon1.svg')
-              center/contain no-repeat;
-          }
-        }
-      }
-
-      &:nth-child(2) {
-        & > .description__body-icon {
-          &::after {
-            background: url('/src/shared/assets/images/description/Icon2.svg')
-              center/contain no-repeat;
-          }
-        }
-      }
-
-      &:last-child {
-        & > .description__body-icon {
-          &::after {
-            background: url('/src/shared/assets/images/description/Icon3.svg')
-              center/contain no-repeat;
-          }
-        }
-      }
-    }
-
-    &-icon {
-      @include square(#{clamp(#{rem(30)}, -0.625rem + 12.5vw, #{rem(50)})});
-      position: relative;
-      border-radius: var(--border-radius-sm);
-      background-color: var(--color-dark-alt);
-      flex-shrink: 0;
-
-      body[data-theme='light'] & {
-        background-color: var(--color-light-grey);
-      }
-
-      &::after {
-        @include square(#{clamp(#{rem(18)}, 0.375rem + 3.75vw, #{rem(24)})});
-        @include abs-center;
-        content: '';
-      }
     }
   }
 

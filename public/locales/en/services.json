@@ -144,6 +144,31 @@
           "body": "We create modern web and mobile services that help automate processes, improve user experience, and achieve your goals."
         }
       }
+    },
+    "steps": {
+      "title": "Stages of work",
+      "list": {
+        "1": {
+          "title": "Idea and analysis",
+          "description": "We study your objectives, target audience, and market."
+        },
+        "2": {
+          "title": "Prototyping",
+          "description": "We create an interactive mockup to visualize the structure and functions."
+        },
+        "3": {
+          "title": "Design",
+          "description": "We develop a stylish interface that reflects your idea."
+        },
+        "4": {
+          "title": "Development",
+          "description": "We program functionality, ensuring stability and ease of use for the application."
+        },
+        "5": {
+          "title": "Testing",
+          "description": "We test the product on various devices."
+        }
+      }
     }
   }
 }

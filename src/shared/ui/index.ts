@@ -10,3 +10,4 @@ export { BurgerMenu } from './BurgerMenu/BurgerMenu';
 export { BannerPage } from './BannerPage/BannerPage';
 export { PreviewCardPage } from './PreviewCardPage/PreviewCardPage';
 export { NumberedList } from './NumberedList/NumberedList';
+export { SquareIcon } from './SquareIcon/SquareIcon';

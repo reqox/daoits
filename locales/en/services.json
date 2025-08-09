@@ -110,5 +110,94 @@
       "subtitle": "Contact us to discuss your project",
       "button": "Contact us"
     }
+  },
+  "web": {
+    "title": "Website development",
+    "description": {
+      "title": "We create websites that work for your success",
+      "text": {
+        "1": "We are a team of professionals who create effective and modern websites for your business.",
+        "2": "Our studio specializes in developing web solutions that not only attract attention but also achieve specific goals: whether it's increasing sales, growing brand awareness, or improving user experience."
+      }
+    },
+    "development": {
+      "title": "What we create",
+      "list": {
+        "1": {
+          "title": "Corporate websites",
+          "body": "We create modern and functional corporate websites that reflect your company's values, strengthen its reputation, and help achieve its goals."
+        },
+        "2": {
+          "title": "Online stores",
+          "body": "We create online stores that attract customers, provide a convenient shopping experience, and help your business grow."
+        },
+        "3": {
+          "title": "Landing page",
+          "body": "We create bright and stylish landing pages that attract attention, convey your idea, and motivate action. The perfect solution for presenting a product, service, or event."
+        },
+        "4": {
+          "title": "Mobile applications",
+          "body": "We create mobile applications for iOS and Android that help you stay connected with your audience, automate processes, and enable users to solve problems quickly and conveniently."
+        },
+        "5": {
+          "title": "Services",
+          "body": "We create modern web and mobile services that help automate processes, improve user experience, and achieve your goals."
+        }
+      }
+    },
+    "steps": {
+      "title": "Stages of work",
+      "list": {
+        "1": {
+          "title": "Idea and analysis",
+          "description": "We study your objectives, target audience, and market."
+        },
+        "2": {
+          "title": "Prototyping",
+          "description": "We create an interactive mockup to visualize the structure and functions."
+        },
+        "3": {
+          "title": "Design",
+          "description": "We develop a stylish interface that reflects your idea."
+        },
+        "4": {
+          "title": "Development",
+          "description": "We program functionality, ensuring stability and ease of use for the application."
+        },
+        "5": {
+          "title": "Testing",
+          "description": "We test the product on various devices."
+        }
+      }
+    },
+    "whyus": {
+      "title": "Why choose us",
+      "list": {
+        "1": {
+          "title": "Professionalism and experience:",
+          "body": "Our specialists are well versed in modern technologies, trends, and best practices in web development."
+        },
+        "2": {
+          "title": "A comprehensive approach:",
+          "body": "We employ designers, developers, copywriters, and testers who work together to create the product."
+        },
+        "3": {
+          "title": "Individual approach:",
+          "body": "We create a project tailored to your unique needs and goals, creating custom solutions instead of templates."
+        },
+        "4": {
+          "title": "Quality and reliability:",
+          "body": "Professional studios pay attention to testing websites to avoid bugs and flaws."
+        },
+        "5": {
+          "title": "Long-term cooperation:",
+          "body": "We are interested in creating a product that will be successful and convenient to use in the future."
+        },
+        "6": {
+          "title": "Transparency of the process:",
+          "body": "The preparation of technical specifications, development stages, and implementation monitoring allow the client to see what stage the project is at."
+        }
+      }
+    }
   }
 }

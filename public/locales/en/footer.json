@@ -30,16 +30,20 @@
     "other": "© 2025 All rights reserved",
     "document": {
       "1": {
-        "title": "User Agreement"
+        "title": "User Agreement",
+        "url": "docs/User-Agreement.pdf"
       },
       "2": {
-        "title": "Terms of Use"
+        "title": "Terms of Use",
+        "url": "docs/Terms-of-Use.pdf"
       },
       "3": {
-        "title": "Confidentiality"
+        "title": "Privacy Policy",
+        "url": "docs/Privacy-Policy.pdf"
       },
       "4": {
-        "title": "Investment fund charter"
+        "title": "Investment fund charter",
+        "url": "docs/Устав-FEHU.pdf"
       }
     },
     "info": {

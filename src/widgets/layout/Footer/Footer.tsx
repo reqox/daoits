@@ -48,10 +48,22 @@ export const Footer = () => {
   ];
 
   const documentList = [
-    { title: t('body.document.1.title'), url: 'coop' },
-    { title: t('body.document.2.title'), url: 'services' },
-    { title: t('body.document.3.title'), url: 'dev' },
-    { title: t('body.document.4.title'), url: 'tokenomics' },
+    {
+      title: t('body.document.1.title'),
+      url: `${import.meta.env.BASE_URL}${t('body.document.1.url')}`,
+    },
+    {
+      title: t('body.document.2.title'),
+      url: `${import.meta.env.BASE_URL}${t('body.document.2.url')}`,
+    },
+    {
+      title: t('body.document.3.title'),
+      url: `${import.meta.env.BASE_URL}${t('body.document.3.url')}`,
+    },
+    {
+      title: t('body.document.4.title'),
+      url: `${import.meta.env.BASE_URL}${t('body.document.4.url')}`,
+    },
   ];
 
   const navList = [
@@ -133,9 +145,11 @@ export const Footer = () => {
                     className={styles['footer__documents-item']}
                   >
                     <a
-                      href={item.url}
-                      target={'_blank'}
                       className={styles['footer__documents-link']}
+                      href={item.url}
+                      download={`${item.title}.pdf`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {item.title}
                     </a>

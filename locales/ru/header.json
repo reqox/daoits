@@ -18,7 +18,10 @@
   },
   "navigation": {
     "coop": {
-      "title": "DAO ITS Coop"
+      "title": "DAO ITS Coop",
+      "dropdown": {
+        "opensource": "OPEN-SOURCE"
+      }
     },
     "services": {
       "title": "Услуги",

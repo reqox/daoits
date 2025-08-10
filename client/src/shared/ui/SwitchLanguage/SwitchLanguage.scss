@@ -1,8 +1,0 @@
-.switchlanguage {
-  @include square(#{rem(35)});
-  border-radius: 50%;
-  border: var(--border);
-  background-color: transparent;
-  font-size: rem(12);
-  color: inherit;
-}

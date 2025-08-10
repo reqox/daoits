@@ -7,6 +7,7 @@ import {
   NavigationMenu,
   SwitchLanguage,
   SwitchTheme,
+  TelegramLink,
 } from '@/shared/ui';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
@@ -31,13 +32,7 @@ export const Header = () => {
           </a>
           <div className="header__interaction">
             <SwitchTheme />
-            <a
-              href={`https://t.me/${import.meta.env.VITE_TELEGRAM}`}
-              className="header__interaction-link"
-              aria-label={t('attr.sendTg')}
-              title={t('attr.sendTg')}
-              target={'_blank'}
-            ></a>
+            <TelegramLink />
             <SwitchLanguage />
             <a href="#contact-us" className="header__interaction-accent">
               <span className="header__interaction-accent-text">

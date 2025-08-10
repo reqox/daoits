@@ -25,5 +25,34 @@
         "placeholder": "Your message"
       }
     }
+  },
+  "body": {
+    "other": "© 2025 All rights reserved",
+    "document": {
+      "1": {
+        "title": "User Agreement"
+      },
+      "2": {
+        "title": "Terms of Use"
+      },
+      "3": {
+        "title": "Confidentiality"
+      },
+      "4": {
+        "title": "Investment fund charter"
+      }
+    },
+    "info": {
+      "anketa": "Application form for joining the cooperative"
+    },
+    "nav": {
+      "title": {
+        "1": "DAOITS Coop",
+        "2": "Services",
+        "3": "Our developments",
+        "4": "Blockchain",
+        "5": "Tokenomics"
+      }
+    }
   }
 }

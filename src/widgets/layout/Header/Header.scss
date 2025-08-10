@@ -62,13 +62,6 @@
     @include flex;
     column-gap: rem(16);
 
-    &-link {
-      @include square(#{rem(35)});
-      border-radius: 50%;
-      background: url('/src/shared/assets/icons/Telegram.svg') center/contain
-        no-repeat;
-    }
-
     &-accent {
       @include flex;
       position: relative;

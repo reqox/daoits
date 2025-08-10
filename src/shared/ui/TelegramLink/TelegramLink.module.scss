@@ -1,0 +1,6 @@
+.link {
+  @include square(#{rem(35)});
+  border-radius: 50%;
+  background: url('/src/shared/assets/icons/Telegram.svg') center/contain
+    no-repeat;
+}

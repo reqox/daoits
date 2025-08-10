@@ -1,5 +1,6 @@
 .footer {
-  padding-block: var(--section-padding-y);
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--container-padding-x);
 
   &__inner {
     display: flex;
@@ -98,5 +99,72 @@
         padding: rem(12) rem(24);
       }
     }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__main {
+    @include flex(flex, space-between, start);
+
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap-grid);
+    }
+  }
+
+  &__nav,
+  &__documents {
+    &-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: clamp(#{rem(8)}, 0.273rem + 1.136vw, #{rem(16)});
+    }
+
+    &-link {
+      @include reset-link;
+      transition-property: color;
+      transition-duration: var(--transition-duration);
+
+      &.active {
+        color: var(--color-accent);
+      }
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: clamp(#{rem(8)}, 0.273rem + 1.136vw, #{rem(16)});
+
+    &-link {
+      @include reset-link;
+
+      transition-property: color;
+      transition-duration: var(--transition-duration);
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+
+  &__other {
+    display: flex;
+    align-items: center;
+    column-gap: rem(8);
+  }
+
+  &-logo {
+    width: clamp(#{rem(60)}, 2.614rem + 5.682vw, #{rem(100)});
+    height: auto;
   }
 }

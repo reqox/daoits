@@ -1,0 +1,47 @@
+$padding: #{rem(24)};
+$row-gap: #{rem(16)};
+
+.ready {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      @include flex();
+      flex-direction: column;
+    }
+  }
+
+  &__invite,
+  &__description {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: $row-gap;
+    padding: $padding;
+    border-radius: var(--border-radius-lg);
+  }
+
+  &__invite {
+    width: 100%;
+    background-color: var(--color-dark-alt);
+
+    body[data-theme='light'] & {
+      background-color: var(--color-light-grey);
+    }
+
+    @include tablet {
+      order: 1;
+    }
+  }
+
+  &__description {
+    max-width: rem(500);
+    border: rem(1) solid var(--color-accent);
+
+    @include tablet {
+      max-width: none;
+    }
+  }
+}

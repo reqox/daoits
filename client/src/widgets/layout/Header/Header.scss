@@ -1,0 +1,120 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--layer-lg);
+  background-color: rgb(8 10 18 / 67%);
+
+  @include backdrop(24);
+  padding-block: rem(16);
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+
+  body[data-theme='dark'] & {
+    background-color: rgb(8 10 18 / 67%);
+  }
+
+  body[data-theme='light'] & {
+    background-color: rgb(255 255 255 / 67%);
+  }
+
+  &--hidden {
+    background: none !important;
+    backdrop-filter: none;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16);
+  }
+
+  &__actions {
+    @include flex(flex, space-between, center);
+    column-gap: rem(32);
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__email {
+    position: relative;
+    text-decoration: none;
+
+    &::before {
+      @include square(rem(20));
+      position: absolute;
+      content: '';
+      top: rem(-2);
+      left: 0;
+      background: url('/src/shared/assets/icons/Email.svg') center/contain
+        no-repeat;
+    }
+
+    &-text {
+      color: var(--color-grey);
+      padding-left: rem(25);
+      font-size: rem(14);
+    }
+  }
+
+  &__interaction {
+    @include flex;
+    column-gap: rem(16);
+
+    &-link {
+      @include square(#{rem(35)});
+      border-radius: 50%;
+      background: url('/src/shared/assets/icons/Telegram.svg') center/contain
+        no-repeat;
+    }
+
+    &-accent {
+      @include flex;
+      position: relative;
+      text-decoration: none;
+      width: rem(200);
+      height: rem(40);
+      background-color: var(--color-accent);
+      border-radius: var(--border-radius-rg);
+      white-space: nowrap;
+      transition-duration: var(--transition-duration);
+
+      &-text {
+        position: relative;
+        font-size: rem(16);
+        color: var(--color-light);
+        padding-left: rem(26);
+
+        &::before {
+          @include square(rem(20));
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 0;
+          background: url('/src/shared/assets/icons/ContactUs.svg')
+            center/contain no-repeat;
+        }
+      }
+
+      @include hover {
+        background-color: var(--color-accent-alt);
+      }
+    }
+  }
+
+  &__navigation {
+    @include flex(flex, space-between, center);
+
+    &-image {
+      width: auto;
+      height: clamp(#{rem(50)}, 0.479rem + 5.519vw, #{rem(75)});
+      transition-property: opacity, visibility;
+      transition-duration: var(--transition-duration);
+
+      &--hidden {
+        @include hide;
+      }
+    }
+  }
+}

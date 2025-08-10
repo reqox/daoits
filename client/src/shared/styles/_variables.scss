@@ -1,0 +1,34 @@
+@use 'helpers' as *;
+
+:root {
+  --color-dark: #030610;
+  --color-dark-alt: #13151f;
+  --color-light: #ffffff;
+  --color-light-grey: #e3e3e3;
+  --color-accent: #146ef5;
+  --color-accent-alt: #0d5dd5;
+  --color-grey: #87888b;
+  --color-grey-alt: #a7aab2;
+  --font-family-base: 'Onest';
+  --font-family-accent: 'Play';
+  --container-width: #{rem(1220)};
+  --container-padding-x: #{rem(15)};
+  --section-padding-y: #{rem(60)};
+  --border-radius-sm: #{rem(4)};
+  --border-radius-rg: #{rem(8)};
+  --border-radius-md: #{rem(12)};
+  --border-radius-lg: #{rem(24)};
+  --border: #{rem(1)} solid var(--color-grey);
+  --border-2: #{rem(2)} solid var(--color-grey);
+  --inner-row-gap: #{clamp(#{rem(28)}, 0.206rem + 5.147vw, #{rem(56)})};
+  --inner-title-row-gap: #{clamp(#{rem(16)}, 0.676rem + 1.081vw, #{rem(24)})};
+  --gap-grid: #{clamp(#{rem(12)}, 0.213rem + 2.685vw, #{rem(24)})};
+  --layer-mn: 10;
+  --layer-md: 50;
+  --layer-lg: 100;
+  --transition-duration: 0.2s;
+
+  @include tablet {
+    --section-padding-y: #{rem(30)};
+  }
+}

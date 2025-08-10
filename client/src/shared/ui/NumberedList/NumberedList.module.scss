@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    gap: rem(24);
+    padding-block: rem(24);
+    border-bottom: var(--border);
+
+    &:first-child {
+      border-top: var(--border);
+    }
+
+    @include mobile {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+
+    &-title {
+      @include flex(flex, start, center);
+      column-gap: rem(24);
+      max-width: rem(500);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+$background: var(--color-accent);
+$background-dark: #051937;
+$object: var(--color-light);
+
+.button {
+  position: relative;
+  width: rem(60);
+  height: rem(30);
+  background: $background;
+  border: none;
+  border-radius: rem(100);
+  cursor: pointer;
+  transition: 500ms;
+
+  &::after {
+    @include square(#{rem(24)});
+    content: '';
+    position: absolute;
+    top: rem(3);
+    left: rem(3);
+    background: $object;
+    border-radius: 50%;
+    transition-property: left, box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    box-shadow: 0 0 rem(12) rem(2) rgb(255 255 255 / 100%);
+  }
+
+  &--dark {
+    background: $background-dark;
+  }
+
+  &--dark::after {
+    left: calc(100% - #{rem(27)});
+    box-shadow:
+      0 0 rem(10) rem(1) rgb(255 255 255 / 80%),
+      inset rem(6) rem(-3) 0 0 rgb(210 210 210 / 100%);
+  }
+}

@@ -1,0 +1,24 @@
+.accentbutton {
+  @include flex;
+  background-color: var(--color-accent);
+  padding: rem(16) rem(48);
+  border-radius: var(--border-radius-md);
+  text-decoration: none;
+  color: var(--color-light);
+  font-family: var(--font-family-accent);
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  white-space: nowrap;
+
+  @include hover {
+    background-color: var(--color-accent-alt);
+  }
+
+  @include tablet {
+    padding-inline: rem(32);
+  }
+
+  @include mobile-s {
+    padding: rem(12) rem(24);
+  }
+}

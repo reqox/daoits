@@ -1,0 +1,45 @@
+.previewCard {
+  @include flex(flex, space-between);
+  gap: var(--gap-grid);
+
+  @include tablet {
+    display: grid;
+    justify-items: start;
+    grid-template-areas: 'title' 'description' 'img' 'button';
+  }
+
+  &__body {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: rem(24);
+    max-width: rem(700);
+
+    @include tablet {
+      display: contents;
+    }
+  }
+
+  &-image {
+    width: clamp(#{rem(400)}, 2.143rem + 35.714vw, #{rem(470)});
+    height: auto;
+    border-radius: var(--border-radius-md);
+  }
+
+  @include tablet {
+    &-title {
+      grid-area: title;
+    }
+
+    &-description {
+      grid-area: description;
+    }
+
+    &-image {
+      grid-area: img;
+    }
+
+    &-button {
+      grid-area: button;
+    }
+  }
+}

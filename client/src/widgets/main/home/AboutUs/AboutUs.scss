@@ -1,0 +1,25 @@
+.about {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-grid);
+
+    @include mobile-s {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

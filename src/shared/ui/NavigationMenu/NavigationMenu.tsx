@@ -27,6 +27,12 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
     {
       title: t('navigation.coop.title'),
       to: 'coop',
+      dropdown: [
+        {
+          title: t('navigation.coop.dropdown.opensource'),
+          to: 'coop/opensource',
+        },
+      ],
     },
     {
       title: t('navigation.services.title'),
@@ -34,10 +40,10 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
       dropdown: [
         { title: t('navigation.services.dropdown.app'), to: 'services/app' },
         { title: t('navigation.services.dropdown.web'), to: 'services/web' },
-        {
+        /* {
           title: t('navigation.services.dropdown.promotion'),
           to: 'services/promotion',
-        },
+        }, */
       ],
     },
     {

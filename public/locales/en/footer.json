@@ -1,0 +1,29 @@
+{
+  "action": {
+    "title": "Still have questions?",
+    "subtitle": "Please contact us. We will respond within 24 hours.",
+    "form": {
+      "button": "Contact us",
+      "name": {
+        "title": "Name *",
+        "placeholder": "How to address you?"
+      },
+      "email": {
+        "title": "Email *",
+        "placeholder": "Your email"
+      },
+      "number": {
+        "title": "Number",
+        "placeholder": "Your number"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "placeholder": "@username"
+      },
+      "message": {
+        "title": "Message *",
+        "placeholder": "Your message"
+      }
+    }
+  }
+}

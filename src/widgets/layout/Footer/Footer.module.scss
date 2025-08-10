@@ -1,0 +1,102 @@
+.footer {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__action {
+    @include flex(flex, space-between, start);
+    row-gap: var(--inner-row-gap);
+
+    @include laptop {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &__description {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &__form {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: var(--gap-grid);
+
+    @include mobile {
+      width: 100%;
+    }
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap-grid);
+
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+      }
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(8);
+
+      &:last-child {
+        grid-column: 1 / -1;
+      }
+
+      label + input,
+      label + textarea {
+        padding: rem(16);
+        background-color: transparent;
+        border: var(--border);
+        border-radius: var(--border-radius-md);
+        color: inherit;
+        outline: none;
+
+        &:focus {
+          outline: rem(1) solid var(--color-accent);
+          outline-offset: 0;
+          border-color: transparent;
+        }
+      }
+
+      label + textarea {
+        resize: vertical;
+      }
+    }
+
+    &-button {
+      @include flex;
+      background-color: var(--color-accent);
+      padding: rem(16) rem(48);
+      border: none;
+      border-radius: var(--border-radius-md);
+      text-decoration: none;
+      color: var(--color-light);
+      font-family: var(--font-family-accent);
+      transition-property: background-color;
+      transition-duration: var(--transition-duration);
+      white-space: nowrap;
+
+      @include hover {
+        background-color: var(--color-accent-alt);
+      }
+
+      @include tablet {
+        padding-inline: rem(32);
+      }
+
+      @include mobile-s {
+        padding: rem(12) rem(24);
+      }
+    }
+  }
+}

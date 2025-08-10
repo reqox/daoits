@@ -1,0 +1,30 @@
+{
+  "action": {
+    "title": "Остались вопросы?",
+    "subtitle": "Свяжитесь с нами. Мы ответим в течение 24 часов.",
+    "form": {
+      "button": "Связаться с нами",
+      "required": "Это поле обязательно",
+      "name": {
+        "title": "Имя *",
+        "placeholder": "Как к вам обращаться?"
+      },
+      "email": {
+        "title": "Почта *",
+        "placeholder": "Ваш email"
+      },
+      "number": {
+        "title": "Телефон",
+        "placeholder": "Ваш номер"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "placeholder": "@username"
+      },
+      "message": {
+        "title": "Сообщение *",
+        "placeholder": "Ваше сообщение"
+      }
+    }
+  }
+}

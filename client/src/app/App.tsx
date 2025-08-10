@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Layout from '@/app/Layout/Layout.tsx';
 import { useTheme } from '@/shared/hooks';
 import './App.scss';
@@ -9,6 +9,7 @@ import {
   PromotionPage,
   ServicesPage,
   WebPage,
+  NotFound,
 } from '@/pages';
 
 const App = () => {
@@ -32,8 +33,8 @@ const App = () => {
           <Route path={'ifehu'} element={<AppPage />} />
           <Route path={'investor'} element={<AppPage />} />
         </Route>
-        <Route path={'*'} element={<Navigate to={'/'} replace={true} />} />
       </Route>
+      <Route path={'*'} element={<NotFound />} />
     </Routes>
   );
 };

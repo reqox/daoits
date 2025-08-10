@@ -1,0 +1,10 @@
+.notfound {
+  @include flex();
+  padding: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+  }
+}

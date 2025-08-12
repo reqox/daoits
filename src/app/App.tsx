@@ -22,17 +22,21 @@ const App = () => {
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />
         <Route path={'services/web'} element={<WebPage />} />
-        <Route path={'services/promotion'} element={<DevelopingPage />} />
-
-        <Route path={'developments'} element={<DevelopingPage />} />
-        <Route path={'developments/defibridge'} element={<DevelopingPage />} />
-        <Route path={'developments/economy'} element={<DevelopingPage />} />
-        <Route path={'developments/feonyx'} element={<DevelopingPage />} />
-
-        <Route path={'tokenomics'} element={<DevelopingPage />} />
-        <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />
-        <Route path={'tokenomics/investor'} element={<DevelopingPage />} />
       </Route>
+
+      <Route path={'services/promotion'} element={<DevelopingPage />} />
+
+      <Route path={'developments'} element={<DevelopingPage />} />
+      <Route path={'developments/defibridge'} element={<DevelopingPage />} />
+      <Route path={'developments/economy'} element={<DevelopingPage />} />
+      <Route path={'developments/feonyx'} element={<DevelopingPage />} />
+
+      <Route path={'blockchain'} element={<DevelopingPage />} />
+
+      <Route path={'tokenomics'} element={<DevelopingPage />} />
+      <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />
+      <Route path={'tokenomics/investor'} element={<DevelopingPage />} />
+
       <Route path={'*'} element={<NotFoundPage />} />
     </Routes>
   );

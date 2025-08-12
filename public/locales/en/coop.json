@@ -1,3 +1,47 @@
 {
-  "banner": "DAO ITS Co-op"
+  "banner": "DAO ITS Co-op",
+  "description": {
+    "title": "The Intellectual Property Revolution: Bringing Together Law, Technology, and Human Ingenuity",
+    "text": {
+      "1": "In the era of digital transformation, when innovations are born faster than they can be protected and monetized, <span class='company'>DAO ITS Co-op</span> is becoming a beacon for everyone who is creating the future. We are not just a project; we are the architects of a new era, where your intellectual property (IP) is not only securely protected, but also has the opportunity for global scaling and fair monetization.",
+      "2": "We combine the best of both worlds: the legal stability of a registered Production Cooperative and the unlimited possibilities of a Decentralized Autonomous Organization (DAO). This unique fusion allows us to overcome the systemic shortcomings of traditional bureaucracy and pave the way for a transparent, efficient, and truly decentralized IP economy."
+    }
+  },
+  "advantage": {
+    "title": "Our fundamental advantages:",
+    "list": {
+      "1": {
+        "title": "Hybrid model: the power of law and decentralization",
+        "description": {
+          "1": "<b>Unsurpassed legal protection</b>: As an officially registered legal entity, we provide legal protection for your IP in accordance with the laws of the Russian Federation and other jurisdictions. This gives our participants confidence that their rights will be upheld in the real world, complementing the digital protection provided by blockchain.",
+          "2": "<b>Transparent community governance</b>: DAO allows every ITS token holder to participate in key decisions, from fund allocation to strategic project development. This ensures decentralized, fair, and sustainable development.",
+          "3": "<b>Compliance by Design</b>: Our model is built from the ground up with regulatory requirements in mind, minimizing legal risks and creating a safe environment for innovation."
+        }
+      },
+      "2": {
+        "title": "FEONYX: A highly intelligent blockchain for global tasks",
+        "description": {
+          "1": "<b>Speed and scalability</b>: FEONYX is not just a blockchain, it is a breakthrough architecture designed to process millions of transactions per second. Thanks to unique mechanisms (DAG, Proof of Capacity, Proof of History, Proof of Time), we provide instant confirmation and unprecedented throughput necessary for global scale.",
+          "2": "<b>Neural Synchronous Graph</b>: The integration of advanced neural networks allows FEONYX to self-optimize, enhance security, improve consensus, and adapt smart contracts to changing conditions. This provides an unprecedented level of reliability and “smart” network management.",
+          "3": "<b>Energy efficiency</b>: We are building a “green” blockchain that uses innovative consensus mechanisms that significantly reduce energy consumption, making our project not only profitable but also responsible."
+        }
+      },
+      "3": {
+        "title": "Intellectual property: a new era of ownership and monetization through NFTs",
+        "description": {
+          "1": "<b>Undisputed ownership</b>: Register your copyrights, patents, trademarks, musical works, works of art, program code, and any other forms of IP as unique, immutable NFTs on FEONYX. This creates a digital record of your ownership that cannot be disputed.",
+          "2": "<b>Automated licensing and royalties</b>: Use smart contracts to create automated licensing agreements, fractional ownership, and royalty distribution. Eliminate intermediaries, reduce costs, and gain direct control over the monetization of your IP.",
+          "3": "<b>Global market</b>: Open your IP to the international market, attracting investors, partners, and users from around the world, without geographical or bureaucratic barriers."
+        }
+      },
+      "4": {
+        "title": "Tokenomics 2.0: Stability, Rewards, Governance",
+        "description": {
+          "1": "<b>ITS (Inspiration, Trust, Success)</b> – governance token: Gives you the right to vote in the DAO, participate in shaping the future of the project, and receive a share of the ecosystem's revenue.",
+          "2": "<b>iFehu</b> – reward token: Earn iFehu for actively contributing to the ecosystem, registering and monetizing your IP, and participating in the development of the platform.",
+          "3": "<b>Algorithmically Regulated Coin (ARC) – New Stability</b>: Our unique third coin is designed to ensure global financial stability. Its issuance and liquidity are regulated by a complex algorithm that analyzes global macroeconomic indicators, minimizing volatility and creating a reliable anchor in a decentralized world."
+        }
+      }
+    }
+  }
 }

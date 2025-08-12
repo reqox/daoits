@@ -1,6 +1,11 @@
 {
+  "linkToHome": "Перейти на главную",
   "notfound": {
-    "pageNotFound": "Страница не найдена",
-    "link": "Перейти на главную"
+    "title": "404 Not found",
+    "description": "Страница не существует"
+  },
+  "developing": {
+    "title": "503 Service Unavailable",
+    "description": "Страница в разработке"
   }
 }

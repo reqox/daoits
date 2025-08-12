@@ -1,7 +1,7 @@
 import { PageToHome } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 
-export const NotFound = () => {
+export const Developing = () => {
   const { t } = useTranslation('');
-  return <PageToHome code={t('notfound')}></PageToHome>;
+  return <PageToHome code={t('developing')}></PageToHome>;
 };

@@ -1,3 +1,4 @@
+export { PageToHome } from './PageToHome/PageToHome';
 export { AccentButton } from './AccentButton/AccentButton';
 export { BurgerButton } from './BurgerButton/BurgerButton';
 export { InfoCard } from './InfoCard/InfoCard';

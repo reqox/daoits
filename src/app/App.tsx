@@ -10,6 +10,7 @@ import {
   ServicesPage,
   WebPage,
   NotFound,
+  Developing,
 } from '@/pages';
 
 const App = () => {
@@ -22,17 +23,16 @@ const App = () => {
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />
         <Route path={'services/web'} element={<WebPage />} />
-        <Route path={'services/promotion'} element={<PromotionPage />} />
+        <Route path={'services/promotion'} element={<Developing />} />
 
-        <Route path={'developments'} element={<AppPage />}>
-          <Route path={'defibridge'} element={<AppPage />} />
-          <Route path={'economy'} element={<AppPage />} />
-          <Route path={'feonyx'} element={<AppPage />} />
-        </Route>
-        <Route path={'tokenomics'} element={<AppPage />}>
-          <Route path={'ifehu'} element={<AppPage />} />
-          <Route path={'investor'} element={<AppPage />} />
-        </Route>
+        <Route path={'developments'} element={<Developing />} />
+        <Route path={'developments/defibridge'} element={<Developing />} />
+        <Route path={'developments/economy'} element={<Developing />} />
+        <Route path={'developments/feonyx'} element={<Developing />} />
+
+        <Route path={'tokenomics'} element={<Developing />} />
+        <Route path={'tokenomics/ifehu'} element={<Developing />} />
+        <Route path={'tokenomics/investor'} element={<Developing />} />
       </Route>
       <Route path={'*'} element={<NotFound />} />
     </Routes>

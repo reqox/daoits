@@ -1,0 +1,26 @@
+.vision {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &-image {
+    width: rem(1000);
+    height: clamp(#{rem(100)}, 1.776rem + 22.371vw, #{rem(200)});
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+  }
+}

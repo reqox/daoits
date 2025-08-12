@@ -1,5 +1,10 @@
 import { BannerPage } from '@/shared/ui';
-import { Advantage, Copabilities, Description } from '@/widgets/main/coop/home';
+import {
+  Advantage,
+  Copabilities,
+  Description,
+  Vision,
+} from '@/widgets/main/coop/home';
 import { useTranslation } from 'react-i18next';
 import { Fragment } from 'react/jsx-runtime';
 
@@ -11,6 +16,7 @@ export const CoopPage = () => {
       <Description />
       <Advantage />
       <Copabilities />
+      <Vision />
     </Fragment>
   );
 };

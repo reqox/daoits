@@ -16,6 +16,7 @@ import WebDescriptionImage from './description/WebImage.webp';
 import ForUsImage from './forus/for.png';
 import CoopDescriptionImage from './description/CoopImage.webp';
 import CoopCopabilitiesImage from './copabilities/image.webp';
+import CoopVisionImage from './vision/15-35.webp';
 
 export {
   StepImage,
@@ -36,4 +37,5 @@ export {
   DescriptionHomeIcon2Image,
   DescriptionHomeIcon3Image,
   CoopCopabilitiesImage,
+  CoopVisionImage,
 };

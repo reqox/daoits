@@ -6,11 +6,10 @@ import '@/shared/styles/main.scss';
 import {
   HomePage,
   AppPage,
-  PromotionPage,
   ServicesPage,
   WebPage,
-  NotFound,
-  Developing,
+  NotFoundPage,
+  DevelopingPage,
 } from '@/pages';
 
 const App = () => {
@@ -23,18 +22,18 @@ const App = () => {
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />
         <Route path={'services/web'} element={<WebPage />} />
-        <Route path={'services/promotion'} element={<Developing />} />
+        <Route path={'services/promotion'} element={<DevelopingPage />} />
 
-        <Route path={'developments'} element={<Developing />} />
-        <Route path={'developments/defibridge'} element={<Developing />} />
-        <Route path={'developments/economy'} element={<Developing />} />
-        <Route path={'developments/feonyx'} element={<Developing />} />
+        <Route path={'developments'} element={<DevelopingPage />} />
+        <Route path={'developments/defibridge'} element={<DevelopingPage />} />
+        <Route path={'developments/economy'} element={<DevelopingPage />} />
+        <Route path={'developments/feonyx'} element={<DevelopingPage />} />
 
-        <Route path={'tokenomics'} element={<Developing />} />
-        <Route path={'tokenomics/ifehu'} element={<Developing />} />
-        <Route path={'tokenomics/investor'} element={<Developing />} />
+        <Route path={'tokenomics'} element={<DevelopingPage />} />
+        <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />
+        <Route path={'tokenomics/investor'} element={<DevelopingPage />} />
       </Route>
-      <Route path={'*'} element={<NotFound />} />
+      <Route path={'*'} element={<NotFoundPage />} />
     </Routes>
   );
 };

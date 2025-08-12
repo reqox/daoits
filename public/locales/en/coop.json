@@ -73,5 +73,9 @@
       "1": "We strive not only to create a technological platform, but also to build a global community based on the principles of fairness, transparency, and collective creation.",
       "2": "<span class='company'>DAO ITS Co-op</span> is an opportunity for each of you to contribute to the creation of a more efficient, decentralized, and prosperous global economy."
     }
+  },
+  "invite": {
+    "title": "Join us.",
+    "subtitle": "Let's build a future together where innovation knows no bounds!"
   }
 }

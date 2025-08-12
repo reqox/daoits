@@ -3,6 +3,7 @@ import {
   Advantage,
   Copabilities,
   Description,
+  Invite,
   Vision,
 } from '@/widgets/main/coop/home';
 import { useTranslation } from 'react-i18next';
@@ -17,6 +18,7 @@ export const CoopPage = () => {
       <Advantage />
       <Copabilities />
       <Vision />
+      <Invite />
     </Fragment>
   );
 };

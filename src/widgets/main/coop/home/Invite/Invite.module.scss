@@ -1,0 +1,22 @@
+.invite {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-image {
+    @include square(#{rem(220)});
+
+    @include tablet {
+      display: none;
+    }
+  }
+}

@@ -14,9 +14,11 @@ import Preview1Image from './preview/1.jpg';
 import StepImage from './step/step.jpg';
 import WebDescriptionImage from './description/WebImage.webp';
 import ForUsImage from './forus/for.png';
+import CoopDescriptionImage from './description/CoopImage.webp';
 
 export {
   StepImage,
+  CoopDescriptionImage,
   ForUsImage,
   WebDescriptionImage,
   BannerAbstractImage,

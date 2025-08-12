@@ -50,19 +50,19 @@ export const Footer = () => {
   const documentList = [
     {
       title: t('body.document.1.title'),
-      url: `${import.meta.env.BASE_URL}${t('body.document.1.url')}`,
+      // url: `${import.meta.env.BASE_URL}${t('body.document.1.url')}`,
     },
     {
       title: t('body.document.2.title'),
-      url: `${import.meta.env.BASE_URL}${t('body.document.2.url')}`,
+      // url: `${import.meta.env.BASE_URL}${t('body.document.2.url')}`,
     },
     {
       title: t('body.document.3.title'),
-      url: `${import.meta.env.BASE_URL}${t('body.document.3.url')}`,
+      // url: `${import.meta.env.BASE_URL}${t('body.document.3.url')}`,
     },
     {
       title: t('body.document.4.title'),
-      url: `${import.meta.env.BASE_URL}${t('body.document.4.url')}`,
+      // url: `${import.meta.env.BASE_URL}${t('body.document.4.url')}`,
     },
   ];
 
@@ -143,7 +143,7 @@ export const Footer = () => {
                   >
                     <a
                       className={styles['footer__documents-link']}
-                      href={item.url}
+                      // href={item.url}
                       download={`${item.title}.pdf`}
                       target="_blank"
                       rel="noopener noreferrer"

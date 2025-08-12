@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 import { useTranslation } from 'react-i18next';
 import { LogoSvg } from '@/shared/assets/icons';
 import { TelegramLink } from '@/shared/ui';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Footer = () => {
   const { t } = useTranslation('footer');
@@ -127,9 +127,12 @@ export const Footer = () => {
               <ul className={styles['footer__nav-list']}>
                 {navList.map((item) => (
                   <li key={item.title} className={styles['footer__nav-item']}>
-                    <a href={item.url} className={styles['footer__nav-link']}>
+                    <NavLink
+                      to={item.url}
+                      className={styles['footer__nav-link']}
+                    >
                       {item.title}
-                    </a>
+                    </NavLink>
                   </li>
                 ))}
               </ul>

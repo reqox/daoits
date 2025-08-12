@@ -43,5 +43,28 @@
         }
       }
     }
+  },
+  "copabilities": {
+    "title": "Comprehensive services and capabilities:",
+    "list": {
+      "1": {
+        "title": "For creators and innovators:",
+        "description": {
+          "1": "<b>Full IP protection cycle</b>: From initial NFT registration to legal support and representation in disputes.",
+          "2": "<b>Advanced monetization tools</b>: in addition to standard licenses, we offer fractional ownership, IP-based crowdfunding, auctions, and direct sales.",
+          "3": "<b>Incubation and acceleration</b>: support in the early stages of the project, from idea formation to market entry, including technical assistance, mentoring, and access to financing.",
+          "4": "<b>Collaboration Network</b>: a platform for finding partners, joint projects, and interdisciplinary cooperation."
+        }
+      },
+      "2": {
+        "title": "For investors and partners:",
+        "description": {
+          "1": "<b>Transparent and democratic governance</b>: clear voting mechanisms and auditable smart contracts ensure accountability and eliminate centralized arbitrariness.",
+          "2": "<b>High-potential market</b>: Invest in projects that are transforming the IP industry, with access to global talent and innovation.",
+          "3": "<b>Portfolio diversification</b>: the opportunity to invest in a variety of IP categories, from art to high-tech patents.",
+          "4": "<b>Socially responsible investments</b>: participate in projects that promote open-source development, environmental initiatives (Eco-DAO), and educational programs, creating real value for society."
+        }
+      }
+    }
   }
 }

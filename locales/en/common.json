@@ -1,6 +1,11 @@
 {
+  "linkToHome": "Go to home page",
   "notfound": {
-    "pageNotFound": "Page not found",
-    "link": "Go to home page"
+    "title": "404 Not found",
+    "description": "Page not found"
+  },
+  "developing": {
+    "title": "503 Service Unavailable",
+    "description": "Page under development"
   }
 }

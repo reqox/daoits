@@ -10,6 +10,7 @@ import {
   WebPage,
   NotFoundPage,
   DevelopingPage,
+  CoopPage,
 } from '@/pages';
 
 const App = () => {
@@ -18,7 +19,9 @@ const App = () => {
     <Routes>
       <Route path={'/'} element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path={'coop'} element={<HomePage />} />
+
+        <Route path={'coop'} element={<CoopPage />} />
+
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />
         <Route path={'services/web'} element={<WebPage />} />

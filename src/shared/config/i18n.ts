@@ -16,7 +16,7 @@ i18n
       loadPath: `${baseUrl}locales/{{lng}}/{{ns}}.json`,
     },
 
-    ns: ['home', 'common', 'header', 'services'],
+    ns: ['home', 'common', 'header', 'footer', 'services', 'coop'],
     defaultNS: 'common',
 
     detection: {

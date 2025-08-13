@@ -1,0 +1,24 @@
+.mission {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &-image {
+    width: clamp(#{rem(220)}, 3.168rem + 22.075vw, #{rem(320)});
+    height: auto;
+  }
+}

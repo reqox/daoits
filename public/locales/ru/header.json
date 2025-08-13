@@ -20,7 +20,8 @@
     "coop": {
       "title": "DAO ITS Coop",
       "dropdown": {
-        "opensource": "OPEN-SOURCE"
+        "opensource": "OPEN-SOURCE",
+        "description": "Описание проекта"
       }
     },
     "services": {

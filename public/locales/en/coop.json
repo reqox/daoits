@@ -90,6 +90,18 @@
       "3": {
         "title": "Download Whitepaper"
       }
+    },
+    "description": {
+      "1": "<span class='company'>DAO ITS Co-op</span> is a hybrid production cooperative that uniquely combines the principles of decentralized autonomous management (DAO) with a traditional legal structure registered in accordance with the Federal Law of the Russian Federation on Cooperatives.",
+      "2": "The project aims to <b>create a self-sufficient and sustainable ecosystem for the collective development</b>, management, and monetization of intellectual property (IP), expanding its activities not only within the Russian Federation but also in the CIS countries. This allows for the involvement of relevant participants from different countries.",
+      "3": "At the heart of <span class='company'>DAO ITS Co-op</span> lies a profound philosophy that seeks to replace hierarchical relationships with collaboration, speculative practices with creation, and competition with synergy. This is not just a project, but an experiment in shaping the economy of the future, where technology serves humanity."
+    },
+    "mission": {
+      "title": "Mission and concept",
+      "text": {
+        "1": "The main mission of <span class='company'>DAO ITS Co-op</span> is to create a decentralized and legally legitimate platform for collective creativity. <b>The project aims to ensure transparency</b>, fairness, and efficiency in the process of creating and using intellectual property. <b>It combines</b> the legal protection provided by Russian legislation on cooperatives with the flexibility and innovation of blockchain technologies, such as decentralized management, smart contracts, and tokenization.",
+        "2": "This allows participants to collaborate on projects, manage them jointly, and fairly distribute the income from their monetization. Expanding the geography of operations to CIS countries underscores the desire to create a broader and more inclusive community of talented professionals and investors."
+      }
     }
   }
 }

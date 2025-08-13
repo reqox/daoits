@@ -1,0 +1,21 @@
+.admission {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-grid);
+  }
+}

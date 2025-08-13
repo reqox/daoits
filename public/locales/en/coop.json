@@ -110,6 +110,32 @@
         "2": "The cooperative is managed on a multi-level basis. The highest authority is the General Meeting of Participants, where decisions are made by voting in the DAO. The weight of each participant's vote is determined by their share in the cooperative and their reputation level recorded in the system. Operational management is distributed between the Cooperative Council and the Command Circles. The Council, elected annually, is responsible for the overall development strategy and control over financial flows, as well as for implementing DAO decisions.",
         "3": "Command circles are specialized working groups formed for specific projects. A quorum of 30% of the total number of participants is required to make critical decisions. <b>One of the key innovations of the project</b> is the automatic recording of decisions made by the DAO in the cooperative's charter, which gives them legal force and ensures their immutability."
       }
+    },
+    "admission": {
+      "title": "Procedure for admission to membership of the cooperative",
+      "subtitle": "The process of joining <span class='company'>DAO ITS Co-op</span> involves several stages designed to ensure that new members meet the project's high standards and objectives.",
+      "card": {
+        "1": {
+          "title": "Submission of application:",
+          "description": "The interested party submits an application for membership in the cooperative to the Board."
+        },
+        "2": {
+          "title": "Consideration of the application by the Management Board:",
+          "description": "The cooperative's board reviews the application. If necessary, an interview is conducted with the applicant to gain a deeper understanding of their motivation and alignment with the cooperative's values. Particular attention is paid to assessing the applicant's qualifications and experience, especially for candidates applying for the role of developers, to ensure their ability to make a significant contribution to projects. <br><br> Based on the results of the review, the Board makes a decision to recommend to the General Meeting that the applicant be accepted as a member of the Cooperative or that the application be rejected."
+        },
+        "3": {
+          "title": "Approved by the General Meeting:",
+          "description": "In the event of a positive decision by the Board, the application with a recommendation for admission shall be submitted to the General Meeting of the Cooperative members for consideration. The General Meeting shall make the final decision on admission to the Cooperative by a majority vote of those present at the meeting."
+        },
+        "4": {
+          "title": "Registration and confirmation of membership:",
+          "description": "The decision of the General Meeting on admission to membership of the Cooperative shall be formally recorded in the minutes. A person who has been successfully admitted to membership of the Cooperative shall be issued with a membership card of the established form confirming their status."
+        },
+        "5": {
+          "title": "Payment of membership fees:",
+          "description": "A person accepted as a member of the Cooperative is obliged to pay a membership fee in accordance with the procedure and terms established by the Cooperative's Charter. Proof of payment of the membership fee shall be a document issued by the Cooperative's accounting department, such as a cash receipt or a bank account statement. In the event of payment of the membership fee in non-monetary form, the property shall be valued in accordance with the procedure established by the Cooperative's Articles of Association."
+        }
+      }
     }
   }
 }

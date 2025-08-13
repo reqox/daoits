@@ -25,7 +25,7 @@ export const InfoCard: FC<InfoCardProps> = ({ title, body, srcImg }) => {
         </div>
       )}
       <div className="infocard-body">
-        <p>{body}</p>
+        <p dangerouslySetInnerHTML={{ __html: body }}></p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import {
+  Admission,
   Architecture,
   Banner,
   Description,
@@ -13,6 +14,7 @@ export const DescriptionPage = () => {
       <Description />
       <Mission />
       <Architecture />
+      <Admission />
     </Fragment>
   );
 };

@@ -11,6 +11,7 @@ import {
   NotFoundPage,
   DevelopingPage,
   CoopPage,
+  DescriptionPage,
 } from '@/pages';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route index element={<HomePage />} />
 
         <Route path={'coop'} element={<CoopPage />} />
+        <Route path={'coop/description'} element={<DescriptionPage />} />
 
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />

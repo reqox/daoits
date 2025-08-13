@@ -102,6 +102,14 @@
         "1": "The main mission of <span class='company'>DAO ITS Co-op</span> is to create a decentralized and legally legitimate platform for collective creativity. <b>The project aims to ensure transparency</b>, fairness, and efficiency in the process of creating and using intellectual property. <b>It combines</b> the legal protection provided by Russian legislation on cooperatives with the flexibility and innovation of blockchain technologies, such as decentralized management, smart contracts, and tokenization.",
         "2": "This allows participants to collaborate on projects, manage them jointly, and fairly distribute the income from their monetization. Expanding the geography of operations to CIS countries underscores the desire to create a broader and more inclusive community of talented professionals and investors."
       }
+    },
+    "architecture": {
+      "title": "Legal and management architecture",
+      "text": {
+        "1": "<span class='company'>DAO ITS Co-op</span> is built on a hybrid architecture that carefully separates areas of responsibility. The production cooperative, officially registered under Russian federal law, is responsible for all aspects of legal legitimacy, including taxation, accounting, and bank account operations. In parallel, the DAO platform provides decentralized project management, transparent voting on key issues, and automated payments through smart contracts.",
+        "2": "The cooperative is managed on a multi-level basis. The highest authority is the General Meeting of Participants, where decisions are made by voting in the DAO. The weight of each participant's vote is determined by their share in the cooperative and their reputation level recorded in the system. Operational management is distributed between the Cooperative Council and the Command Circles. The Council, elected annually, is responsible for the overall development strategy and control over financial flows, as well as for implementing DAO decisions.",
+        "3": "Command circles are specialized working groups formed for specific projects. A quorum of 30% of the total number of participants is required to make critical decisions. <b>One of the key innovations of the project</b> is the automatic recording of decisions made by the DAO in the cooperative's charter, which gives them legal force and ensures their immutability."
+      }
     }
   }
 }

@@ -1,4 +1,9 @@
-import { Banner, Description, Mission } from '@/widgets/main/coop/description';
+import {
+  Architecture,
+  Banner,
+  Description,
+  Mission,
+} from '@/widgets/main/coop/description';
 import { Fragment } from 'react/jsx-runtime';
 
 export const DescriptionPage = () => {
@@ -7,6 +12,7 @@ export const DescriptionPage = () => {
       <Banner />
       <Description />
       <Mission />
+      <Architecture />
     </Fragment>
   );
 };

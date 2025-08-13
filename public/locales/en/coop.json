@@ -77,5 +77,19 @@
   "invite": {
     "title": "Join us.",
     "subtitle": "Let's build a future together where innovation knows no bounds!"
+  },
+  "descriptionPage": {
+    "title": "DAO ITS Co-op: <br> Full project description",
+    "list": {
+      "1": {
+        "title": "Choose your role"
+      },
+      "2": {
+        "title": "Become a member"
+      },
+      "3": {
+        "title": "Download Whitepaper"
+      }
+    }
   }
 }

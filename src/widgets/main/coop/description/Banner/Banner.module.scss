@@ -1,0 +1,32 @@
+.banner {
+  &-list {
+    @include flex();
+    gap: rem(8);
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile-s {
+      display: flex;
+      align-items: stretch;
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    &:last-child {
+      grid-column: 1 / -1;
+    }
+
+    &-body {
+      @include flex();
+      column-gap: rem(6);
+    }
+
+    &-image {
+      @include square(#{rem(20)});
+    }
+  }
+}

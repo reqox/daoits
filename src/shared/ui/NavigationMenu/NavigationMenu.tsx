@@ -36,8 +36,8 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
       to: 'coop',
       dropdown: [
         {
-          title: t('navigation.coop.dropdown.opensource'),
-          to: 'coop/opensource',
+          title: t('navigation.coop.dropdown.description'),
+          to: 'coop/description',
         },
       ],
     },

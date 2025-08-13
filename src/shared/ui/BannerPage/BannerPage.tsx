@@ -1,14 +1,15 @@
 import clsx from 'clsx';
 import styles from './BannerPage.module.scss';
-import type { FC } from 'react';
+import type { FC, ReactNode } from 'react';
 import { BannerAbstractImage } from '@/shared/assets/images';
 import { motion } from 'motion/react';
 
 interface BannerPageProps {
   title: string;
+  children?: ReactNode;
 }
 
-export const BannerPage: FC<BannerPageProps> = ({ title }) => {
+export const BannerPage: FC<BannerPageProps> = ({ title, children }) => {
   return (
     <section className={clsx(styles['banner'])}>
       <div className={clsx(styles['banner__inner'], 'container')}>
@@ -27,7 +28,13 @@ export const BannerPage: FC<BannerPageProps> = ({ title }) => {
             ease: 'easeInOut',
           }}
         />
-        <h1 className={clsx(styles['banner-title'])}>{title}</h1>
+        <div className={styles['banner__body']}>
+          <h1
+            className={styles['banner-title']}
+            dangerouslySetInnerHTML={{ __html: title }}
+          ></h1>
+          {children}
+        </div>
       </div>
     </section>
   );

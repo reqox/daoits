@@ -21,7 +21,10 @@ export const InfoCard: FC<InfoCardProps> = ({ title, body, srcImg }) => {
               height={30}
             />
           )}
-          <h3 className="infocard-title">{title}</h3>
+          <h3
+            className={'infocard-title'}
+            dangerouslySetInnerHTML={{ __html: title }}
+          ></h3>
         </div>
       )}
       <div className="infocard-body">

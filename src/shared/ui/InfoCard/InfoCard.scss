@@ -15,6 +15,10 @@
     column-gap: rem(6);
   }
 
+  &-body {
+    overflow-wrap: break-word;
+  }
+
   &-image {
     @include square(#{clamp(#{rem(18)}, 0.375rem + 3.75vw, #{rem(24)})});
   }

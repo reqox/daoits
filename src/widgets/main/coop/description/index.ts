@@ -4,3 +4,4 @@ export { Mission } from './Mission/Mission';
 export { Architecture } from './Architecture/Architecture';
 export { Admission } from './Admission/Admission';
 export { Refusal } from './Refusal/Refusal';
+export { Model } from './Model/Model';

@@ -143,6 +143,48 @@
         "1": "Refusal to admit a member to the Cooperative is permitted in cases where the applicant does not meet the requirements established by the Cooperative's Charter and the relevant Regulations, when providing inaccurate information, as well as on other grounds provided for by the legislation of the Russian Federation.",
         "2": "The decision to refuse membership in the Cooperative must be justified and communicated to the applicant in writing within five business days of the date of the decision. The applicant has the right to appeal the decision to refuse membership in court."
       }
+    },
+    "model": {
+      "title": "Economic model",
+      "subtitle": "The economic model of <span class='company'>DAO ITS Co-op</span> is based on a dual tokenization system that provides both governance and fair rewards for participants.",
+      "list": {
+        "1": {
+          "title": "The first token is <span class='company'>ITS</span>.",
+          "description": "It acts as a governance token. It grants holders the right to participate in DAO voting, staking opportunities, and access to various platform services. The number of ITS tokens is strictly fixed."
+        },
+        "2": {
+          "title": "The second token is <span class='company'>iFEHU</span>.",
+          "description": "It is a reward for contributions to intellectual property. Its issuance is dynamic and tied to specific project results, such as the creation of an MVP, successful sales, or passing an audit. The charter of the iFEHU DAO ITS investment fund regulates its nature and functions in detail. iFehu has a dual nature: it is both a financing tool and a digital asset representing a share in the company. iFehu tokens are created on the Polygon blockchain network using the Proof-of-Stake (PoS) consensus mechanism, which guarantees transparency, reliability, and protection against unauthorized changes. <br><br> The total issuance of iFehu is 2,500,000 units, and this amount is strictly fixed in a smart contract with a unique address: “0xca91607A97b7A4A50035FAC1640Ba4C24cE79766”. The iFEHU DAO ITS Fund operates in accordance with international financial and investment legislation, as well as internal regulations (including the laws and regulations of the countries in which it operates). In the event of legal conflicts, priority is given to regulations that directly govern the circulation of digital assets and investment activities."
+        },
+        "3": {
+          "title": "The main objectives of the iFEHU DAO ITS fund",
+          "description": "These include the implementation and support of promising IT projects, continuous growth in token value through effective investment activities, and ensuring transparent management of the investment pool using cutting-edge technologies."
+        },
+        "4": {
+          "title": "Activities of the foundation",
+          "description": "It covers raising capital, selecting and implementing innovative projects, and organizing regular reporting and auditing to keep investors informed."
+        },
+        "5": {
+          "title": "iFEHU DAO ITS Fund Management",
+          "description": "It is carried out by the Board or the Management Company, which consists of professionals in the investment, legal, and financial fields. They provide overall management, determine strategic policy, and approve major investment projects."
+        },
+        "6": {
+          "title": "Key principles of decision-making",
+          "description": "Transparency (information about decisions is recorded in the blockchain), accountability of management body members for losses, and efficiency (priority given to promising projects). The distribution of iFehu tokens assumes that 51% of the total volume belongs to the management company, and 49% is distributed among investors through public sales (via the official wallet, ICO, P2P, and other formats permitted by the Charter)."
+        },
+        "7": {
+          "title": "iFehu smart contract",
+          "description": "It records the total volume of issuance, takes into account all transactions involving the purchase, sale, and transfer of tokens, and guarantees that no additional tokens can be issued. To protect investors and prevent illegal transactions, regular independent audits are conducted by accredited companies. The initial value of the iFehu token is 100 rubles (equivalent to $1 at the time of the initial issue) and is fixed in a smart contract, determining the initial capitalization of the Fund. <br><br> The market value is calculated as the ratio of the total assets of the Fund to the total number of tokens in circulation and is published on the Fund's official website and in investors' personal accounts. iFehu token holders are entitled to participate in the share capital structure, including access to information about the company's activities, the ability to freely exchange, transfer, or sell tokens through P2P and other authorized platforms, as well as receive regular reports on the Fund's financial condition."
+        },
+        "8": {
+          "title": "Profit from the cooperative's activities",
+          "description": "Distributed according to the “golden ratio” principle: 60% is paid to participants in proportion to their share and contribution, 30% is reinvested in the development of the cooperative, and the remaining 10% is allocated to social initiatives."
+        },
+        "9": {
+          "title": "Financial flows are strictly controlled.",
+          "description": "They are managed through multi-signature accounts, which provides joint control by the cooperative council and smart contracts, increasing the security and transparency of operations. The conversion of iFehu tokens is carried out through licensed gateways, such as Garantex, which ensures the legitimacy and reliability of transactions."
+        }
+      }
     }
   }
 }

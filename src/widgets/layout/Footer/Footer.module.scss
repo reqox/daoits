@@ -32,6 +32,7 @@
     @include mobile {
       width: 100%;
     }
+
     &-list {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -147,7 +148,6 @@
 
     &-link {
       @include reset-link;
-
       transition-property: color;
       transition-duration: var(--transition-duration);
 

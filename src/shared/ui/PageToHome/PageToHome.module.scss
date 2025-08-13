@@ -1,5 +1,5 @@
 .page {
-  @include flex();
+  @include flex;
   padding: var(--section-padding-y);
 
   &__inner {

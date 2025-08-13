@@ -9,7 +9,7 @@ $row-gap: #{rem(16)};
     gap: var(--gap-grid);
 
     @include tablet {
-      @include flex();
+      @include flex;
       flex-direction: column;
     }
   }

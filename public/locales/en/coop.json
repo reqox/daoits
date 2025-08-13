@@ -136,6 +136,13 @@
           "description": "A person accepted as a member of the Cooperative is obliged to pay a membership fee in accordance with the procedure and terms established by the Cooperative's Charter. Proof of payment of the membership fee shall be a document issued by the Cooperative's accounting department, such as a cash receipt or a bank account statement. In the event of payment of the membership fee in non-monetary form, the property shall be valued in accordance with the procedure established by the Cooperative's Articles of Association."
         }
       }
+    },
+    "refusal": {
+      "title": "Refusal of admission and appeal",
+      "text": {
+        "1": "Refusal to admit a member to the Cooperative is permitted in cases where the applicant does not meet the requirements established by the Cooperative's Charter and the relevant Regulations, when providing inaccurate information, as well as on other grounds provided for by the legislation of the Russian Federation.",
+        "2": "The decision to refuse membership in the Cooperative must be justified and communicated to the applicant in writing within five business days of the date of the decision. The applicant has the right to appeal the decision to refuse membership in court."
+      }
     }
   }
 }

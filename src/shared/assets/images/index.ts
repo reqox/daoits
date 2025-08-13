@@ -19,8 +19,10 @@ import CoopCopabilitiesImage from './copabilities/image.webp';
 import CoopVisionImage from './vision/15-35.webp';
 import CoopInviteImage from './invite/15-47.webp';
 import CoopMissionImage from './mission/Goals.webp';
+import CoopRefusalImage from './refusal/Controls-1.webp';
 
 export {
+  CoopRefusalImage,
   StepImage,
   CoopMissionImage,
   CoopDescriptionImage,

@@ -20,6 +20,11 @@
   &__item {
     background-color: var(--color-dark-alt);
     border-radius: var(--border-radius-rg);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+    body[data-theme='light'] & {
+      background-color: var(--color-light-grey);
+    }
 
     &-title {
       padding: rem(16);

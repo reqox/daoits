@@ -7,6 +7,7 @@ import {
   Cycle,
   Description,
   Initiatives,
+  Invite,
   Mission,
   Model,
   Platform,
@@ -33,6 +34,7 @@ export const DescriptionPage = () => {
       <Solutions />
       <RoadMap />
       <Conclusion />
+      <Invite />
     </Fragment>
   );
 };

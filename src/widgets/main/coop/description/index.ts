@@ -12,3 +12,4 @@ export { Platform } from './Platform/Platform';
 export { Cycle } from './Cycle/Cycle';
 export { Initiatives } from './Initiatives/Initiatives';
 export { Solutions } from './Solutions/Solutions';
+export { Invite } from './Invite/Invite';

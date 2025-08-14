@@ -289,6 +289,10 @@
         "2": "The project proposes a fair economy with dual tokenization, providing both governance and transparent rewards for contributions. It is a technology hub designed to bring together IT developers, activists, and investors.",
         "3": "This is not just a project, but a bold experiment in creating the economy of the future, where technology serves people, not the other way around."
       }
+    },
+    "invite": {
+      "title": "Join us!",
+      "description": "To join <span class='company'>DAO ITS Co-op</span> and get more info, you can check out their"
     }
   }
 }

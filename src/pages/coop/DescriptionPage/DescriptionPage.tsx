@@ -2,6 +2,7 @@ import {
   Admission,
   Architecture,
   Banner,
+  Conclusion,
   Conditions,
   Cycle,
   Description,
@@ -31,6 +32,7 @@ export const DescriptionPage = () => {
       <Conditions />
       <Solutions />
       <RoadMap />
+      <Conclusion />
     </Fragment>
   );
 };

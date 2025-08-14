@@ -277,6 +277,18 @@
           "body": "Integration with banking systems, expansion of presence in CIS countries, and scaling of the platform to increase the number of participants and projects."
         }
       }
+    },
+    "conclusion": {
+      "title": "<span class='company'>DAO ITS Co-op</span>",
+      "card": {
+        "title": "Project slogan:",
+        "body": "Every code has value. Every idea is an opportunity. Every contribution is a reward."
+      },
+      "text": {
+        "1": "It is a legally protected platform for collective creativity, based on the principles of decentralization and focused on global development, starting with Russia and the CIS countries.",
+        "2": "The project proposes a fair economy with dual tokenization, providing both governance and transparent rewards for contributions. It is a technology hub designed to bring together IT developers, activists, and investors.",
+        "3": "This is not just a project, but a bold experiment in creating the economy of the future, where technology serves people, not the other way around."
+      }
     }
   }
 }

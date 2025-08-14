@@ -1,3 +1,4 @@
+import CoopConclusionImage from './conclusion/Image.webp';
 import BannerImage from './banner/background.webp';
 import DescriptionChartImage from './description/chart.svg';
 import DescriptionAppImage from './description/AppImage.webp';
@@ -24,6 +25,7 @@ import CoopModelImage from './model/Image.png';
 
 export {
   CoopRefusalImage,
+  CoopConclusionImage,
   StepImage,
   CoopMissionImage,
   CoopDescriptionImage,

@@ -1,0 +1,30 @@
+.conclusion {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__body-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+    &-main {
+      row-gap: var(--gap-grid);
+    }
+
+    &-image {
+      width: clamp(#{rem(180)}, -1.811rem + 20.408vw, #{rem(220)});
+      height: auto;
+
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+}

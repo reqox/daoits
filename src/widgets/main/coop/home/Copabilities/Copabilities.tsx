@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import styles from './Copabilities.module.scss';
 import { useTranslation } from 'react-i18next';
 import { CoopCopabilitiesImage } from '@/shared/assets/images';
+import { FullWidthImage } from '@/shared/ui';
 
 export const Copabilities = () => {
   const { t } = useTranslation('coop');
@@ -34,14 +35,7 @@ export const Copabilities = () => {
           className={styles['copabilities-title']}
           dangerouslySetInnerHTML={{ __html: t('copabilities.title') }}
         ></h2>
-        <img
-          className={styles['copabilities-image']}
-          src={CoopCopabilitiesImage}
-          alt={''}
-          width={100}
-          height={100}
-          loading={'lazy'}
-        />
+        <FullWidthImage srcImg={CoopCopabilitiesImage} />
         <ul className={styles['copabilities-list']}>
           {copabilitiesList.map((item) => (
             <li key={item.title} className={styles['copabilities__item']}>

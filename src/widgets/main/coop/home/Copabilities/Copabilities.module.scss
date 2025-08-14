@@ -39,11 +39,4 @@
       padding: rem(16);
     }
   }
-
-  &-image {
-    width: 100%;
-    height: clamp(#{rem(100)}, 1.806rem + 22.222vw, #{rem(300)});
-    object-fit: cover;
-    border-radius: var(--border-radius-lg);
-  }
 }

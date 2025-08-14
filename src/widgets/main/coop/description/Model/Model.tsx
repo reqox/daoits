@@ -1,7 +1,8 @@
 import clsx from 'clsx';
 import styles from './Model.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { CoopModelImage } from '@/shared/assets/images';
 
 export const Model = () => {
   const { t } = useTranslation('coop');
@@ -38,6 +39,7 @@ export const Model = () => {
             </li>
           ))}
         </ul>
+        <FullWidthImage srcImg={CoopModelImage} />
       </div>
     </section>
   );

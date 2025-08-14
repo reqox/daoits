@@ -222,6 +222,25 @@
           "body": "Conducting courses and training sessions on DAO and blockchain technologies. The project offers paid certifications, allowing participants to deepen their knowledge and skills in this field."
         }
       }
+    },
+    "conditions": {
+      "title": "Starting conditions",
+      "subtitle": "<b>The first participants</b> to receive the status of “DAO Architects” will enjoy <b>special privileges</b>. They will receive a unique NFT badge that grants access to exclusive data and information. They are also entitled to a 10% cashback on platform fees and priority in voting and receiving grants.",
+      "list": {
+        "description": "The project investment plan is divided into several stages with specific budgets and deadlines:",
+        "1": {
+          "title": "MVP (Minimum Viable Product):",
+          "body": "At this stage, $300K is allocated for 6 months to develop the basic functionality of the management dashboard."
+        },
+        "2": {
+          "title": "Legal formalities:",
+          "body": "$100K has been set aside for this stage for 3 months, which includes getting the necessary licenses and setting up strategic partnerships to work in both Russia and the CIS countries."
+        },
+        "3": {
+          "title": "Marketing:",
+          "body": "To attract more than 500 participants, $500K is allocated for 12 months, with a focus on the target audience in Russia and CIS countries."
+        }
+      }
     }
   }
 }

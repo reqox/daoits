@@ -2,6 +2,7 @@ import {
   Admission,
   Architecture,
   Banner,
+  Conditions,
   Cycle,
   Description,
   Initiatives,
@@ -25,6 +26,7 @@ export const DescriptionPage = () => {
       <Platform />
       <Cycle />
       <Initiatives />
+      <Conditions />
     </Fragment>
   );
 };

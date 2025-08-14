@@ -1,0 +1,22 @@
+.conditions {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__body,
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    gap: var(--gap-grid);
+  }
+}

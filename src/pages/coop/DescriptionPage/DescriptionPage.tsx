@@ -4,6 +4,7 @@ import {
   Banner,
   Cycle,
   Description,
+  Initiatives,
   Mission,
   Model,
   Platform,
@@ -23,6 +24,7 @@ export const DescriptionPage = () => {
       <Model />
       <Platform />
       <Cycle />
+      <Initiatives />
     </Fragment>
   );
 };

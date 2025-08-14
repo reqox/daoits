@@ -204,6 +204,24 @@
         "title": "Key stages in the project life cycle include:",
         "body": "<b>AI moderation</b>, which is a systematic assessment of risks and resources that ensures the viability of an idea. <br><br> <b>Next</b> comes a vote to approve the project budget by DAO participants, which guarantees collective responsibility. Development takes place in sprints — flexible iterative cycles with regular payments as tasks are completed. <br><br> <b>The final stage</b> is capitalization, the formal registration of intellectual property, which secures rights and increases the value of the project."
       }
+    },
+    "initiatives": {
+      "title": "Social initiatives",
+      "subtitle": "<span class='company'>DAO ITS Co-op</span> actively participates in social initiatives, allocating part of its profits to support socially beneficial projects. This includes:",
+      "list": {
+        "1": {
+          "title": "Open-Source Foundation:",
+          "body": "The goal of this initiative is to finance the development of free software. Monetization is achieved through royalties amounting to 5-10% of the commercial use of the software created."
+        },
+        "2": {
+          "title": "Eco-DAO:",
+          "body": "An initiative aimed at supporting green startups. Funding is provided through crowdfunding and grants, promoting the development of environmentally sustainable technologies."
+        },
+        "3": {
+          "title": "Educational programs:",
+          "body": "Conducting courses and training sessions on DAO and blockchain technologies. The project offers paid certifications, allowing participants to deepen their knowledge and skills in this field."
+        }
+      }
     }
   }
 }

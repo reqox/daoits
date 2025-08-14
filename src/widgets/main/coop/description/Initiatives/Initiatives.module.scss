@@ -1,0 +1,22 @@
+.initiatives {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__title,
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    gap: var(--gap-grid);
+  }
+}

@@ -259,6 +259,24 @@
           "body": "The risk associated with the security of smart contracts is mitigated by conducting regular audits by third-party accredited companies such as Certik."
         }
       }
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "subtitle": "The <span class='company'>DAO ITS Co-op</span> project has a clearly defined roadmap:",
+      "list": {
+        "1": {
+          "title": "2025 Q1:",
+          "body": "Registration of the cooperative in the Russian Federation and launch of a test network (testnet)."
+        },
+        "2": {
+          "title": "2025 Q3:",
+          "body": "Launch of the MVP dashboard and implementation of the first 10 projects in the ecosystem."
+        },
+        "3": {
+          "title": "2026 Q1:",
+          "body": "Integration with banking systems, expansion of presence in CIS countries, and scaling of the platform to increase the number of participants and projects."
+        }
+      }
     }
   }
 }

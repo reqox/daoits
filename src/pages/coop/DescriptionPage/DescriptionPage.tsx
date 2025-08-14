@@ -10,6 +10,7 @@ import {
   Model,
   Platform,
   Refusal,
+  Solutions,
 } from '@/widgets/main/coop/description';
 import { Fragment } from 'react/jsx-runtime';
 
@@ -27,6 +28,7 @@ export const DescriptionPage = () => {
       <Cycle />
       <Initiatives />
       <Conditions />
+      <Solutions />
     </Fragment>
   );
 };

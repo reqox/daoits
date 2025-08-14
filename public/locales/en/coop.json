@@ -241,6 +241,24 @@
           "body": "To attract more than 500 participants, $500K is allocated for 12 months, with a focus on the target audience in Russia and CIS countries."
         }
       }
+    },
+    "solutions": {
+      "title": "Risks and solutions",
+      "subtitle": "The <span class='company'>DAO ITS Co-op</span> project is aware of the potential risks and has developed strategies to minimize them:",
+      "list": {
+        "1": {
+          "title": "Regulatory attacks:",
+          "body": "This risk is minimized through strict compliance with the Federal Law on Production Cooperatives in the Russian Federation, as well as thorough analysis and adaptation to the legislation of CIS countries regarding digital assets and cooperative activities."
+        },
+        "2": {
+          "title": "Low DAO activity:",
+          "body": "Gamification is used to encourage participation and engagement, including an NFT reputation system and bonuses for active participation in voting."
+        },
+        "3": {
+          "title": "Technical vulnerabilities:",
+          "body": "The risk associated with the security of smart contracts is mitigated by conducting regular audits by third-party accredited companies such as Certik."
+        }
+      }
     }
   }
 }

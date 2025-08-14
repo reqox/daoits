@@ -6,3 +6,4 @@ export { Admission } from './Admission/Admission';
 export { Refusal } from './Refusal/Refusal';
 export { Model } from './Model/Model';
 export { Platform } from './Platform/Platform';
+export { Cycle } from './Cycle/Cycle';

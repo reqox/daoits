@@ -193,6 +193,17 @@
         "2": "The dashboard includes several key pages: The home page provides a quick overview of member balances, active votes, and current projects. The “Projects” page contains Kanban boards for tracking progress, budget information, and detailed reports for each project. The “Votes” page allows participants to create new proposals, delegate their votes, and view the results of past votes. The “Treasury” page provides complete reporting on on-chain and off-chain transactions, as well as information on audits conducted.",
         "3": "Blockchain integration is an integral part of the technology platform. Smart contracts are used to automate the voting process, make payments, and record the reputation of participants, which can be represented as Soulbound NFTs. Oracles are used to obtain external data, such as current exchange rates and KYC verification, providing a link between the real world and the blockchain. IPFS (InterPlanetary File System) is used for decentralized and immutable storage of important documents, creating a reliable archive. L2 solutions such as Polygon or Optimism are used to reduce fees and increase transaction scalability."
       }
+    },
+    "cycle": {
+      "title": "Project life cycle",
+      "text": {
+        "1": "The life cycle of any project at <span class='company'>DAO ITS Co-op</span> <b>begins with an idea</b>. This idea undergoes AI analysis, which assesses potential risks and necessary resources. If approved by AI, <b>a wave plan is developed</b>, after which <b>a team circle is formed</b> — a group of participants responsible for implementing the project. Work is carried out in two-week sprints, at the end of each of which <b>the results achieved are verified</b>.",
+        "2": "If the sprint is successful, it leads to the capitalization of the project, including the registration of intellectual property (in the form of NFTs and traditional copyright), as well as the issuance of iFehu tokens as a reward for contributions. If the sprint fails, a retrospective is conducted to analyze the reasons and learn lessons."
+      },
+      "card": {
+        "title": "Key stages in the project life cycle include:",
+        "body": "<b>AI moderation</b>, which is a systematic assessment of risks and resources that ensures the viability of an idea. <br><br> <b>Next</b> comes a vote to approve the project budget by DAO participants, which guarantees collective responsibility. Development takes place in sprints — flexible iterative cycles with regular payments as tasks are completed. <br><br> <b>The final stage</b> is capitalization, the formal registration of intellectual property, which secures rights and increases the value of the project."
+      }
     }
   }
 }

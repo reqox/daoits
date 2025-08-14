@@ -5,6 +5,7 @@ import {
   Description,
   Mission,
   Model,
+  Platform,
   Refusal,
 } from '@/widgets/main/coop/description';
 import { Fragment } from 'react/jsx-runtime';
@@ -19,6 +20,7 @@ export const DescriptionPage = () => {
       <Admission />
       <Refusal />
       <Model />
+      <Platform />
     </Fragment>
   );
 };

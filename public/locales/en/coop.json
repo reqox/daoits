@@ -185,6 +185,14 @@
           "description": "They are managed through multi-signature accounts, which provides joint control by the cooperative council and smart contracts, increasing the security and transparency of operations. The conversion of iFehu tokens is carried out through licensed gateways, such as Garantex, which ensures the legitimacy and reliability of transactions."
         }
       }
+    },
+    "platform": {
+      "title": "Technology platform",
+      "list": {
+        "1": "The core of the technological infrastructure of <span class='company'>DAO ITS Co-op</span> is a multifunctional management dashboard. It is built on Wagtail CMS for effective management of documentation, user profiles, and content. Specially developed Django modules provide functionality for voting, financial accounting, and task management. Integration with Web3 technologies such as MetaMask and Safe{Wallet} enables seamless interaction with the blockchain.",
+        "2": "The dashboard includes several key pages: The home page provides a quick overview of member balances, active votes, and current projects. The “Projects” page contains Kanban boards for tracking progress, budget information, and detailed reports for each project. The “Votes” page allows participants to create new proposals, delegate their votes, and view the results of past votes. The “Treasury” page provides complete reporting on on-chain and off-chain transactions, as well as information on audits conducted.",
+        "3": "Blockchain integration is an integral part of the technology platform. Smart contracts are used to automate the voting process, make payments, and record the reputation of participants, which can be represented as Soulbound NFTs. Oracles are used to obtain external data, such as current exchange rates and KYC verification, providing a link between the real world and the blockchain. IPFS (InterPlanetary File System) is used for decentralized and immutable storage of important documents, creating a reliable archive. L2 solutions such as Polygon or Optimism are used to reduce fees and increase transaction scalability."
+      }
     }
   }
 }

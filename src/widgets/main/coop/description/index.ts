@@ -5,3 +5,4 @@ export { Architecture } from './Architecture/Architecture';
 export { Admission } from './Admission/Admission';
 export { Refusal } from './Refusal/Refusal';
 export { Model } from './Model/Model';
+export { Platform } from './Platform/Platform';

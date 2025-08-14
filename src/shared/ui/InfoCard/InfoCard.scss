@@ -5,7 +5,8 @@
   padding: clamp(#{rem(16)}, 0.642rem + 1.79vw, #{rem(24)});
   background-color: var(--color-dark-alt);
   border-radius: var(--border-radius-md);
-
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
   body[data-theme='light'] & {
     background-color: var(--color-light-grey);
   }

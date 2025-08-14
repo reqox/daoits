@@ -6,7 +6,8 @@
   padding: rem(16);
   border-radius: var(--border-radius-lg);
   height: 100%;
-
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
   body[data-theme='light'] & {
     background-color: var(--color-light-grey);
   }

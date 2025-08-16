@@ -37,5 +37,40 @@
         "body": "for billions of users."
       }
     }
+  },
+  "why": {
+    "title": "Why our blockchain is a breakthrough:",
+    "list": {
+      "1": {
+        "1": "Feature",
+        "2": "Classic blockchains (Bitcoin, Ethereum)",
+        "3": "Our solution"
+      },
+      "2": {
+        "1": "Speed",
+        "2": "5-30 TPS",
+        "3": "100,000+ TPS (DAG + PoH)"
+      },
+      "3": {
+        "1": "Commission",
+        "2": "High volatility",
+        "3": "AI-optimized micro-commissions"
+      },
+      "4": {
+        "1": "Energy consumption",
+        "2": "Bitcoin = 1000+ kWh per transaction",
+        "3": "0.01 kWh per transaction (PoC)"
+      },
+      "5": {
+        "1": "Safety",
+        "2": "Vulnerability to quantum attacks",
+        "3": "Post-quantum cryptography"
+      },
+      "6": {
+        "1": "Economy",
+        "2": "Fixed emission/inflation",
+        "3": "AI-regulated tokenomics"
+      }
+    }
   }
 }

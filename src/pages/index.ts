@@ -1,5 +1,5 @@
 export * from './services';
 export * from './coop';
+export * from './code';
 export { HomePage } from './HomePage/HomePage';
-export { NotFoundPage } from './NotFoundPage/NotFoundPage';
-export { DevelopingPage } from './DevelopingPage/DevelopingPage';
+export { BlockchainPage } from './BlockchainPage/BlockchainPage';

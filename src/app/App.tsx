@@ -12,6 +12,7 @@ import {
   DevelopingPage,
   CoopPage,
   DescriptionPage,
+  BlockchainPage,
 } from '@/pages';
 
 const App = () => {
@@ -27,6 +28,8 @@ const App = () => {
         <Route path={'services'} element={<ServicesPage />} />
         <Route path={'services/app'} element={<AppPage />} />
         <Route path={'services/web'} element={<WebPage />} />
+
+        <Route path={'blockchain'} element={<BlockchainPage />} />
       </Route>
 
       <Route path={'services/promotion'} element={<DevelopingPage />} />
@@ -35,8 +38,6 @@ const App = () => {
       <Route path={'developments/defibridge'} element={<DevelopingPage />} />
       <Route path={'developments/economy'} element={<DevelopingPage />} />
       <Route path={'developments/feonyx'} element={<DevelopingPage />} />
-
-      <Route path={'blockchain'} element={<DevelopingPage />} />
 
       <Route path={'tokenomics'} element={<DevelopingPage />} />
       <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />

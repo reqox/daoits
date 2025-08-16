@@ -9,6 +9,7 @@
   --color-accent-alt: #0d5dd5;
   --color-grey: #87888b;
   --color-grey-alt: #a7aab2;
+  --color-violet: #6563e2;
   --font-family-base: 'Onest';
   --font-family-accent: 'Play';
   --container-width: #{rem(1220)};
@@ -19,6 +20,7 @@
   --border-radius-md: #{rem(12)};
   --border-radius-lg: #{rem(24)};
   --border: #{rem(1)} solid var(--color-grey);
+  --border-accent: #{rem(1)} solid var(--color-accent);
   --border-2: #{rem(2)} solid var(--color-grey);
   --inner-row-gap: #{clamp(#{rem(28)}, 0.206rem + 5.147vw, #{rem(56)})};
   --inner-title-row-gap: #{clamp(#{rem(16)}, 0.676rem + 1.081vw, #{rem(24)})};

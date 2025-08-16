@@ -1,3 +1,20 @@
 {
-  "title": "Innovative next-generation blockchain"
+  "title": "Innovative next-generation blockchain",
+  "description": {
+    "title": "A revolution in global systems with hybrid blockchain",
+    "body": {
+      "1": "We are creating the world's first self-adaptive blockchain, combining speed, security, and AI economics to reimagine finance, data storage, and digital rights.",
+      "2": "Our platform is a universal blockchain protocol designed to solve key problems in today's economy, finance, and data management. Unlike traditional blockchains, we offer a hybrid ecosystem that combines high speed, energy efficiency, security, and an adaptive economy."
+    },
+    "card": {
+      "1": {
+        "title": "For users:",
+        "subtitle": "Instant transactions, almost zero fees, non-erasable data."
+      },
+      "2": {
+        "title": "For investors:",
+        "subtitle": "A breakthrough technology with trillion-dollar market potential."
+      }
+    }
+  }
 }

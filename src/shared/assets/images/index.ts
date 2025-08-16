@@ -23,6 +23,7 @@ import CoopMissionImage from './mission/Goals.webp';
 import CoopRefusalImage from './refusal/Controls-1.webp';
 import CoopModelImage from './model/Image.png';
 
+export * from './blockchain';
 export {
   CoopRefusalImage,
   CoopConclusionImage,

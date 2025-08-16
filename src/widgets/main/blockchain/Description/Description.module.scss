@@ -58,6 +58,7 @@
     padding-right: var(--image-size);
     overflow: hidden;
     width: 100%;
+    color: var(--color-light);
 
     &-image {
       @include square(var(--image-size));

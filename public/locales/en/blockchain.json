@@ -16,5 +16,26 @@
         "subtitle": "A breakthrough technology with trillion-dollar market potential."
       }
     }
+  },
+  "mission": {
+    "title": "Key mission:",
+    "card": {
+      "1": {
+        "title": "Creating a global decentralized financial system",
+        "body": "an alternative to SWIFT, Visa, and traditional banks."
+      },
+      "2": {
+        "title": "Ensuring immutable and secure data storage",
+        "body": "documents, digital assets, IoT devices."
+      },
+      "3": {
+        "title": "Building a sustainable economic model",
+        "body": "automatically adapting to global market changes."
+      },
+      "4": {
+        "title": "Ensuring scalability and availability",
+        "body": "for billions of users."
+      }
+    }
   }
 }

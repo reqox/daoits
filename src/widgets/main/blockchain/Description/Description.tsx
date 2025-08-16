@@ -51,7 +51,7 @@ export const Description = () => {
           </div>
           <div className={styles['description__accent']}>
             {cardList.map((item) => (
-              <div className={styles['description__card']}>
+              <div key={item.title} className={styles['description__card']}>
                 <h3
                   className={styles['description__card-title']}
                   dangerouslySetInnerHTML={{ __html: item.title }}

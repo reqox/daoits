@@ -7,6 +7,7 @@
   border-radius: var(--border-radius-md);
   transition-property: background-color;
   transition-duration: var(--transition-duration);
+  width: 100%;
   body[data-theme='light'] & {
     background-color: var(--color-light-grey);
   }

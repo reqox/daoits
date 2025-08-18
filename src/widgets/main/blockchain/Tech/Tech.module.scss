@@ -1,0 +1,72 @@
+.tech {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(24);
+
+    @include tablet-above {
+      :nth-child(odd) {
+        & .tech-image {
+          order: -1;
+        }
+      }
+    }
+  }
+
+  &-item {
+    display: flex;
+    gap: var(--gap-grid);
+
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &__body {
+    @include flex(flex, center, start);
+    flex-direction: column;
+    row-gap: rem(16);
+
+    &-title {
+      font-size: clamp(#{rem(24)}, 0.247rem + 6.264vw, #{rem(52)});
+      color: var(--color-violet);
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(8);
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      padding-left: rem(6);
+    }
+  }
+
+  &-image {
+    @include square(#{clamp(#{rem(250)}, 5.043rem + 22.075vw, #{rem(350)})});
+    border-radius: var(--border-radius-lg);
+
+    @include mobile-s {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

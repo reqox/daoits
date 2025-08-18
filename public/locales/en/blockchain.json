@@ -110,5 +110,93 @@
         "body": "Investors receive multiple sources of income, including commissions, AI analytics usage, and corporate licenses. Asset values will grow thanks to our deflationary model and expected mass adoption."
       }
     }
+  },
+  "tech": {
+    "title": "Detailed Description of Technologies",
+    "subtitle": "Advanced Consensus Mechanisms",
+    "list": {
+      "1": {
+        "title": "Proof of History (PoH)",
+        "subtitle": "Timestamps (hashed marks) are embedded into the blockchain, allowing nodes to verify the order of events without full synchronization."
+      },
+      "2": {
+        "title": "Proof of Time (PoT)",
+        "subtitle": "Nodes must prove that they have 'waited' a certain time before adding a block. This prevents Sybil attacks and spam."
+      },
+      "3": {
+        "title": "Proof of Capacity (PoC)",
+        "subtitle": "Miners allocate hard drive space to store cryptographic hashes. The more space reserved, the higher the chance of creating a block."
+      },
+      "4": {
+        "title": "Hybrid Consensus",
+        "subtitle": "Dynamic switching between PoH (speed), PoT (security), and PoC (decentralization) depending on network load."
+      },
+      "5": {
+        "title": "Cryptography and Security",
+        "subtitle": "The use of post-quantum cryptography to protect against threats from quantum computing."
+      },
+      "6": {
+        "title": "Multi-Layer Encryption",
+        "subtitle": "A multi-level security system that combines different encryption methods."
+      },
+      "7": {
+        "title": "Architecture: DAG + Modular Sidechains",
+        "subtitle": "Directed Acyclic Graph (DAG): transactions reference multiple previous ones, forming a network instead of a linear chain."
+      },
+      "8": {
+        "title": "Modular Sidechains",
+        "subtitle": "A system of additional chains, each optimized for specific tasks."
+      }
+    },
+    "advantage": {
+      "title": "<b>Advantages</b>:",
+      "1": [
+        "Transaction confirmation within seconds (low latency).",
+        "Reduced load on nodes (no need to recalculate the entire history).",
+        "Compatible with other algorithms (PoS, PoC)."
+      ],
+      "2": [
+        "Increased security without significant energy consumption.",
+        "Prevents instant creation of alternative chains."
+      ],
+      "3": [
+        "Energy efficiency (100x lower energy consumption compared to Bitcoin).",
+        "Accessibility for users (no need for ASIC or GPU)."
+      ],
+      "4": [
+        "Optimized network performance for different scenarios.",
+        "AI algorithm selects the mechanism by analyzing network activity."
+      ],
+      "5": [
+        "Protection against Shor’s and Grover’s algorithms.",
+        "Long-term resilience."
+      ],
+      "6": [
+        "TLS 1.3 — secure data transmission.",
+        "Zero-Knowledge Proofs (ZKP) — transaction privacy.",
+        "Homomorphic encryption — computations on encrypted data."
+      ],
+      "7": [
+        "Parallel transaction processing (no queues as in blockchains).",
+        "Scalability up to 100,000 TPS (vs. 7–15 for Ethereum/Bitcoin).",
+        "Low fees (suitable for micropayments)."
+      ],
+      "8": [
+        "DeFi-chain — for financial operations.",
+        "Data-chain — for document storage.",
+        "IoT-chain — for Internet of Things devices."
+      ]
+    },
+    "features": {
+      "title": "<b>Features</b>:",
+      "5": [
+        "Transaction protection.",
+        "Smart contract security.",
+        "Privacy preservation of data."
+      ],
+      "8": [
+        "Interoperability via cross-chain bridges (IBC — Inter-Blockchain Communication)."
+      ]
+    }
   }
 }

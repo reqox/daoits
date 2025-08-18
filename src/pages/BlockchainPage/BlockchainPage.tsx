@@ -4,6 +4,7 @@ import {
   Description,
   Innovations,
   Mission,
+  Tech,
   Why,
 } from '@/widgets/main/blockchain';
 import { useTranslation } from 'react-i18next';
@@ -19,6 +20,7 @@ export const BlockchainPage = () => {
       <Why />
       <Innovations />
       <Application />
+      <Tech />
     </Fragment>
   );
 };

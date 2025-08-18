@@ -72,5 +72,26 @@
         "3": "AI-regulated tokenomics"
       }
     }
+  },
+  "innovations": {
+    "title": "Key innovations",
+    "list": {
+      "1": {
+        "title": "Lightning-fast transactions (DAG + PoH)",
+        "body": "While Bitcoin processes only 7 transactions per second and Visa up to 24,000, we offer a truly scalable solution. Thanks to DAG (Directed Acyclic Graph) technology, which allows transactions to be processed in parallel, we achieve a speed of 100,000 transactions per second. This makes our system fully ready for mass implementation."
+      },
+      "2": {
+        "title": "Protection against quantum computers",
+        "body": "Experts predict that by 2029, quantum computers will be able to crack widely used encryption algorithms such as RSA/ECC. Our solution is lattice-based cryptography, which provides complete invulnerability even to the most powerful quantum attacks."
+      },
+      "3": {
+        "title": "Self-regulating economy",
+        "body": "Our system uses artificial intelligence to analyze key economic indicators such as GDP, inflation, and trading volumes. Based on this data, it automatically adjusts staking, commission, and emission parameters. This provides stability for investors, which sets us apart from volatile meme coins."
+      },
+      "4": {
+        "title": "Green mining (PoC)",
+        "body": "Unlike Bitcoin, which consumes enormous amounts of energy for mining, our system uses an environmentally friendly approach. Thanks to the PoC algorithm, you can earn money by providing disk space, making mining accessible to everyone without wasting energy."
+      }
+    }
   }
 }

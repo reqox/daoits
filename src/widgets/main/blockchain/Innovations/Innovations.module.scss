@@ -1,0 +1,38 @@
+.innovations {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__item {
+    background-color: var(--color-dark-alt);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+    border-radius: var(--border-radius-md);
+    body[data-theme='light'] & {
+      background-color: var(--color-light-grey);
+    }
+
+    &-title,
+    &-body {
+      padding: rem(16);
+    }
+
+    &-title {
+      border-bottom: var(--border-accent);
+    }
+  }
+}

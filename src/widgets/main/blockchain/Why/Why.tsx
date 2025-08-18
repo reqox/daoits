@@ -32,7 +32,10 @@ export const Why = () => {
                 dangerouslySetInnerHTML={{ __html: item[1] }}
               ></h3>
               <div
-                className={styles['why__item-blockhains']}
+                className={clsx(
+                  styles['why__item-blockchains'],
+                  'hidden-mobile',
+                )}
                 dangerouslySetInnerHTML={{ __html: item[2] }}
               ></div>
               <h3

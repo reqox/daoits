@@ -27,6 +27,16 @@
 
     &:first-child {
       border-top: var(--border);
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    &:nth-child(2) {
+      @include mobile {
+        border-top: var(--border);
+      }
     }
 
     :not(:first-child) {

@@ -93,5 +93,22 @@
         "body": "Unlike Bitcoin, which consumes enormous amounts of energy for mining, our system uses an environmentally friendly approach. Thanks to the PoC algorithm, you can earn money by providing disk space, making mining accessible to everyone without wasting energy."
       }
     }
+  },
+  "application": {
+    "title": "Practical application",
+    "card": {
+      "1": {
+        "title": "For users",
+        "body": "We offer solutions that simplify international transfers and allow you to fully control your data, including selling it directly, without intermediaries. In addition, our system includes an international platform for copyright protection."
+      },
+      "2": {
+        "title": "For businesses and governments",
+        "body": "Our technology provides a ready-made infrastructure for digital currencies (CBDC). We also ensure transparent elections, completely eliminating the possibility of fraud."
+      },
+      "3": {
+        "title": "For investors",
+        "body": "Investors receive multiple sources of income, including commissions, AI analytics usage, and corporate licenses. Asset values will grow thanks to our deflationary model and expected mass adoption."
+      }
+    }
   }
 }

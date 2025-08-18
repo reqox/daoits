@@ -1,0 +1,17 @@
+.application {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &-list {
+    gap: var(--gap-grid);
+  }
+}

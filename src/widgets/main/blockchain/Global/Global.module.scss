@@ -1,0 +1,33 @@
+.global {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    padding-block: rem(16);
+    gap: var(--gap-grid);
+    border-bottom: var(--border);
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    &:first-child {
+      border-top: var(--border);
+    }
+  }
+}

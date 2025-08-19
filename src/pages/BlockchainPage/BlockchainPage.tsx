@@ -3,6 +3,7 @@ import {
   Application,
   Description,
   Economy,
+  Global,
   Innovations,
   Management,
   Mission,
@@ -25,6 +26,7 @@ export const BlockchainPage = () => {
       <Tech />
       <Economy />
       <Management />
+      <Global />
     </Fragment>
   );
 };

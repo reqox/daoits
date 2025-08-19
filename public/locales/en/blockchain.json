@@ -240,5 +240,22 @@
         "body": "We have included optional user verification (KYC/AML) for convenient interaction with regulators. At the same time, anonymous transactions remain available for those who value their privacy."
       }
     }
+  },
+  "global": {
+    "title": "Application and Global Value",
+    "list": {
+      "1": {
+        "title": "Finance",
+        "description": "The technology enables international payments that are faster and cheaper than traditional SWIFT. In the realm of DeFi 2.0, new opportunities are emerging: lending, staking, and derivatives trading are becoming more accessible and efficient."
+      },
+      "2": {
+        "title": "Data",
+        "description": "Digital passports and diplomas provide reliable protection against forgery, while medical records can be securely exchanged between clinics, maintaining confidentiality and data accuracy."
+      },
+      "3": {
+        "title": "IoT and AI",
+        "description": "Autonomous devices gain the ability to independently pay for energy and services through microtransactions. Meanwhile, large datasets are transformed into a source of revenue without centralized platforms, thanks to integrated Big Data analytics."
+      }
+    }
   }
 }

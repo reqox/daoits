@@ -227,5 +227,18 @@
         }
       }
     }
+  },
+  "management": {
+    "title": "Decentralized Governance (DAO + Compliance)",
+    "card": {
+      "1": {
+        "title": "DAO Model",
+        "body": "Our system's governance is based on a DAO model, where token holders can vote on protocol changes. To increase efficiency, we also use delegated governance, transferring some decisions to expert committees."
+      },
+      "2": {
+        "title": "KYC/AML Integration",
+        "body": "We have included optional user verification (KYC/AML) for convenient interaction with regulators. At the same time, anonymous transactions remain available for those who value their privacy."
+      }
+    }
   }
 }

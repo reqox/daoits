@@ -198,5 +198,34 @@
         "Interoperability via cross-chain bridges (IBC — Inter-Blockchain Communication)."
       ]
     }
+  },
+  "economy": {
+    "title": "AI-driven economy",
+    "algorithm": {
+      "title": "Dynamic emission algorithm",
+      "card": {
+        "1": {
+          "title": "How it works:",
+          "body": "AI analyzes inflation rates in different countries, fiat currency exchange rates, and trading volumes on exchanges."
+        },
+        "2": {
+          "title": "Result:",
+          "body": "Automatic adjustment of rewards, commissions, and total money supply."
+        }
+      }
+    },
+    "balance": {
+      "title": "Autonomous liquidity balance",
+      "card": {
+        "1": {
+          "title": "Task:",
+          "body": "Prevent financial crises and imbalances."
+        },
+        "2": {
+          "title": "Solution:",
+          "body": "AI predicts potential imbalances and redistributes staking pools in a timely manner."
+        }
+      }
+    }
   }
 }

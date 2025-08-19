@@ -13,6 +13,8 @@ import BlockchainTech6Image from './tech/6.jpg';
 import BlockchainTech7Image from './tech/7.png';
 import BlockchainTech8Image from './tech/8.png';
 
+import BlockchainEconomyImage from './economy.jpg';
+
 export {
   BlockchainDescriptionImage,
   BlockchainDescriptionCard1Image,
@@ -27,4 +29,5 @@ export {
   BlockchainTech6Image,
   BlockchainTech7Image,
   BlockchainTech8Image,
+  BlockchainEconomyImage,
 };

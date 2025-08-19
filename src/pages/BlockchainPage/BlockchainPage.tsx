@@ -2,6 +2,7 @@ import { BannerPage } from '@/shared/ui';
 import {
   Application,
   Description,
+  Economy,
   Innovations,
   Mission,
   Tech,
@@ -21,6 +22,7 @@ export const BlockchainPage = () => {
       <Innovations />
       <Application />
       <Tech />
+      <Economy />
     </Fragment>
   );
 };

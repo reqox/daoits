@@ -1,0 +1,34 @@
+.economy {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+  }
+
+  &-list,
+  &__item,
+  &__item-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-list {
+    gap: var(--gap-grid);
+  }
+
+  &__item {
+    row-gap: rem(16);
+
+    &-body {
+      row-gap: var(--gap-grid);
+    }
+  }
+}

@@ -257,5 +257,11 @@
         "description": "Autonomous devices gain the ability to independently pay for energy and services through microtransactions. Meanwhile, large datasets are transformed into a source of revenue without centralized platforms, thanks to integrated Big Data analytics."
       }
     }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "2024": "Testnet <br> (DAG + PoH/PoT)",
+    "2025": "AI-driven economy + quantum cryptography",
+    "2026": "Full decentralization (DAO)"
   }
 }

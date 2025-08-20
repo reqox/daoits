@@ -7,6 +7,7 @@ import {
   Innovations,
   Management,
   Mission,
+  Roadmap,
   Tech,
   Why,
 } from '@/widgets/main/blockchain';
@@ -27,6 +28,7 @@ export const BlockchainPage = () => {
       <Economy />
       <Management />
       <Global />
+      <Roadmap />
     </Fragment>
   );
 };

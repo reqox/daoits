@@ -5,6 +5,7 @@ import {
   Economy,
   Global,
   Innovations,
+  Invite,
   Management,
   Mission,
   Roadmap,
@@ -29,6 +30,7 @@ export const BlockchainPage = () => {
       <Management />
       <Global />
       <Roadmap />
+      <Invite />
     </Fragment>
   );
 };

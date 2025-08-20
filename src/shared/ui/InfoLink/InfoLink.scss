@@ -14,7 +14,7 @@
     font-size: clamp(#{rem(16)}, 0.642rem + 1.79vw, #{rem(24)});
   }
 
-  @include mobile-s {
+  @include mobile {
     flex-direction: column;
     text-align: center;
     row-gap: rem(16);

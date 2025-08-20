@@ -263,5 +263,17 @@
     "2024": "Testnet <br> (DAG + PoH/PoT)",
     "2025": "AI-driven economy + quantum cryptography",
     "2026": "Full decentralization (DAO)"
+  },
+  "invite": {
+    "title": "Join ITS and invest in iFehu today!",
+    "subtitle": "Let's build an innovative and decentralized 'tomorrow' together!",
+    "1": {
+      "button": "Download Wallet",
+      "description": "Download and install the wallet to join the team of investors"
+    },
+    "2": {
+      "button": "Learn More",
+      "description": "Charter of the decentralized investment fund"
+    }
   }
 }

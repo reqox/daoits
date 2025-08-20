@@ -15,12 +15,14 @@ import BlockchainTech8Image from './tech/8.png';
 
 import BlockchainEconomyImage from './economy.jpg';
 import BlockchainInviteImage from './Invite.png';
+import BlockchainGlobalUpImage from './GlobalUp.jpg';
 
 export {
   BlockchainDescriptionImage,
   BlockchainDescriptionCard1Image,
   BlockchainDescriptionCard2Image,
   BlockchainWhyImage,
+  BlockchainGlobalUpImage,
   BlockchainApplicationImage,
   BlockchainTech1Image,
   BlockchainTech2Image,

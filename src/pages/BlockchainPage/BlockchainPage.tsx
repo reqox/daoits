@@ -4,6 +4,7 @@ import {
   Description,
   Economy,
   Global,
+  GlobalUp,
   Innovations,
   Invite,
   Management,
@@ -31,6 +32,7 @@ export const BlockchainPage = () => {
       <Global />
       <Roadmap />
       <Invite />
+      <GlobalUp />
     </Fragment>
   );
 };

@@ -9,3 +9,4 @@ export { Management } from './Management/Management';
 export { Global } from './Global/Global';
 export { Roadmap } from './Roadmap/Roadmap';
 export { Invite } from './Inivite/Invite';
+export { GlobalUp } from './GlobalUp/GlobalUp';

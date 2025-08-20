@@ -275,5 +275,24 @@
       "button": "Learn More",
       "description": "Charter of the decentralized investment fund"
     }
+  },
+  "globalup": {
+    "title": "Goal for Global Growth",
+    "description": "Join the project development",
+    "button": "Invest",
+    "list": {
+      "1": {
+        "title": "For attracting users:",
+        "body": "Integration with fiat through partnerships with MoonPay and Ramp, combined with a mobile wallet that allows one-click registration, makes onboarding seamless and convenient."
+      },
+      "2": {
+        "title": "For working with corporations:",
+        "body": "A sandbox mode with flexible KYC/AML settings, along with private sidechains for isolating company data, ensures both compliance and confidentiality."
+      },
+      "3": {
+        "title": "For emerging markets:",
+        "body": "Transactions via SMS enable access even without smartphones, while stablecoins provide protection against currency devaluation."
+      }
+    }
   }
 }

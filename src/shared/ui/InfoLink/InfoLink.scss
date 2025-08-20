@@ -4,6 +4,7 @@
   background-color: var(--color-dark-alt);
   padding: rem(24);
   border-radius: var(--border-radius-md);
+  width: 100%;
 
   body[data-theme='light'] & {
     background-color: var(--color-light-grey);

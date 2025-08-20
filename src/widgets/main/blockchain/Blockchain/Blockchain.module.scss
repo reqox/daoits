@@ -1,0 +1,30 @@
+.blockchain {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    display: flex;
+    gap: var(--gap-grid);
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &-item {
+    display: flex;
+  }
+}

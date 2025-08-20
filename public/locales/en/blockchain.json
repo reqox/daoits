@@ -294,5 +294,23 @@
         "body": "Transactions via SMS enable access even without smartphones, while stablecoins provide protection against currency devaluation."
       }
     }
+  },
+  "blockchain": {
+    "title": "Our Blockchain",
+    "subtitle": "Not just a platform, but the infrastructure of the future, combining:",
+    "list": {
+      "1": {
+        "title": "Speed",
+        "body": "DAG + hybrid consensus"
+      },
+      "2": {
+        "title": "Security",
+        "body": "Quantum-resistant cryptography"
+      },
+      "3": {
+        "title": "Intelligence (AI-driven economy)",
+        "body": "Ultimate goal: Become the foundation of Web3 – from finance to data management"
+      }
+    }
   }
 }

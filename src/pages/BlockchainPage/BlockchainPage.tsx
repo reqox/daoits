@@ -1,6 +1,7 @@
 import { BannerPage } from '@/shared/ui';
 import {
   Application,
+  Blockchain,
   Description,
   Economy,
   Global,
@@ -33,6 +34,7 @@ export const BlockchainPage = () => {
       <Roadmap />
       <Invite />
       <GlobalUp />
+      <Blockchain />
     </Fragment>
   );
 };

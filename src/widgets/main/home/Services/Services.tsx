@@ -2,13 +2,14 @@ import { ServiceCard } from '@/shared/ui';
 import './Services.scss';
 import {
   ServicesDecentralImage,
-  ServicesPromotionImage,
+  // ServicesPromotionImage,
   ServicesWebImage,
 } from '@/shared/assets/images';
 import { useTranslation } from 'react-i18next';
 
 export const Services = () => {
   const { t } = useTranslation('home');
+
   return (
     <section className={'services'}>
       <div className="services__inner container">
@@ -35,7 +36,7 @@ export const Services = () => {
               to="services/decentral"
             />
           </li>
-          <li className="services-item">
+          {/* <li className="services-item">
             <ServiceCard
               srcImg={ServicesPromotionImage}
               title={t('services.card.3.title')}
@@ -50,7 +51,7 @@ export const Services = () => {
               description={t('services.card.4.description')}
               to="services/promotion"
             />
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

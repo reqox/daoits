@@ -1,9 +1,8 @@
 import './NavigationMenu.scss';
-import { NavLink /* useLocation */ } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import * as React from 'react';
 import clsx from 'clsx';
-// import { useEffect } from 'react';
 
 interface DropdownItem {
   title: string;
@@ -23,12 +22,6 @@ interface iNavigationMenu {
 
 export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
   const { t } = useTranslation('header');
-
-  // const { pathname } = useLocation();
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [pathname]);
 
   const navigationItems: NavigationItem[] = [
     {

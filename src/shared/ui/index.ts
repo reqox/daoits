@@ -14,3 +14,4 @@ export { PreviewCardPage } from './PreviewCardPage/PreviewCardPage';
 export { NumberedList } from './NumberedList/NumberedList';
 export { SquareIcon } from './SquareIcon/SquareIcon';
 export { TelegramLink } from './TelegramLink/TelegramLink';
+export { ScrollToTop } from './ScrollToTop/ScrollToTop';

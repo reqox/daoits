@@ -14,37 +14,41 @@ import {
   DescriptionPage,
   BlockchainPage,
 } from '@/pages';
+import { ScrollToTop } from '@/shared/ui';
 
 const App = () => {
   useTheme();
   return (
-    <Routes>
-      <Route path={'/'} element={<Layout />}>
-        <Route index element={<HomePage />} />
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path={'/'} element={<Layout />}>
+          <Route index element={<HomePage />} />
 
-        <Route path={'coop'} element={<CoopPage />} />
-        <Route path={'coop/description'} element={<DescriptionPage />} />
+          <Route path={'coop'} element={<CoopPage />} />
+          <Route path={'coop/description'} element={<DescriptionPage />} />
 
-        <Route path={'services'} element={<ServicesPage />} />
-        <Route path={'services/app'} element={<AppPage />} />
-        <Route path={'services/web'} element={<WebPage />} />
+          <Route path={'services'} element={<ServicesPage />} />
+          <Route path={'services/app'} element={<AppPage />} />
+          <Route path={'services/web'} element={<WebPage />} />
 
-        <Route path={'blockchain'} element={<BlockchainPage />} />
-      </Route>
+          <Route path={'blockchain'} element={<BlockchainPage />} />
+        </Route>
 
-      <Route path={'services/promotion'} element={<DevelopingPage />} />
+        <Route path={'services/promotion'} element={<DevelopingPage />} />
 
-      <Route path={'developments'} element={<DevelopingPage />} />
-      <Route path={'developments/defibridge'} element={<DevelopingPage />} />
-      <Route path={'developments/economy'} element={<DevelopingPage />} />
-      <Route path={'developments/feonyx'} element={<DevelopingPage />} />
+        <Route path={'developments'} element={<DevelopingPage />} />
+        <Route path={'developments/defibridge'} element={<DevelopingPage />} />
+        <Route path={'developments/economy'} element={<DevelopingPage />} />
+        <Route path={'developments/feonyx'} element={<DevelopingPage />} />
 
-      <Route path={'tokenomics'} element={<DevelopingPage />} />
-      <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />
-      <Route path={'tokenomics/investor'} element={<DevelopingPage />} />
+        <Route path={'tokenomics'} element={<DevelopingPage />} />
+        <Route path={'tokenomics/ifehu'} element={<DevelopingPage />} />
+        <Route path={'tokenomics/investor'} element={<DevelopingPage />} />
 
-      <Route path={'*'} element={<NotFoundPage />} />
-    </Routes>
+        <Route path={'*'} element={<NotFoundPage />} />
+      </Routes>
+    </>
   );
 };
 

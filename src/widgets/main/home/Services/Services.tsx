@@ -23,35 +23,19 @@ export const Services = () => {
           <li className="services-item">
             <ServiceCard
               srcImg={ServicesWebImage}
-              title={t('services.card.1.title')}
-              description={t('services.card.1.description')}
+              title={t('services.card.web.title')}
+              description={t('services.card.web.description')}
               to="services/web"
             />
           </li>
           <li className="services-item">
             <ServiceCard
               srcImg={ServicesDecentralImage}
-              title={t('services.card.2.title')}
-              description={t('services.card.2.description')}
-              to="services/decentral"
+              title={t('services.card.app.title')}
+              description={t('services.card.app.description')}
+              to="services/app"
             />
           </li>
-          {/* <li className="services-item">
-            <ServiceCard
-              srcImg={ServicesPromotionImage}
-              title={t('services.card.3.title')}
-              description={t('services.card.3.description')}
-              to="services/promotion"
-            />
-          </li>
-          <li className="services-item">
-            <ServiceCard
-              srcImg={ServicesPromotionImage}
-              title={t('services.card.4.title')}
-              description={t('services.card.4.description')}
-              to="services/promotion"
-            />
-          </li> */}
         </ul>
       </div>
     </section>

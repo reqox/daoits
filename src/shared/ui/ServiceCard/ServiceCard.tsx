@@ -29,8 +29,14 @@ export const ServiceCard: FC<ServiceCardProps> = ({
         loading="lazy"
       />
       <div className="servicecard__info">
-        <h3 className="servicecard__info-title">{title}</h3>
-        <div className="servicecard__info-description">{description}</div>
+        <h3
+          className="servicecard__info-title"
+          dangerouslySetInnerHTML={{ __html: title }}
+        ></h3>
+        <div
+          className="servicecard__info-description"
+          dangerouslySetInnerHTML={{ __html: description }}
+        ></div>
       </div>
       <AccentButton to={to}>{t('services.card.select')}</AccentButton>
     </div>

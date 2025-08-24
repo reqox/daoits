@@ -77,5 +77,222 @@
   "invite": {
     "title": "Join us.",
     "subtitle": "Let's build a future together where innovation knows no bounds!"
+  },
+  "descriptionPage": {
+    "title": "DAO ITS Co-op: <br> Full project description",
+    "list": {
+      "1": {
+        "title": "Choose your role"
+      },
+      "2": {
+        "title": "Become a member"
+      },
+      "3": {
+        "title": "Download Whitepaper"
+      }
+    },
+    "description": {
+      "1": "<span class='company'>DAO ITS Co-op</span> is a hybrid production cooperative that uniquely combines the principles of decentralized autonomous management (DAO) with a traditional legal structure registered in accordance with the Federal Law of the Russian Federation on Cooperatives.",
+      "2": "The project aims to <b>create a self-sufficient and sustainable ecosystem for the collective development</b>, management, and monetization of intellectual property (IP), expanding its activities not only within the Russian Federation but also in the CIS countries. This allows for the involvement of relevant participants from different countries.",
+      "3": "At the heart of <span class='company'>DAO ITS Co-op</span> lies a profound philosophy that seeks to replace hierarchical relationships with collaboration, speculative practices with creation, and competition with synergy. This is not just a project, but an experiment in shaping the economy of the future, where technology serves humanity."
+    },
+    "mission": {
+      "title": "Mission and concept",
+      "text": {
+        "1": "The main mission of <span class='company'>DAO ITS Co-op</span> is to create a decentralized and legally legitimate platform for collective creativity. <b>The project aims to ensure transparency</b>, fairness, and efficiency in the process of creating and using intellectual property. <b>It combines</b> the legal protection provided by Russian legislation on cooperatives with the flexibility and innovation of blockchain technologies, such as decentralized management, smart contracts, and tokenization.",
+        "2": "This allows participants to collaborate on projects, manage them jointly, and fairly distribute the income from their monetization. Expanding the geography of operations to CIS countries underscores the desire to create a broader and more inclusive community of talented professionals and investors."
+      }
+    },
+    "architecture": {
+      "title": "Legal and management architecture",
+      "text": {
+        "1": "<span class='company'>DAO ITS Co-op</span> is built on a hybrid architecture that carefully separates areas of responsibility. The production cooperative, officially registered under Russian federal law, is responsible for all aspects of legal legitimacy, including taxation, accounting, and bank account operations. In parallel, the DAO platform provides decentralized project management, transparent voting on key issues, and automated payments through smart contracts.",
+        "2": "The cooperative is managed on a multi-level basis. The highest authority is the General Meeting of Participants, where decisions are made by voting in the DAO. The weight of each participant's vote is determined by their share in the cooperative and their reputation level recorded in the system. Operational management is distributed between the Cooperative Council and the Command Circles. The Council, elected annually, is responsible for the overall development strategy and control over financial flows, as well as for implementing DAO decisions.",
+        "3": "Command circles are specialized working groups formed for specific projects. A quorum of 30% of the total number of participants is required to make critical decisions. <b>One of the key innovations of the project</b> is the automatic recording of decisions made by the DAO in the cooperative's charter, which gives them legal force and ensures their immutability."
+      }
+    },
+    "admission": {
+      "title": "Procedure for admission to membership of the cooperative",
+      "subtitle": "The process of joining <span class='company'>DAO ITS Co-op</span> involves several stages designed to ensure that new members meet the project's high standards and objectives.",
+      "card": {
+        "1": {
+          "title": "Submission of application:",
+          "description": "The interested party submits an application for membership in the cooperative to the Board."
+        },
+        "2": {
+          "title": "Consideration of the application by the Management Board:",
+          "description": "The cooperative's board reviews the application. If necessary, an interview is conducted with the applicant to gain a deeper understanding of their motivation and alignment with the cooperative's values. Particular attention is paid to assessing the applicant's qualifications and experience, especially for candidates applying for the role of developers, to ensure their ability to make a significant contribution to projects. <br><br> Based on the results of the review, the Board makes a decision to recommend to the General Meeting that the applicant be accepted as a member of the Cooperative or that the application be rejected."
+        },
+        "3": {
+          "title": "Approved by the General Meeting:",
+          "description": "In the event of a positive decision by the Board, the application with a recommendation for admission shall be submitted to the General Meeting of the Cooperative members for consideration. The General Meeting shall make the final decision on admission to the Cooperative by a majority vote of those present at the meeting."
+        },
+        "4": {
+          "title": "Registration and confirmation of membership:",
+          "description": "The decision of the General Meeting on admission to membership of the Cooperative shall be formally recorded in the minutes. A person who has been successfully admitted to membership of the Cooperative shall be issued with a membership card of the established form confirming their status."
+        },
+        "5": {
+          "title": "Payment of membership fees:",
+          "description": "A person accepted as a member of the Cooperative is obliged to pay a membership fee in accordance with the procedure and terms established by the Cooperative's Charter. Proof of payment of the membership fee shall be a document issued by the Cooperative's accounting department, such as a cash receipt or a bank account statement. In the event of payment of the membership fee in non-monetary form, the property shall be valued in accordance with the procedure established by the Cooperative's Articles of Association."
+        }
+      }
+    },
+    "refusal": {
+      "title": "Refusal of admission and appeal",
+      "text": {
+        "1": "Refusal to admit a member to the Cooperative is permitted in cases where the applicant does not meet the requirements established by the Cooperative's Charter and the relevant Regulations, when providing inaccurate information, as well as on other grounds provided for by the legislation of the Russian Federation.",
+        "2": "The decision to refuse membership in the Cooperative must be justified and communicated to the applicant in writing within five business days of the date of the decision. The applicant has the right to appeal the decision to refuse membership in court."
+      }
+    },
+    "model": {
+      "title": "Economic model",
+      "subtitle": "The economic model of <span class='company'>DAO ITS Co-op</span> is based on a dual tokenization system that provides both governance and fair rewards for participants.",
+      "list": {
+        "1": {
+          "title": "The first token is <span class='company'>ITS</span>.",
+          "description": "It acts as a governance token. It grants holders the right to participate in DAO voting, staking opportunities, and access to various platform services. The number of ITS tokens is strictly fixed."
+        },
+        "2": {
+          "title": "The second token is <span class='company'>iFEHU</span>.",
+          "description": "It is a reward for contributions to intellectual property. Its issuance is dynamic and tied to specific project results, such as the creation of an MVP, successful sales, or passing an audit. The charter of the iFEHU DAO ITS investment fund regulates its nature and functions in detail. iFehu has a dual nature: it is both a financing tool and a digital asset representing a share in the company. iFehu tokens are created on the Polygon blockchain network using the Proof-of-Stake (PoS) consensus mechanism, which guarantees transparency, reliability, and protection against unauthorized changes. <br><br> The total issuance of iFehu is 2,500,000 units, and this amount is strictly fixed in a smart contract with a unique address: “0xca91607A97b7A4A50035FAC1640Ba4C24cE79766”. The iFEHU DAO ITS Fund operates in accordance with international financial and investment legislation, as well as internal regulations (including the laws and regulations of the countries in which it operates). In the event of legal conflicts, priority is given to regulations that directly govern the circulation of digital assets and investment activities."
+        },
+        "3": {
+          "title": "The main objectives of the iFEHU DAO ITS fund",
+          "description": "These include the implementation and support of promising IT projects, continuous growth in token value through effective investment activities, and ensuring transparent management of the investment pool using cutting-edge technologies."
+        },
+        "4": {
+          "title": "Activities of the foundation",
+          "description": "It covers raising capital, selecting and implementing innovative projects, and organizing regular reporting and auditing to keep investors informed."
+        },
+        "5": {
+          "title": "iFEHU DAO ITS Fund Management",
+          "description": "It is carried out by the Board or the Management Company, which consists of professionals in the investment, legal, and financial fields. They provide overall management, determine strategic policy, and approve major investment projects."
+        },
+        "6": {
+          "title": "Key principles of decision-making",
+          "description": "Transparency (information about decisions is recorded in the blockchain), accountability of management body members for losses, and efficiency (priority given to promising projects). The distribution of iFehu tokens assumes that 51% of the total volume belongs to the management company, and 49% is distributed among investors through public sales (via the official wallet, ICO, P2P, and other formats permitted by the Charter)."
+        },
+        "7": {
+          "title": "iFehu smart contract",
+          "description": "It records the total volume of issuance, takes into account all transactions involving the purchase, sale, and transfer of tokens, and guarantees that no additional tokens can be issued. To protect investors and prevent illegal transactions, regular independent audits are conducted by accredited companies. The initial value of the iFehu token is 100 rubles (equivalent to $1 at the time of the initial issue) and is fixed in a smart contract, determining the initial capitalization of the Fund. <br><br> The market value is calculated as the ratio of the total assets of the Fund to the total number of tokens in circulation and is published on the Fund's official website and in investors' personal accounts. iFehu token holders are entitled to participate in the share capital structure, including access to information about the company's activities, the ability to freely exchange, transfer, or sell tokens through P2P and other authorized platforms, as well as receive regular reports on the Fund's financial condition."
+        },
+        "8": {
+          "title": "Profit from the cooperative's activities",
+          "description": "Distributed according to the “golden ratio” principle: 60% is paid to participants in proportion to their share and contribution, 30% is reinvested in the development of the cooperative, and the remaining 10% is allocated to social initiatives."
+        },
+        "9": {
+          "title": "Financial flows are strictly controlled.",
+          "description": "They are managed through multi-signature accounts, which provides joint control by the cooperative council and smart contracts, increasing the security and transparency of operations. The conversion of iFehu tokens is carried out through licensed gateways, such as Garantex, which ensures the legitimacy and reliability of transactions."
+        }
+      }
+    },
+    "platform": {
+      "title": "Technology platform",
+      "list": {
+        "1": "The core of the technological infrastructure of <span class='company'>DAO ITS Co-op</span> is a multifunctional management dashboard. It is built on Wagtail CMS for effective management of documentation, user profiles, and content. Specially developed Django modules provide functionality for voting, financial accounting, and task management. Integration with Web3 technologies such as MetaMask and Safe{Wallet} enables seamless interaction with the blockchain.",
+        "2": "The dashboard includes several key pages: The home page provides a quick overview of member balances, active votes, and current projects. The “Projects” page contains Kanban boards for tracking progress, budget information, and detailed reports for each project. The “Votes” page allows participants to create new proposals, delegate their votes, and view the results of past votes. The “Treasury” page provides complete reporting on on-chain and off-chain transactions, as well as information on audits conducted.",
+        "3": "Blockchain integration is an integral part of the technology platform. Smart contracts are used to automate the voting process, make payments, and record the reputation of participants, which can be represented as Soulbound NFTs. Oracles are used to obtain external data, such as current exchange rates and KYC verification, providing a link between the real world and the blockchain. IPFS (InterPlanetary File System) is used for decentralized and immutable storage of important documents, creating a reliable archive. L2 solutions such as Polygon or Optimism are used to reduce fees and increase transaction scalability."
+      }
+    },
+    "cycle": {
+      "title": "Project life cycle",
+      "text": {
+        "1": "The life cycle of any project at <span class='company'>DAO ITS Co-op</span> <b>begins with an idea</b>. This idea undergoes AI analysis, which assesses potential risks and necessary resources. If approved by AI, <b>a wave plan is developed</b>, after which <b>a team circle is formed</b> — a group of participants responsible for implementing the project. Work is carried out in two-week sprints, at the end of each of which <b>the results achieved are verified</b>.",
+        "2": "If the sprint is successful, it leads to the capitalization of the project, including the registration of intellectual property (in the form of NFTs and traditional copyright), as well as the issuance of iFehu tokens as a reward for contributions. If the sprint fails, a retrospective is conducted to analyze the reasons and learn lessons."
+      },
+      "card": {
+        "title": "Key stages in the project life cycle include:",
+        "body": "<b>AI moderation</b>, which is a systematic assessment of risks and resources that ensures the viability of an idea. <br><br> <b>Next</b> comes a vote to approve the project budget by DAO participants, which guarantees collective responsibility. Development takes place in sprints — flexible iterative cycles with regular payments as tasks are completed. <br><br> <b>The final stage</b> is capitalization, the formal registration of intellectual property, which secures rights and increases the value of the project."
+      }
+    },
+    "initiatives": {
+      "title": "Social initiatives",
+      "subtitle": "<span class='company'>DAO ITS Co-op</span> actively participates in social initiatives, allocating part of its profits to support socially beneficial projects. This includes:",
+      "list": {
+        "1": {
+          "title": "Open-Source Foundation:",
+          "body": "The goal of this initiative is to finance the development of free software. Monetization is achieved through royalties amounting to 5-10% of the commercial use of the software created."
+        },
+        "2": {
+          "title": "Eco-DAO:",
+          "body": "An initiative aimed at supporting green startups. Funding is provided through crowdfunding and grants, promoting the development of environmentally sustainable technologies."
+        },
+        "3": {
+          "title": "Educational programs:",
+          "body": "Conducting courses and training sessions on DAO and blockchain technologies. The project offers paid certifications, allowing participants to deepen their knowledge and skills in this field."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Starting conditions",
+      "subtitle": "<b>The first participants</b> to receive the status of “DAO Architects” will enjoy <b>special privileges</b>. They will receive a unique NFT badge that grants access to exclusive data and information. They are also entitled to a 10% cashback on platform fees and priority in voting and receiving grants.",
+      "list": {
+        "description": "The project investment plan is divided into several stages with specific budgets and deadlines:",
+        "1": {
+          "title": "MVP (Minimum Viable Product):",
+          "body": "At this stage, $300K is allocated for 6 months to develop the basic functionality of the management dashboard."
+        },
+        "2": {
+          "title": "Legal formalities:",
+          "body": "$100K has been set aside for this stage for 3 months, which includes getting the necessary licenses and setting up strategic partnerships to work in both Russia and the CIS countries."
+        },
+        "3": {
+          "title": "Marketing:",
+          "body": "To attract more than 500 participants, $500K is allocated for 12 months, with a focus on the target audience in Russia and CIS countries."
+        }
+      }
+    },
+    "solutions": {
+      "title": "Risks and solutions",
+      "subtitle": "The <span class='company'>DAO ITS Co-op</span> project is aware of the potential risks and has developed strategies to minimize them:",
+      "list": {
+        "1": {
+          "title": "Regulatory attacks:",
+          "body": "This risk is minimized through strict compliance with the Federal Law on Production Cooperatives in the Russian Federation, as well as thorough analysis and adaptation to the legislation of CIS countries regarding digital assets and cooperative activities."
+        },
+        "2": {
+          "title": "Low DAO activity:",
+          "body": "Gamification is used to encourage participation and engagement, including an NFT reputation system and bonuses for active participation in voting."
+        },
+        "3": {
+          "title": "Technical vulnerabilities:",
+          "body": "The risk associated with the security of smart contracts is mitigated by conducting regular audits by third-party accredited companies such as Certik."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "subtitle": "The <span class='company'>DAO ITS Co-op</span> project has a clearly defined roadmap:",
+      "list": {
+        "1": {
+          "title": "2025 Q1:",
+          "body": "Registration of the cooperative in the Russian Federation and launch of a test network (testnet)."
+        },
+        "2": {
+          "title": "2025 Q3:",
+          "body": "Launch of the MVP dashboard and implementation of the first 10 projects in the ecosystem."
+        },
+        "3": {
+          "title": "2026 Q1:",
+          "body": "Integration with banking systems, expansion of presence in CIS countries, and scaling of the platform to increase the number of participants and projects."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "<span class='company'>DAO ITS Co-op</span>",
+      "card": {
+        "title": "Project slogan:",
+        "body": "Every code has value. Every idea is an opportunity. Every contribution is a reward."
+      },
+      "text": {
+        "1": "It is a legally protected platform for collective creativity, based on the principles of decentralization and focused on global development, starting with Russia and the CIS countries.",
+        "2": "The project proposes a fair economy with dual tokenization, providing both governance and transparent rewards for contributions. It is a technology hub designed to bring together IT developers, activists, and investors.",
+        "3": "This is not just a project, but a bold experiment in creating the economy of the future, where technology serves people, not the other way around."
+      }
+    },
+    "invite": {
+      "title": "Join us!",
+      "description": "To join <span class='company'>DAO ITS Co-op</span> and get more info, you can check out their"
+    }
   }
 }

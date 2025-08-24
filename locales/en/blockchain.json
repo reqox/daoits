@@ -1,0 +1,316 @@
+{
+  "title": "Innovative next-generation blockchain",
+  "description": {
+    "title": "A revolution in global systems with hybrid blockchain",
+    "body": {
+      "1": "We are creating the world's first self-adaptive blockchain, combining speed, security, and AI economics to reimagine finance, data storage, and digital rights.",
+      "2": "Our platform is a universal blockchain protocol designed to solve key problems in today's economy, finance, and data management. Unlike traditional blockchains, we offer a hybrid ecosystem that combines high speed, energy efficiency, security, and an adaptive economy."
+    },
+    "card": {
+      "1": {
+        "title": "For users:",
+        "subtitle": "Instant transactions, almost zero fees, non-erasable data."
+      },
+      "2": {
+        "title": "For investors:",
+        "subtitle": "A breakthrough technology with trillion-dollar market potential."
+      }
+    }
+  },
+  "mission": {
+    "title": "Key mission:",
+    "card": {
+      "1": {
+        "title": "Creating a global decentralized financial system",
+        "body": "an alternative to SWIFT, Visa, and traditional banks."
+      },
+      "2": {
+        "title": "Ensuring immutable and secure data storage",
+        "body": "documents, digital assets, IoT devices."
+      },
+      "3": {
+        "title": "Building a sustainable economic model",
+        "body": "automatically adapting to global market changes."
+      },
+      "4": {
+        "title": "Ensuring scalability and availability",
+        "body": "for billions of users."
+      }
+    }
+  },
+  "why": {
+    "title": "Why our blockchain is a breakthrough:",
+    "list": {
+      "1": {
+        "1": "Feature",
+        "2": "Classic blockchains (Bitcoin, Ethereum)",
+        "3": "Our solution"
+      },
+      "2": {
+        "1": "Speed",
+        "2": "5-30 TPS",
+        "3": "100,000+ TPS (DAG + PoH)"
+      },
+      "3": {
+        "1": "Commission",
+        "2": "High volatility",
+        "3": "AI-optimized micro-commissions"
+      },
+      "4": {
+        "1": "Energy consumption",
+        "2": "Bitcoin = 1000+ kWh per transaction",
+        "3": "0.01 kWh per transaction (PoC)"
+      },
+      "5": {
+        "1": "Safety",
+        "2": "Vulnerability to quantum attacks",
+        "3": "Post-quantum cryptography"
+      },
+      "6": {
+        "1": "Economy",
+        "2": "Fixed emission/inflation",
+        "3": "AI-regulated tokenomics"
+      }
+    }
+  },
+  "innovations": {
+    "title": "Key innovations",
+    "list": {
+      "1": {
+        "title": "Lightning-fast transactions (DAG + PoH)",
+        "body": "While Bitcoin processes only 7 transactions per second and Visa up to 24,000, we offer a truly scalable solution. Thanks to DAG (Directed Acyclic Graph) technology, which allows transactions to be processed in parallel, we achieve a speed of 100,000 transactions per second. This makes our system fully ready for mass implementation."
+      },
+      "2": {
+        "title": "Protection against quantum computers",
+        "body": "Experts predict that by 2029, quantum computers will be able to crack widely used encryption algorithms such as RSA/ECC. Our solution is lattice-based cryptography, which provides complete invulnerability even to the most powerful quantum attacks."
+      },
+      "3": {
+        "title": "Self-regulating economy",
+        "body": "Our system uses artificial intelligence to analyze key economic indicators such as GDP, inflation, and trading volumes. Based on this data, it automatically adjusts staking, commission, and emission parameters. This provides stability for investors, which sets us apart from volatile meme coins."
+      },
+      "4": {
+        "title": "Green mining (PoC)",
+        "body": "Unlike Bitcoin, which consumes enormous amounts of energy for mining, our system uses an environmentally friendly approach. Thanks to the PoC algorithm, you can earn money by providing disk space, making mining accessible to everyone without wasting energy."
+      }
+    }
+  },
+  "application": {
+    "title": "Practical application",
+    "card": {
+      "1": {
+        "title": "For users",
+        "body": "We offer solutions that simplify international transfers and allow you to fully control your data, including selling it directly, without intermediaries. In addition, our system includes an international platform for copyright protection."
+      },
+      "2": {
+        "title": "For businesses and governments",
+        "body": "Our technology provides a ready-made infrastructure for digital currencies (CBDC). We also ensure transparent elections, completely eliminating the possibility of fraud."
+      },
+      "3": {
+        "title": "For investors",
+        "body": "Investors receive multiple sources of income, including commissions, AI analytics usage, and corporate licenses. Asset values will grow thanks to our deflationary model and expected mass adoption."
+      }
+    }
+  },
+  "tech": {
+    "title": "Detailed Description of Technologies",
+    "subtitle": "Advanced Consensus Mechanisms",
+    "list": {
+      "1": {
+        "title": "Proof of History (PoH)",
+        "subtitle": "Timestamps (hashed marks) are embedded into the blockchain, allowing nodes to verify the order of events without full synchronization."
+      },
+      "2": {
+        "title": "Proof of Time (PoT)",
+        "subtitle": "Nodes must prove that they have 'waited' a certain time before adding a block. This prevents Sybil attacks and spam."
+      },
+      "3": {
+        "title": "Proof of Capacity (PoC)",
+        "subtitle": "Miners allocate hard drive space to store cryptographic hashes. The more space reserved, the higher the chance of creating a block."
+      },
+      "4": {
+        "title": "Hybrid Consensus",
+        "subtitle": "Dynamic switching between PoH (speed), PoT (security), and PoC (decentralization) depending on network load."
+      },
+      "5": {
+        "title": "Cryptography and Security",
+        "subtitle": "The use of post-quantum cryptography to protect against threats from quantum computing."
+      },
+      "6": {
+        "title": "Multi-Layer Encryption",
+        "subtitle": "A multi-level security system that combines different encryption methods."
+      },
+      "7": {
+        "title": "Architecture: DAG + Modular Sidechains",
+        "subtitle": "Directed Acyclic Graph (DAG): transactions reference multiple previous ones, forming a network instead of a linear chain."
+      },
+      "8": {
+        "title": "Modular Sidechains",
+        "subtitle": "A system of additional chains, each optimized for specific tasks."
+      }
+    },
+    "advantage": {
+      "title": "<b>Advantages</b>:",
+      "1": [
+        "Transaction confirmation within seconds (low latency).",
+        "Reduced load on nodes (no need to recalculate the entire history).",
+        "Compatible with other algorithms (PoS, PoC)."
+      ],
+      "2": [
+        "Increased security without significant energy consumption.",
+        "Prevents instant creation of alternative chains."
+      ],
+      "3": [
+        "Energy efficiency (100x lower energy consumption compared to Bitcoin).",
+        "Accessibility for users (no need for ASIC or GPU)."
+      ],
+      "4": [
+        "Optimized network performance for different scenarios.",
+        "AI algorithm selects the mechanism by analyzing network activity."
+      ],
+      "5": [
+        "Protection against Shor’s and Grover’s algorithms.",
+        "Long-term resilience."
+      ],
+      "6": [
+        "TLS 1.3 — secure data transmission.",
+        "Zero-Knowledge Proofs (ZKP) — transaction privacy.",
+        "Homomorphic encryption — computations on encrypted data."
+      ],
+      "7": [
+        "Parallel transaction processing (no queues as in blockchains).",
+        "Scalability up to 100,000 TPS (vs. 7–15 for Ethereum/Bitcoin).",
+        "Low fees (suitable for micropayments)."
+      ],
+      "8": [
+        "DeFi-chain — for financial operations.",
+        "Data-chain — for document storage.",
+        "IoT-chain — for Internet of Things devices."
+      ]
+    },
+    "features": {
+      "title": "<b>Features</b>:",
+      "5": [
+        "Transaction protection.",
+        "Smart contract security.",
+        "Privacy preservation of data."
+      ],
+      "8": [
+        "Interoperability via cross-chain bridges (IBC — Inter-Blockchain Communication)."
+      ]
+    }
+  },
+  "economy": {
+    "title": "AI-driven economy",
+    "algorithm": {
+      "title": "Dynamic emission algorithm",
+      "card": {
+        "1": {
+          "title": "How it works:",
+          "body": "AI analyzes inflation rates in different countries, fiat currency exchange rates, and trading volumes on exchanges."
+        },
+        "2": {
+          "title": "Result:",
+          "body": "Automatic adjustment of rewards, commissions, and total money supply."
+        }
+      }
+    },
+    "balance": {
+      "title": "Autonomous liquidity balance",
+      "card": {
+        "1": {
+          "title": "Task:",
+          "body": "Prevent financial crises and imbalances."
+        },
+        "2": {
+          "title": "Solution:",
+          "body": "AI predicts potential imbalances and redistributes staking pools in a timely manner."
+        }
+      }
+    }
+  },
+  "management": {
+    "title": "Decentralized Governance (DAO + Compliance)",
+    "card": {
+      "1": {
+        "title": "DAO Model",
+        "body": "Our system's governance is based on a DAO model, where token holders can vote on protocol changes. To increase efficiency, we also use delegated governance, transferring some decisions to expert committees."
+      },
+      "2": {
+        "title": "KYC/AML Integration",
+        "body": "We have included optional user verification (KYC/AML) for convenient interaction with regulators. At the same time, anonymous transactions remain available for those who value their privacy."
+      }
+    }
+  },
+  "global": {
+    "title": "Application and Global Value",
+    "list": {
+      "1": {
+        "title": "Finance",
+        "description": "The technology enables international payments that are faster and cheaper than traditional SWIFT. In the realm of DeFi 2.0, new opportunities are emerging: lending, staking, and derivatives trading are becoming more accessible and efficient."
+      },
+      "2": {
+        "title": "Data",
+        "description": "Digital passports and diplomas provide reliable protection against forgery, while medical records can be securely exchanged between clinics, maintaining confidentiality and data accuracy."
+      },
+      "3": {
+        "title": "IoT and AI",
+        "description": "Autonomous devices gain the ability to independently pay for energy and services through microtransactions. Meanwhile, large datasets are transformed into a source of revenue without centralized platforms, thanks to integrated Big Data analytics."
+      }
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "2024": "Testnet <br> (DAG + PoH/PoT)",
+    "2025": "AI-driven economy + quantum cryptography",
+    "2026": "Full decentralization (DAO)"
+  },
+  "invite": {
+    "title": "Join ITS and invest in iFehu today!",
+    "subtitle": "Let's build an innovative and decentralized 'tomorrow' together!",
+    "1": {
+      "button": "Download Wallet",
+      "description": "Download and install the wallet to join the team of investors"
+    },
+    "2": {
+      "button": "Learn More",
+      "description": "Charter of the decentralized investment fund"
+    }
+  },
+  "globalup": {
+    "title": "Goal for Global Growth",
+    "description": "Join the project development",
+    "button": "Invest",
+    "list": {
+      "1": {
+        "title": "For attracting users:",
+        "body": "Integration with fiat through partnerships with MoonPay and Ramp, combined with a mobile wallet that allows one-click registration, makes onboarding seamless and convenient."
+      },
+      "2": {
+        "title": "For working with corporations:",
+        "body": "A sandbox mode with flexible KYC/AML settings, along with private sidechains for isolating company data, ensures both compliance and confidentiality."
+      },
+      "3": {
+        "title": "For emerging markets:",
+        "body": "Transactions via SMS enable access even without smartphones, while stablecoins provide protection against currency devaluation."
+      }
+    }
+  },
+  "blockchain": {
+    "title": "Our Blockchain",
+    "subtitle": "Not just a platform, but the infrastructure of the future, combining:",
+    "list": {
+      "1": {
+        "title": "Speed",
+        "body": "DAG + hybrid consensus"
+      },
+      "2": {
+        "title": "Security",
+        "body": "Quantum-resistant cryptography"
+      },
+      "3": {
+        "title": "Intelligence (AI-driven economy)",
+        "body": "Ultimate goal: Become the foundation of Web3 – from finance to data management"
+      }
+    }
+  }
+}

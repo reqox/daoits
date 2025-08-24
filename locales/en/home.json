@@ -56,7 +56,7 @@
     "subtitle": "Comprehensive IT services for your business",
     "card": {
       "select": "Select",
-      "1": {
+      "web": {
         "title": "Website development",
         "description": "To introduce innovative technologies."
       },

@@ -2,11 +2,20 @@ import clsx from 'clsx';
 import styles from './Footer.module.scss';
 import { useTranslation } from 'react-i18next';
 import { LogoSvg } from '@/shared/assets/icons';
-import { TelegramLink } from '@/shared/ui';
+import { DocumentModal, TelegramLink } from '@/shared/ui';
 import { Link, NavLink } from 'react-router-dom';
+import { useOpen } from '@/shared/hooks';
+import { useState } from 'react';
 
 export const Footer = () => {
   const { t } = useTranslation('footer');
+  const { isOpen, toggleOpen } = useOpen();
+  const [selectedDocument, setSelectedDocument] = useState<string>('');
+
+  const handleDocumentClick = (url: string) => {
+    setSelectedDocument(url);
+    toggleOpen();
+  };
 
   const inputList = [
     {
@@ -47,24 +56,13 @@ export const Footer = () => {
     },
   ];
 
-  const documentList = [
-    {
-      title: t('body.document.1.title'),
-      // url: `${import.meta.env.BASE_URL}${t('body.document.1.url')}`,
-    },
-    {
-      title: t('body.document.2.title'),
-      // url: `${import.meta.env.BASE_URL}${t('body.document.2.url')}`,
-    },
-    {
-      title: t('body.document.3.title'),
-      // url: `${import.meta.env.BASE_URL}${t('body.document.3.url')}`,
-    },
-    {
-      title: t('body.document.4.title'),
-      // url: `${import.meta.env.BASE_URL}${t('body.document.4.url')}`,
-    },
-  ];
+  const documentList = Array.from({ length: 4 }, (_, index) => {
+    const i: number = index + 1;
+    return {
+      title: t(`body.document.${i}.title`),
+      url: t(`body.document.${i}.url`),
+    };
+  });
 
   const navList = [
     { title: t('body.nav.title.1'), url: 'coop' },
@@ -144,18 +142,20 @@ export const Footer = () => {
                     key={item.title}
                     className={styles['footer__documents-item']}
                   >
-                    <a
+                    <div
                       className={styles['footer__documents-link']}
-                      // href={item.url}
-                      download={`${item.title}.pdf`}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      onClick={() => handleDocumentClick(item.url)}
                     >
                       {item.title}
-                    </a>
+                    </div>
                   </li>
                 ))}
               </ul>
+              <DocumentModal
+                isOpen={isOpen}
+                f={toggleOpen}
+                pdfUrl={selectedDocument}
+              />
             </div>
             <div className={styles['footer__info']}>
               <a

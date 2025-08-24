@@ -130,6 +130,7 @@
       @include reset-link;
       transition-property: color;
       transition-duration: var(--transition-duration);
+      cursor: pointer;
 
       &.active {
         color: var(--color-accent);

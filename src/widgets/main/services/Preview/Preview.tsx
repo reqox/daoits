@@ -24,14 +24,6 @@ export const Preview = () => {
       to: 'web',
       buttonText: t('preview.button.text'),
     },
-    {
-      title: t('preview.card.3.title'),
-      description: t('preview.card.3.description'),
-      srcImg: Preview1Image,
-      alt: t('preview.card.3.alt'),
-      to: 'promotion',
-      buttonText: t('preview.button.text'),
-    },
   ];
 
   return (

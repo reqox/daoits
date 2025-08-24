@@ -1,0 +1,86 @@
+// DocumentModal.module.scss
+
+.document {
+  @include flex();
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  @include backdrop(12);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  padding: var(--container-padding-x);
+
+  body[data-theme='light'] & {
+    background-color: rgba(250, 250, 250, 0.3);
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    width: 100%;
+    height: 80vh;
+    background-color: var(--color-light);
+    box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+  }
+
+  &-header {
+    @include flex(flex, space-between);
+    background: #333333;
+    color: white;
+    padding: rem(16) rem(24);
+  }
+
+  &-title {
+    font-size: clamp(#{rem(16)}, 0.956rem + 0.222vw, #{rem(18)});
+  }
+
+  &-button {
+    position: relative;
+    @include square(#{clamp(#{rem(24)}, 1.233rem + 1.333vw, #{rem(36)})});
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    transition-property: transform, background-color;
+    transition-duration: var(--transition-duration);
+
+    & > span {
+      @include abs-center;
+      width: 50%;
+      height: rem(2);
+      background-color: var(--color-light);
+
+      &:first-child {
+        transform: rotate(-45deg);
+      }
+
+      &:last-child {
+        transform: rotate(45deg);
+      }
+    }
+
+    @include hover {
+      transform: rotate(180deg);
+      background-color: rgba(150, 150, 150, 0.3);
+    }
+  }
+
+  &__pdf {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__pdf-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+}

@@ -1,6 +1,11 @@
 import clsx from 'clsx';
 import styles from './DocumentModal.module.scss';
-import { useEffect, useRef, type FC } from 'react';
+import { useEffect, useRef, useState, type FC } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 interface DocumentModalProps {
   isOpen: boolean;
@@ -25,9 +30,38 @@ export const DocumentModal: FC<DocumentModalProps> = ({
     };
   }, [isOpen]);
 
+  const [numPages, setNumPages] = useState<number>(0);
+  const pages = Array.from({ length: numPages }, (_, i) => i + 1);
+
+  function onDocumentLoadSuccess({ numPages }: { numPages: number }) {
+    setNumPages(numPages);
+  }
+
+  const handleBackdropClick = (e: React.MouseEvent) => {
+    if (e.target === e.currentTarget) {
+      f();
+    }
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isOpen) {
+        f();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, f]);
+
   return (
     isOpen && (
-      <section className={styles['document']}>
+      <section className={styles['document']} onClick={handleBackdropClick}>
         <div className={clsx(styles['document__inner'])}>
           <div className={styles['document-header']}>
             <h2 className={styles['document-title']}>PDF</h2>
@@ -37,8 +71,23 @@ export const DocumentModal: FC<DocumentModalProps> = ({
             </button>
           </div>
 
-          <div className={styles['document__pdf']}>
-            <iframe src={pdfUrl} className={styles['document__pdf-frame']} />
+          <div className={styles['document__body']}>
+            <Document
+              className={styles['document__body-viewer']}
+              file={pdfUrl}
+              onLoadSuccess={onDocumentLoadSuccess}
+            >
+              {pages.map((page) => (
+                <Page
+                  className={styles['document__body-page']}
+                  key={`page_${page}`}
+                  pageNumber={page}
+                  renderAnnotationLayer={true}
+                  renderTextLayer={true}
+                  scale={1.3}
+                />
+              ))}
+            </Document>
           </div>
         </div>
       </section>

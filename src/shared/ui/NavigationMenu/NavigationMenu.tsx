@@ -46,42 +46,42 @@ export const NavigationMenu: React.FC<iNavigationMenu> = ({ isHidden, f }) => {
         }, */
       ],
     },
-    {
-      title: t('navigation.developments.title'),
-      to: 'developments',
-      dropdown: [
-        {
-          title: t('navigation.developments.dropdown.defibridge'),
-          to: 'developments/defibridge',
-        },
-        {
-          title: t('navigation.developments.dropdown.economy'),
-          to: 'developments/economy',
-        },
-        {
-          title: t('navigation.developments.dropdown.feonyx'),
-          to: 'developments/feonyx',
-        },
-      ],
-    },
+    // {
+    //   title: t('navigation.developments.title'),
+    //   to: 'developments',
+    //   dropdown: [
+    //     {
+    //       title: t('navigation.developments.dropdown.defibridge'),
+    //       to: 'developments/defibridge',
+    //     },
+    //     {
+    //       title: t('navigation.developments.dropdown.economy'),
+    //       to: 'developments/economy',
+    //     },
+    //     {
+    //       title: t('navigation.developments.dropdown.feonyx'),
+    //       to: 'developments/feonyx',
+    //     },
+    //   ],
+    // },
     {
       title: t('navigation.blockchain.title'),
       to: 'blockchain',
     },
-    {
-      title: t('navigation.tokenomics.title'),
-      to: 'tokenomics',
-      dropdown: [
-        {
-          title: t('navigation.tokenomics.dropdown.ifehu'),
-          to: 'tokenomics/ifehu',
-        },
-        {
-          title: t('navigation.tokenomics.dropdown.investor'),
-          to: 'tokenomics/investor',
-        },
-      ],
-    },
+    // {
+    //   title: t('navigation.tokenomics.title'),
+    //   to: 'tokenomics',
+    //   dropdown: [
+    //     {
+    //       title: t('navigation.tokenomics.dropdown.ifehu'),
+    //       to: 'tokenomics/ifehu',
+    //     },
+    //     {
+    //       title: t('navigation.tokenomics.dropdown.investor'),
+    //       to: 'tokenomics/investor',
+    //     },
+    //   ],
+    // },
   ];
 
   return (

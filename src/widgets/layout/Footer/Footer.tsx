@@ -67,9 +67,9 @@ export const Footer = () => {
   const navList = [
     { title: t('body.nav.title.1'), url: 'coop' },
     { title: t('body.nav.title.2'), url: 'services' },
-    { title: t('body.nav.title.3'), url: 'dev' },
+    // { title: t('body.nav.title.3'), url: 'dev' },
     { title: t('body.nav.title.4'), url: 'blockchain' },
-    { title: t('body.nav.title.5'), url: 'tokenomics' },
+    // { title: t('body.nav.title.5'), url: 'tokenomics' },
   ];
 
   return (

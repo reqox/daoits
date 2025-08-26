@@ -2,7 +2,7 @@ import './BurgerMenu.scss';
 import * as React from 'react';
 import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import { LogoSvg } from '@/shared/assets/icons';
+import { LogoPng } from '@/shared/assets/icons';
 import { NavigationMenu, SwitchLanguage, SwitchTheme } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 
@@ -38,7 +38,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
         <NavLink to={'/'} className="menu__logo">
           <img
             className="menu__logo-image"
-            src={LogoSvg}
+            src={LogoPng}
             alt="Logo ITS"
             width="100"
             height="100"
@@ -74,7 +74,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
           </div>
           <div className="menu__telegram">
             <a
-              href={`https://t.me/${import.meta.env.VITE_TELEGRAM}`}
+              href={`{import.meta.env.VITE_TELEGRAM}`}
               className="menu__telegram-link"
               target={'_blank'}
             >

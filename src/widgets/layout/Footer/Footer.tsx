@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Footer.module.scss';
 import { useTranslation } from 'react-i18next';
-import { LogoSvg } from '@/shared/assets/icons';
+import { LogoPng } from '@/shared/assets/icons';
 import { DocumentModal, TelegramLink } from '@/shared/ui';
 import { Link, NavLink } from 'react-router-dom';
 import { useOpen } from '@/shared/hooks';
@@ -115,7 +115,7 @@ export const Footer = () => {
           <div className={styles['footer__main']}>
             <img
               className={styles['footer-logo']}
-              src={LogoSvg}
+              src={LogoPng}
               alt={''}
               width={100}
               height={100}

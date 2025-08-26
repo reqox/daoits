@@ -1,6 +1,6 @@
 import './Header.scss';
 import { useTranslation } from 'react-i18next';
-import { LogoSvg } from '@/shared/assets/icons';
+import { LogoPng } from '@/shared/assets/icons';
 import {
   BurgerButton,
   BurgerMenu,
@@ -49,7 +49,7 @@ export const Header = () => {
                 'header__navigation-image',
                 isOpen && 'header__navigation-image--hidden',
               )}
-              src={LogoSvg}
+              src={LogoPng}
               alt="Logo ITS"
               width={100}
               height={75}

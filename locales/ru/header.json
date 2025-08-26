@@ -1,7 +1,7 @@
 {
   "interaction": {
     "lang": "EN",
-    "contactUs": "Связаться с нами"
+    "coop": "DAO ITS Co-op"
   },
   "attr": {
     "changeLang": "Изменить язык",
@@ -16,42 +16,8 @@
     "closeMenu": "Закрыть меню",
     "openMenu": "Открыть меню"
   },
-  "navigation": {
-    "coop": {
-      "title": "DAO ITS Coop",
-      "dropdown": {
-        "opensource": "OPEN-SOURCE",
-        "description": "Описание проекта"
-      }
-    },
-    "services": {
-      "title": "Услуги",
-      "dropdown": {
-        "app": "Разработка приложений",
-        "web": "Разработка сайтов",
-        "promotion": "Продвижение проектов"
-      }
-    },
-    "developments": {
-      "title": "Наши разработки",
-      "dropdown": {
-        "defibridge": "Кошелек DefiBridge",
-        "economy": "Мировая экономика",
-        "feonyx": "Блокчейн FEONYX"
-      }
-    },
-    "blockchain": {
-      "title": "Блокчейн"
-    },
-    "tokenomics": {
-      "title": "Токеномика",
-      "dropdown": {
-        "ifehu": "iFehu",
-        "investor": "Инвестору"
-      }
-    }
-  },
   "burger": {
+    "logo": "Логотип DAO ITS",
     "menu": {
       "navigation": "Навигация",
       "settings": "Настройки",

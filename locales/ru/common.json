@@ -7,5 +7,40 @@
   "developing": {
     "title": "503 Service Unavailable",
     "description": "Страница в разработке"
+  },
+  "navigation": {
+    "coop": {
+      "title": "DAO ITS Coop",
+      "dropdown": {
+        "opensource": "OPEN-SOURCE",
+        "description": "Описание проекта"
+      }
+    },
+    "services": {
+      "title": "Услуги",
+      "dropdown": {
+        "app": "Разработка приложений",
+        "web": "Разработка сайтов",
+        "promotion": "Продвижение проектов"
+      }
+    },
+    "developments": {
+      "title": "Наши разработки",
+      "dropdown": {
+        "defibridge": "Кошелек DefiBridge",
+        "economy": "Мировая экономика",
+        "feonyx": "Блокчейн FEONYX"
+      }
+    },
+    "blockchain": {
+      "title": "Блокчейн"
+    },
+    "tokenomics": {
+      "title": "Токеномика",
+      "dropdown": {
+        "ifehu": "iFehu",
+        "investor": "Инвестору"
+      }
+    }
   }
 }

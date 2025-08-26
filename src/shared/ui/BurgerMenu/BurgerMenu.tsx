@@ -47,112 +47,110 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
   }, [isOpen, f]);
 
   return (
-    isOpen && (
-      <div className={styles['menu']}>
-        <div className={styles['menu__inner']}>
-          <div className={styles['menu__header']}>
-            <NavLink to={'/'} className={styles['menu__header-link']}>
-              <img
-                className={styles['menu__header-logo']}
-                src={LogoPng}
-                alt={''}
-                width={100}
-                height={100}
-                loading={'lazy'}
-              />
-            </NavLink>
-          </div>
-          <div className={styles['menu__main']}>
-            <nav className={styles['menu__navigation']}>
+    <div className={clsx(styles['menu'], isOpen && styles['menu--opened'])}>
+      <div className={styles['menu__inner']}>
+        <div className={styles['menu__header']}>
+          <NavLink to={'/'} className={styles['menu__header-link']}>
+            <img
+              className={styles['menu__header-logo']}
+              src={LogoPng}
+              alt={''}
+              width={100}
+              height={100}
+              loading={'lazy'}
+            />
+          </NavLink>
+        </div>
+        <div className={styles['menu__main']}>
+          <nav className={styles['menu__navigation']}>
+            <div
+              className={clsx(
+                styles['menu__navigation-title'],
+                styles['menu__main-title'],
+              )}
+              dangerouslySetInnerHTML={{
+                __html: t('burger.menu.navigation'),
+              }}
+            ></div>
+            <div className={styles['menu__scroll']}>
+              <ul className={styles['menu__navigation-list']}>
+                {NavigationLinks.map((item, id) => (
+                  <li key={id} className={styles['menu__navigation-item']}>
+                    <NavLink
+                      to={item.to}
+                      className={styles['menu__navigation-link']}
+                      onClick={f}
+                    >
+                      {tc(item.title)}
+                    </NavLink>
+                    {item.dropdown && (
+                      <ul className={styles['menu__dropdown-list']}>
+                        {item.dropdown.map((subItem, idx) => (
+                          <li
+                            key={idx}
+                            className={styles['menu__dropdown-item']}
+                          >
+                            <NavLink
+                              className={styles['menu__dropdown-link']}
+                              to={subItem.to}
+                              onClick={f}
+                            >
+                              {tc(subItem.title)}
+                            </NavLink>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ul>{' '}
+            </div>
+          </nav>
+          <div className={styles['menu__settings']}>
+            <div
+              className={clsx(
+                styles['menu__settings-title'],
+                styles['menu__main-title'],
+              )}
+              dangerouslySetInnerHTML={{ __html: t('burger.menu.settings') }}
+            ></div>
+            <div className={styles['menu__lang']}>
               <div
-                className={clsx(
-                  styles['menu__navigation-title'],
-                  styles['menu__main-title'],
-                )}
+                className={styles['menu__lang-title']}
                 dangerouslySetInnerHTML={{
-                  __html: t('burger.menu.navigation'),
+                  __html: t('burger.menu.language'),
                 }}
               ></div>
-              <div className={styles['menu__scroll']}>
-                <ul className={styles['menu__navigation-list']}>
-                  {NavigationLinks.map((item, id) => (
-                    <li key={id} className={styles['menu__navigation-item']}>
-                      <NavLink
-                        to={item.to}
-                        className={styles['menu__navigation-link']}
-                        onClick={f}
-                      >
-                        {tc(item.title)}
-                      </NavLink>
-                      {item.dropdown && (
-                        <ul className={styles['menu__dropdown-list']}>
-                          {item.dropdown.map((subItem, idx) => (
-                            <li
-                              key={idx}
-                              className={styles['menu__dropdown-item']}
-                            >
-                              <NavLink
-                                className={styles['menu__dropdown-link']}
-                                to={subItem.to}
-                                onClick={f}
-                              >
-                                {tc(subItem.title)}
-                              </NavLink>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>{' '}
-              </div>
-            </nav>
-            <div className={styles['menu__settings']}>
+              <SwitchLanguage />
+            </div>
+            <div className={styles['menu__theme']}>
               <div
-                className={clsx(
-                  styles['menu__settings-title'],
-                  styles['menu__main-title'],
-                )}
-                dangerouslySetInnerHTML={{ __html: t('burger.menu.settings') }}
+                className={styles['menu__theme-title']}
+                dangerouslySetInnerHTML={{ __html: t('burger.menu.theme') }}
               ></div>
-              <div className={styles['menu__lang']}>
-                <div
-                  className={styles['menu__lang-title']}
-                  dangerouslySetInnerHTML={{
-                    __html: t('burger.menu.language'),
-                  }}
-                ></div>
-                <SwitchLanguage />
-              </div>
-              <div className={styles['menu__theme']}>
-                <div
-                  className={styles['menu__theme-title']}
-                  dangerouslySetInnerHTML={{ __html: t('burger.menu.theme') }}
-                ></div>
-                <SwitchTheme />
-              </div>
+              <SwitchTheme />
             </div>
           </div>
-          <div className={styles['menu__footer']}>
-            <a
-              href={import.meta.env.VITE_TELEGRAM}
-              className={clsx(
-                styles['menu__footer-telegram'],
-                styles['menu__footer-link'],
-              )}
-              dangerouslySetInnerHTML={{ __html: t('burger.menu.telegram') }}
-            ></a>
-            <a
-              href="#footer"
-              className={clsx(
-                styles['menu__footer-contact'],
-                styles['menu__footer-link'],
-              )}
-              dangerouslySetInnerHTML={{ __html: t('burger.menu.contactUs') }}
-            ></a>
-          </div>
+        </div>
+        <div className={styles['menu__footer']}>
+          <a
+            href={import.meta.env.VITE_TELEGRAM}
+            className={clsx(
+              styles['menu__footer-telegram'],
+              styles['menu__footer-link'],
+            )}
+            dangerouslySetInnerHTML={{ __html: t('burger.menu.telegram') }}
+          ></a>
+          <a
+            href="#footer"
+            className={clsx(
+              styles['menu__footer-contact'],
+              styles['menu__footer-link'],
+            )}
+            dangerouslySetInnerHTML={{ __html: t('burger.menu.contactUs') }}
+          ></a>
         </div>
       </div>
-    )
+    </div>
   );
 };

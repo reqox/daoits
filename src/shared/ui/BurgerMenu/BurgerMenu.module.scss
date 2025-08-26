@@ -6,28 +6,24 @@ $color-active: #{rgba(
 
 .menu {
   @include backdrop(24);
+  @include hide;
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(2 / 3 * 100%);
-  padding: rem(16);
+  width: 0;
   height: 100vh;
+  padding: rem(16);
   background: rgb(0, 0, 0, 0.6);
-  opacity: 0;
   z-index: var(--layer-md);
-  animation: show var(--transition-duration) ease-out forwards;
-  transform: translateX(100%);
-  transition-property: width;
+  transition-property: width, opacity;
   transition-duration: var(--transition-duration);
 
-  @include mobile {
-    width: 100%;
-  }
+  &--opened {
+    @include show;
+    width: calc(2 / 3 * 100%);
 
-  @keyframes show {
-    to {
-      transform: translateX(0);
-      opacity: 1;
+    @include mobile {
+      width: 100%;
     }
   }
 

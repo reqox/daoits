@@ -45,10 +45,7 @@ export const Header = () => {
         <div className="header__navigation">
           <NavLink to={'/'} className={'header__navigation-logo'}>
             <img
-              className={clsx(
-                'header__navigation-image',
-                isOpen && 'header__navigation-image--hidden',
-              )}
+              className={clsx('header__navigation-image')}
               src={LogoPng}
               alt="Logo ITS"
               width={100}

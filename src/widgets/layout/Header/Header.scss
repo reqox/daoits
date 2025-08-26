@@ -100,10 +100,7 @@
       height: clamp(#{rem(50)}, 0.479rem + 5.519vw, #{rem(75)});
       transition-property: opacity, visibility;
       transition-duration: var(--transition-duration);
-
-      &--hidden {
-        @include hide;
-      }
+      z-index: var(--layer-lg);
     }
   }
 }

@@ -1,10 +1,11 @@
-import './BurgerMenu.scss';
+import styles from './BurgerMenu.module.scss';
 import * as React from 'react';
 import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import { LogoPng } from '@/shared/assets/icons';
-import { NavigationList, SwitchLanguage, SwitchTheme } from '@/shared/ui';
+import { SwitchLanguage, SwitchTheme } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
+import { NavigationLinks } from '@/shared/lib';
+import clsx from 'clsx';
 
 interface iBurgerMenu {
   isOpen: boolean;
@@ -13,7 +14,9 @@ interface iBurgerMenu {
 
 export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
   const { t } = useTranslation('header');
+  const { t: tc } = useTranslation();
   const bodyRef = useRef(document.body);
+
   useEffect(() => {
     const style = bodyRef.current.style;
     if (isOpen) {
@@ -26,72 +29,117 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
     };
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isOpen) {
+        f();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, f]);
 
   return (
-    <div
-      id={'mobile-menu'}
-      className={'menu visible-tablet'}
-      aria-hidden={!isOpen}
-    >
-      <div className="menu__inner">
-        <NavLink to={'/'} className="menu__logo">
-          <img
-            className="menu__logo-image"
-            src={LogoPng}
-            alt="Logo ITS"
-            width="100"
-            height="100"
-            loading="lazy"
-            onClick={f}
-          />
-        </NavLink>
-        <div className="menu__main">
-          <div className="menu__main-title">{t('burger.menu.navigation')}</div>
-          <NavigationList f={f} />
-        </div>
-        <div className="menu__extra">
-          <div className="menu__settings">
-            <div className="menu__settings-title">
-              {t('burger.menu.settings')}
-            </div>
-            <div className="menu__settings__language">
-              <div className="menu__settings__language-info">
-                {t('burger.menu.language')}
+    isOpen && (
+      <div className={styles['menu']}>
+        <div className={styles['menu__inner']}>
+          <div className={styles['menu__main']}>
+            <nav className={styles['menu__navigation']}>
+              <div
+                className={clsx(
+                  styles['menu__navigation-title'],
+                  styles['menu__main-title'],
+                )}
+                dangerouslySetInnerHTML={{
+                  __html: t('burger.menu.navigation'),
+                }}
+              ></div>
+              <div className={styles['menu__scroll']}>
+                <ul className={styles['menu__navigation-list']}>
+                  {NavigationLinks.map((item, id) => (
+                    <li key={id} className={styles['menu__navigation-item']}>
+                      <NavLink
+                        to={item.to}
+                        className={styles['menu__navigation-link']}
+                        onClick={f}
+                      >
+                        {tc(item.title)}
+                      </NavLink>
+                      {item.dropdown && (
+                        <ul className={styles['menu__dropdown-list']}>
+                          {item.dropdown.map((subItem, idx) => (
+                            <li
+                              key={idx}
+                              className={styles['menu__dropdown-item']}
+                            >
+                              <NavLink
+                                className={styles['menu__dropdown-link']}
+                                to={subItem.to}
+                                onClick={f}
+                              >
+                                {tc(subItem.title)}
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>{' '}
               </div>
-              <div className="menu__settings__language-main">
+            </nav>
+            <div className={styles['menu__settings']}>
+              <div
+                className={clsx(
+                  styles['menu__settings-title'],
+                  styles['menu__main-title'],
+                )}
+                dangerouslySetInnerHTML={{ __html: t('burger.menu.settings') }}
+              ></div>
+              <div className={styles['menu__lang']}>
+                <div
+                  className={styles['menu__lang-title']}
+                  dangerouslySetInnerHTML={{
+                    __html: t('burger.menu.language'),
+                  }}
+                ></div>
                 <SwitchLanguage />
               </div>
-            </div>
-            <div className="menu__settings__theme">
-              <div className="menu__settings__settings-info">
-                {t('burger.menu.theme')}
-              </div>
-              <div className="menu__settings__settings-main">
+              <div className={styles['menu__theme']}>
+                <div
+                  className={styles['menu__theme-title']}
+                  dangerouslySetInnerHTML={{ __html: t('burger.menu.theme') }}
+                ></div>
                 <SwitchTheme />
               </div>
             </div>
           </div>
-          <div className="menu__telegram">
+          <div className={styles['menu__footer']}>
             <a
-              href={`{import.meta.env.VITE_TELEGRAM}`}
-              className="menu__telegram-link"
-              target={'_blank'}
-            >
-              <span className="menu__telegram-link-text">
-                {t('burger.menu.telegram')}
-              </span>
-            </a>
-          </div>
-          <div className="menu__contact-us">
-            <a href="#contact-us" className="menu__contact-us-link">
-              <span className="menu__contact-us-link-text">
-                {t('burger.menu.contactUs')}
-              </span>
-            </a>
+              href={import.meta.env.VITE_TELEGRAM}
+              className={clsx(
+                styles['menu__footer-telegram'],
+                styles['menu__footer-link'],
+              )}
+              dangerouslySetInnerHTML={{ __html: t('burger.menu.telegram') }}
+            ></a>
+            <a
+              href="#footer"
+              className={clsx(
+                styles['menu__footer-contact'],
+                styles['menu__footer-link'],
+              )}
+              dangerouslySetInnerHTML={{ __html: t('burger.menu.contactUs') }}
+            ></a>
           </div>
         </div>
       </div>
-    </div>
+    )
   );
 };

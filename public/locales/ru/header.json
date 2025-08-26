@@ -17,6 +17,7 @@
     "openMenu": "Открыть меню"
   },
   "burger": {
+    "logo": "Логотип DAO ITS",
     "menu": {
       "navigation": "Навигация",
       "settings": "Настройки",

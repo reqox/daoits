@@ -62,28 +62,15 @@
       @include flex;
       position: relative;
       text-decoration: none;
-      width: rem(200);
-      height: rem(40);
+      padding: rem(16);
       background-color: var(--color-accent);
       border-radius: var(--border-radius-rg);
       white-space: nowrap;
       transition-duration: var(--transition-duration);
 
       &-text {
-        position: relative;
         font-size: rem(16);
         color: var(--color-light);
-        padding-left: rem(26);
-
-        &::before {
-          @include square(rem(20));
-          position: absolute;
-          content: '';
-          top: 0;
-          left: 0;
-          background: url('/src/shared/assets/icons/ContactUs.svg')
-            center/contain no-repeat;
-        }
       }
 
       @include hover {

@@ -11,19 +11,11 @@ export const Banner = () => {
           <h1 className="banner-title">{t('title')}</h1>
           <div className="banner__subtitle">
             <div className="banner__subtitle-description">
-              <p>{t('banner.world')}</p>
-              <p>
-                <span className={'company'}>
-                  {import.meta.env.VITE_COMPANY}
-                </span>{' '}
-                – {t('banner.company')}
-              </p>
-              <p>
-                <span className={'company'}>
-                  {import.meta.env.VITE_COMPANY}
-                </span>{' '}
-                — {t('banner.ecosystem')}
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t('banner.world') }}></p>
+              <p dangerouslySetInnerHTML={{ __html: t('banner.company') }}></p>
+              <p
+                dangerouslySetInnerHTML={{ __html: t('banner.ecosystem') }}
+              ></p>
             </div>
           </div>
         </div>

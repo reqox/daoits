@@ -31,10 +31,6 @@
   &__actions {
     @include flex(flex, space-between, center);
     column-gap: rem(32);
-
-    &--hidden {
-      display: none;
-    }
   }
 
   &__email {

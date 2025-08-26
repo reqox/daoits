@@ -159,7 +159,7 @@ export const Footer = () => {
             </div>
             <div className={styles['footer__info']}>
               <a
-                href={`email:${import.meta.env.VITE_EMAIL}`}
+                href={`mailto:${import.meta.env.VITE_EMAIL}`}
                 className={styles['footer__info-link']}
               >
                 {import.meta.env.VITE_EMAIL}

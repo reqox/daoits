@@ -4,7 +4,7 @@ export { AccentButton } from './AccentButton/AccentButton';
 export { BurgerButton } from './BurgerButton/BurgerButton';
 export { InfoCard } from './InfoCard/InfoCard';
 export { InfoLink } from './InfoLink/InfoLink';
-export { NavigationMenu } from './NavigationMenu/NavigationMenu';
+export { NavigationList } from './NavigationList/NavigationList';
 export { ServiceCard } from './ServiceCard/ServiceCard';
 export { SwitchLanguage } from './SwitchLanguage/SwitchLanguage';
 export { SwitchTheme } from './SwitchTheme/SwitchTheme';

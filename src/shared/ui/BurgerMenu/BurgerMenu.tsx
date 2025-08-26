@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { LogoPng } from '@/shared/assets/icons';
-import { NavigationMenu, SwitchLanguage, SwitchTheme } from '@/shared/ui';
+import { NavigationList, SwitchLanguage, SwitchTheme } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 
 interface iBurgerMenu {
@@ -48,7 +48,7 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
         </NavLink>
         <div className="menu__main">
           <div className="menu__main-title">{t('burger.menu.navigation')}</div>
-          <NavigationMenu f={f} />
+          <NavigationList f={f} />
         </div>
         <div className="menu__extra">
           <div className="menu__settings">

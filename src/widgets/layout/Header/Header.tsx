@@ -4,7 +4,7 @@ import { LogoPng } from '@/shared/assets/icons';
 import {
   BurgerButton,
   BurgerMenu,
-  NavigationMenu,
+  NavigationList,
   SwitchLanguage,
   SwitchTheme,
   TelegramLink,
@@ -55,7 +55,7 @@ export const Header = () => {
               height={75}
             />
           </NavLink>
-          <NavigationMenu />
+          <NavigationList />
           <BurgerButton onClick={toggleOpen} isActive={isOpen} />
           <BurgerMenu isOpen={isOpen} f={toggleOpen} />
         </div>

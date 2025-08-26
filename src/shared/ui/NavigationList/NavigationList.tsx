@@ -1,15 +1,15 @@
-import './NavigationMenu.scss';
+import './NavigationList.scss';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import * as React from 'react';
 import clsx from 'clsx';
 import { NavigationLinks } from '@/shared/lib';
 
-interface iNavigationMenu {
+interface iNavigationList {
   f?: () => void;
 }
 
-export const NavigationMenu: React.FC<iNavigationMenu> = ({ f }) => {
+export const NavigationList: React.FC<iNavigationList> = ({ f }) => {
   const { t } = useTranslation('header');
 
   return (

@@ -13,6 +13,7 @@ import {
   CoopPage,
   DescriptionPage,
   BlockchainPage,
+  BridgePage,
 } from '@/pages';
 import { ScrollToTop } from '@/shared/ui';
 
@@ -32,13 +33,13 @@ const App = () => {
           <Route path={'services/app'} element={<AppPage />} />
           <Route path={'services/web'} element={<WebPage />} />
 
+          <Route path={'developments/defibridge'} element={<BridgePage />} />
           <Route path={'blockchain'} element={<BlockchainPage />} />
         </Route>
 
         <Route path={'services/promotion'} element={<DevelopingPage />} />
 
         <Route path={'developments'} element={<DevelopingPage />} />
-        <Route path={'developments/defibridge'} element={<DevelopingPage />} />
         <Route path={'developments/economy'} element={<DevelopingPage />} />
         <Route path={'developments/feonyx'} element={<DevelopingPage />} />
 

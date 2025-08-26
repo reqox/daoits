@@ -6,9 +6,11 @@ import { DocumentModal, TelegramLink } from '@/shared/ui';
 import { Link, NavLink } from 'react-router-dom';
 import { useOpen } from '@/shared/hooks';
 import { useState } from 'react';
+import { NavigationLinks } from '@/shared/lib';
 
 export const Footer = () => {
   const { t } = useTranslation('footer');
+  const { t: tc } = useTranslation();
   const { isOpen, toggleOpen } = useOpen();
   const [selectedDocument, setSelectedDocument] = useState<string>('');
 
@@ -64,14 +66,6 @@ export const Footer = () => {
     };
   });
 
-  const navList = [
-    { title: t('body.nav.title.1'), url: 'coop' },
-    { title: t('body.nav.title.2'), url: 'services' },
-    // { title: t('body.nav.title.3'), url: 'dev' },
-    { title: t('body.nav.title.4'), url: 'blockchain' },
-    // { title: t('body.nav.title.5'), url: 'tokenomics' },
-  ];
-
   return (
     <footer className={styles['footer']}>
       <div className={clsx(styles['footer__inner'], 'container')}>
@@ -123,13 +117,13 @@ export const Footer = () => {
             />
             <nav className={styles['footer__nav']}>
               <ul className={styles['footer__nav-list']}>
-                {navList.map((item) => (
+                {NavigationLinks.map((item) => (
                   <li key={item.title} className={styles['footer__nav-item']}>
                     <NavLink
-                      to={item.url}
+                      to={item.to}
                       className={styles['footer__nav-link']}
                     >
-                      {item.title}
+                      {tc(item.title)}
                     </NavLink>
                   </li>
                 ))}

@@ -10,7 +10,7 @@ interface iNavigationList {
 }
 
 export const NavigationList: React.FC<iNavigationList> = ({ f }) => {
-  const { t } = useTranslation('header');
+  const { t } = useTranslation();
 
   return (
     <nav className={clsx('navigation')} aria-label={'navigation menu'}>

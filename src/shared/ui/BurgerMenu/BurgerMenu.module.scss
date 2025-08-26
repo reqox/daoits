@@ -12,11 +12,6 @@ $color-active: #{rgba(
   width: calc(2 / 3 * 100%);
   padding: rem(16);
   height: 100vh;
-
-  @supports (height: 100dvh) {
-    height: 100dvh;
-  }
-
   background: rgb(0, 0, 0, 0.6);
   opacity: 0;
   z-index: var(--layer-md);
@@ -166,5 +161,9 @@ $color-active: #{rgba(
         background-color: var(--color-accent-alt);
       }
     }
+  }
+
+  @supports (height: 100dvh) {
+    height: 100dvh;
   }
 }

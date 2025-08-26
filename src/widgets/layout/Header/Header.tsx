@@ -27,7 +27,7 @@ export const Header = () => {
               href={`mailto:${import.meta.env.VITE_EMAIL}`}
             >
               <span className="header__email-text">
-                ${import.meta.env.VITE_EMAIL}
+                {import.meta.env.VITE_EMAIL}
               </span>
             </a>
             <div className="header__interaction">
@@ -55,7 +55,7 @@ export const Header = () => {
               height={75}
             />
           </NavLink>
-          <NavigationMenu isHidden={true} />
+          <NavigationMenu />
           <BurgerButton onClick={toggleOpen} isActive={isOpen} />
           <BurgerMenu isOpen={isOpen} f={toggleOpen} />
         </div>

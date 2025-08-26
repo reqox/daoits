@@ -88,6 +88,11 @@
       transition-property: opacity, visibility;
       transition-duration: var(--transition-duration);
       z-index: var(--layer-lg);
+
+      &--hidden {
+        opacity: 0;
+        visibility: none;
+      }
     }
   }
 }

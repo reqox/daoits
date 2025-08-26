@@ -6,6 +6,7 @@ import { SwitchLanguage, SwitchTheme } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 import { NavigationLinks } from '@/shared/lib';
 import clsx from 'clsx';
+import { LogoPng } from '@/shared/assets/icons';
 
 interface iBurgerMenu {
   isOpen: boolean;
@@ -49,6 +50,18 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
     isOpen && (
       <div className={styles['menu']}>
         <div className={styles['menu__inner']}>
+          <div className={styles['menu__header']}>
+            <NavLink to={'/'} className={styles['menu__header-link']}>
+              <img
+                className={styles['menu__header-logo']}
+                src={LogoPng}
+                alt={''}
+                width={100}
+                height={100}
+                loading={'lazy'}
+              />
+            </NavLink>
+          </div>
           <div className={styles['menu__main']}>
             <nav className={styles['menu__navigation']}>
               <div

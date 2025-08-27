@@ -1,4 +1,4 @@
-import { Banner, Description } from '@/widgets/main/bridge';
+import { Banner, Description, Functions } from '@/widgets/main/bridge';
 import { Fragment } from 'react/jsx-runtime';
 
 export const BridgePage = () => {
@@ -6,6 +6,7 @@ export const BridgePage = () => {
     <Fragment>
       <Banner />
       <Description />
+      <Functions />
     </Fragment>
   );
 };

@@ -142,12 +142,12 @@ export const BurgerMenu: React.FC<iBurgerMenu> = ({ isOpen, f }) => {
             dangerouslySetInnerHTML={{ __html: t('burger.menu.telegram') }}
           ></a>
           <a
-            href="#footer"
+            href="#"
             className={clsx(
               styles['menu__footer-contact'],
               styles['menu__footer-link'],
             )}
-            dangerouslySetInnerHTML={{ __html: t('burger.menu.contactUs') }}
+            dangerouslySetInnerHTML={{ __html: t('burger.menu.coop') }}
           ></a>
         </div>
       </div>

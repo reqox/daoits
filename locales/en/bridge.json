@@ -1,0 +1,104 @@
+{
+  "banner": {
+    "title": "Innovative <br> multifunctional <br> crypto wallet",
+    "alt": "Screenshot of the DeFiBridge application interface"
+  },
+  "description": {
+    "text": {
+      "1": "Combines the capabilities of storing, exchanging, trading, and managing digital assets, including cryptocurrencies, NFTs, and fiat currencies.",
+      "2": "This wallet is designed for the convenience of both novice users and experienced crypto enthusiasts, offering all the necessary tools in one application."
+    }
+  },
+  "functions": {
+    "title": "Core Features of DeFiBridge",
+    "1": {
+      "title": "Universal Asset Storage",
+      "list": [
+        "Securely store your cryptocurrencies — from Bitcoin and Ethereum to Solana and beyond.",
+        "Keep your NFTs safe, whether ERC-721, ERC-1155, TRC-20, or other token standards.",
+        "Seamlessly connect fiat currencies (USD, EUR, RUB, and more) through linked cards and bank accounts."
+      ]
+    },
+    "2": {
+      "title": "Best-Rate Exchange",
+      "list": [
+        "Automatically get the most profitable exchange rates for crypto and fiat.",
+        "Enjoy instant cross-chain swaps between multiple blockchains without hassle."
+      ]
+    },
+    "3": {
+      "title": "NFT Management Made Easy",
+      "list": [
+        "Store, view, and transfer your NFTs in one place.",
+        "Trade directly on leading NFT marketplaces with built-in integration.",
+        "Easily access metadata and media linked to your NFTs."
+      ]
+    },
+    "4": {
+      "title": "Flexible Wallet Options",
+      "list": [
+        "Create new wallets on Ethereum, BNB Chain, Solana, and more — in just a few clicks.",
+        "Import existing wallets via private keys, seed phrases, or hardware devices like Ledger and Trezor."
+      ]
+    },
+    "5": {
+      "title": "Next-Level Security",
+      "list": [
+        "Multi-layered protection with 2FA, biometrics, and advanced encryption.",
+        "Optional multisignature wallets for maximum safety and peace of mind."
+      ]
+    },
+    "6": {
+      "title": "Fiat Integration",
+      "list": [
+        "Top up and withdraw funds easily via bank cards and accounts.",
+        "Low-fee transfers between fiat and crypto anytime, anywhere."
+      ]
+    },
+    "7": {
+      "title": "Cross-Platform Access",
+      "list": [
+        "Use DeFiBridge on iOS, Android, Windows, macOS, or directly in your browser.",
+        "Stay synced across all your devices effortlessly."
+      ]
+    },
+    "8": {
+      "title": "Full DeFi Support",
+      "list": [
+        "Connect to leading dApps and DeFi protocols with ease.",
+        "Participate in staking, farming, and other DeFi opportunities directly."
+      ]
+    },
+    "9": {
+      "title": "User-Friendly Interface",
+      "list": [
+        "Clean, intuitive design with customizable dashboards.",
+        "Dark/light themes and multilingual support for a truly global experience."
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Advantages of DeFiBridge",
+    "list": {
+      "1": {
+        "title": "All-in-One:",
+        "body": "No more need to use multiple apps for storing, exchanging, and trading cryptocurrency."
+      },
+      "2": {
+        "title": "Flexibility:",
+        "body": "Supports both new and existing wallets."
+      },
+      "3": {
+        "title": "Accessibility:",
+        "body": "Fiat integration makes cryptocurrency easier for everyday users."
+      },
+      "4": {
+        "title": "Security:",
+        "body": "Reliable methods to protect your data and assets."
+      }
+    }
+  },
+  "bridge": {
+    "description": "It's not just a wallet, but a full-fledged ecosystem tool for managing digital assets that makes cryptocurrency accessible, convenient, and secure for everyone."
+  }
+}

@@ -76,5 +76,26 @@
         "Dark/light themes and multilingual support for a truly global experience."
       ]
     }
+  },
+  "advantages": {
+    "title": "Advantages of DeFiBridge",
+    "list": {
+      "1": {
+        "title": "All-in-One:",
+        "body": "No more need to use multiple apps for storing, exchanging, and trading cryptocurrency."
+      },
+      "2": {
+        "title": "Flexibility:",
+        "body": "Supports both new and existing wallets."
+      },
+      "3": {
+        "title": "Accessibility:",
+        "body": "Fiat integration makes cryptocurrency easier for everyday users."
+      },
+      "4": {
+        "title": "Security:",
+        "body": "Reliable methods to protect your data and assets."
+      }
+    }
   }
 }

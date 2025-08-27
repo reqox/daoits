@@ -7,6 +7,10 @@
     row-gap: var(--inner-row-gap);
   }
 
+  &-title {
+    text-align: center;
+  }
+
   &-list {
     display: flex;
     flex-direction: column;
@@ -60,6 +64,12 @@
       display: flex;
       flex-direction: column;
       row-gap: clamp(#{rem(8)}, 0.142rem + 1.79vw, #{rem(16)});
+      color: var(--color-grey-main);
+      transition-duration: var(--transition-duration);
+
+      @include light {
+        color: var(--color-dark);
+      }
     }
 
     &-item {

@@ -1,3 +1,4 @@
-import BridgeWalletPng from './banner/Wallet.png';
+import BridgeWalletPng from './Wallet.png';
+import BridgeDiagramPng from './Diagram.png';
 
-export { BridgeWalletPng };
+export { BridgeWalletPng, BridgeDiagramPng };

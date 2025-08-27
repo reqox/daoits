@@ -2,5 +2,11 @@
   "banner": {
     "title": "Innovative <br> multifunctional <br> crypto wallet",
     "alt": "Screenshot of the DeFiBridge application interface"
+  },
+  "description": {
+    "text": {
+      "1": "Combines the capabilities of storing, exchanging, trading, and managing digital assets, including cryptocurrencies, NFTs, and fiat currencies.",
+      "2": "This wallet is designed for the convenience of both novice users and experienced crypto enthusiasts, offering all the necessary tools in one application."
+    }
   }
 }

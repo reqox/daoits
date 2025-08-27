@@ -50,3 +50,9 @@
 @mixin backdrop($blur) {
   backdrop-filter: blur(#{$blur}px);
 }
+
+@mixin light {
+  body[data-theme='light'] & {
+    @content;
+  }
+}

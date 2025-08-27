@@ -1,0 +1,48 @@
+.description {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+  }
+
+  &-title {
+    position: relative;
+    padding-left: 1em;
+
+    &::before {
+      @include square(1em);
+      content: '';
+      position: absolute;
+      background: url('/src/shared/assets/icons/bridge/stars.svg')
+        center/contain no-repeat;
+      top: 50%;
+      left: 0;
+      translate: -50% -50%;
+    }
+  }
+
+  &__text {
+    color: var(--color-grey-main);
+
+    @include light {
+      color: var(--color-dark);
+    }
+  }
+
+  &-image {
+    width: rem(500);
+    height: auto;
+  }
+}

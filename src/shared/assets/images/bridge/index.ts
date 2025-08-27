@@ -10,8 +10,11 @@ import BridgeFunc6Img from './functions/6.png';
 import BridgeFunc7Img from './functions/7.png';
 import BridgeFunc8Img from './functions/8.png';
 
+import BridgeImg from './Bridge.png';
+
 export {
   BridgeWalletPng,
+  BridgeImg,
   BridgeDiagramPng,
   BridgeFunc1Img,
   BridgeFunc2Img,

@@ -1,0 +1,34 @@
+.bridge {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+
+    @include laptop {
+      @include flex(flex, center, start);
+      flex-direction: column;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &-description {
+    color: var(--color-grey-main);
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+
+    @include light {
+      color: var(--color-dark);
+    }
+  }
+
+  &-image {
+    width: rem(500);
+    height: auto;
+  }
+}

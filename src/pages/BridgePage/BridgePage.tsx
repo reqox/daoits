@@ -1,6 +1,7 @@
 import {
   Advantages,
   Banner,
+  Bridge,
   Description,
   Functions,
 } from '@/widgets/main/bridge';
@@ -13,6 +14,7 @@ export const BridgePage = () => {
       <Description />
       <Functions />
       <Advantages />
+      <Bridge />
     </Fragment>
   );
 };

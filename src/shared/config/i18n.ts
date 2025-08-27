@@ -24,6 +24,7 @@ i18n
       'services',
       'coop',
       'blockchain',
+      'bridge',
     ],
     defaultNS: 'common',
 

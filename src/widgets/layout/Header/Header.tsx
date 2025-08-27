@@ -16,7 +16,7 @@ import { useOpen, useScroll } from '@/shared/hooks';
 export const Header = () => {
   const { isOpen, toggleOpen } = useOpen();
   const { t } = useTranslation('header');
-  const isScrolled = useScroll(40, 100);
+  const isScrolled = useScroll(40, 140);
   return (
     <header className={clsx('header', isOpen && 'header--hidden')}>
       <div className={'header__inner container'}>

@@ -1,0 +1,51 @@
+.banner {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    @include flex();
+    flex-direction: column;
+    gap: var(--inner-row-gap);
+
+    max-width: calc(rem(1740) - var(--container-padding-x) * 2);
+    padding-inline: var(--container-padding-x);
+    padding-block: var(--section-padding-y);
+    margin-inline: auto;
+    background-color: var(--color-dark-alt);
+    border-radius: var(--border-radius-lg);
+    transition-duration: var(--transition-duration);
+
+    body[data-theme='light'] & {
+      background-color: var(--color-light-grey);
+    }
+  }
+
+  &__title {
+    @include flex();
+    flex-direction: column;
+    &-title {
+      text-align: center;
+      font-size: clamp(#{rem(24)}, 0.7rem + 4vw, #{rem(60)});
+    }
+
+    &-bridgeName {
+      position: relative;
+      padding-left: 1em;
+
+      &::before {
+        @include square(1em);
+        content: '';
+        position: absolute;
+        background: url('/src/shared/assets/icons/bridge/stars.svg')
+          center/contain no-repeat;
+        top: 50%;
+        left: 0;
+        translate: -50% -50%;
+      }
+    }
+  }
+
+  &-image {
+    width: clamp(#{rem(300)}, 4.306rem + 72.222vw, #{rem(950)});
+    height: auto;
+  }
+}

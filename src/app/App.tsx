@@ -14,6 +14,7 @@ import {
   DescriptionPage,
   BlockchainPage,
   BridgePage,
+  EconomyPage,
 } from '@/pages';
 import { ScrollToTop } from '@/shared/ui';
 
@@ -34,7 +35,7 @@ const App = () => {
           <Route path={'services/web'} element={<WebPage />} />
 
           <Route path={'developments/defibridge'} element={<BridgePage />} />
-          <Route path={'developments/economy'} element={<DevelopingPage />} />
+          <Route path={'developments/economy'} element={<EconomyPage />} />
 
           <Route path={'blockchain'} element={<BlockchainPage />} />
         </Route>

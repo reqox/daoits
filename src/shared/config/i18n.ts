@@ -25,6 +25,7 @@ i18n
       'coop',
       'blockchain',
       'bridge',
+      'economy',
     ],
     defaultNS: 'common',
 

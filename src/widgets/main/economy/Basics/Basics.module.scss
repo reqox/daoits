@@ -20,4 +20,21 @@
   &-item {
     display: flex;
   }
+
+  &__image {
+    background-color: var(--color-dark-alt);
+    border-radius: var(--border-radius-md);
+    padding: rem(16);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+
+    @include light {
+      background-color: var(--color-light-grey);
+    }
+
+    &-img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }

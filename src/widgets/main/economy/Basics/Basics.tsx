@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import styles from './Basics.module.scss';
 import type { FC } from 'react';
 import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { useTranslation } from 'react-i18next';
 
 interface list {
   title: string;
@@ -12,9 +13,11 @@ interface iBasics {
   list: list[];
   title: string;
   srcImg: string;
+  formula: string;
 }
 
-export const Basics: FC<iBasics> = ({ list, title, srcImg }) => {
+export const Basics: FC<iBasics> = ({ list, title, srcImg, formula }) => {
+  const { t } = useTranslation('economy');
   return (
     <section className={styles['basics']}>
       <div className={clsx(styles['basics__inner'], 'container')}>
@@ -30,6 +33,16 @@ export const Basics: FC<iBasics> = ({ list, title, srcImg }) => {
             </li>
           ))}
         </ul>
+        <div className={styles['basics__image']}>
+          <img
+            className={styles['basics__image-img']}
+            src={formula}
+            alt={t('basics.formula')}
+            width={100}
+            height={100}
+            loading={'lazy'}
+          />
+        </div>
       </div>
     </section>
   );

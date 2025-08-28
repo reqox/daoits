@@ -1,4 +1,7 @@
-import { EconomyBasicsImg } from '@/shared/assets/images/economy';
+import {
+  EconomyBasicsFormulaImg,
+  EconomyBasicsImg,
+} from '@/shared/assets/images/economy';
 import { BannerPage } from '@/shared/ui';
 import { Basics, Description } from '@/widgets/main/economy';
 import { useTranslation } from 'react-i18next';
@@ -23,6 +26,7 @@ export const EconomyPage = () => {
         list={basicsList}
         title={t('basics.title')}
         srcImg={EconomyBasicsImg}
+        formula={EconomyBasicsFormulaImg}
       />
     </Fragment>
   );

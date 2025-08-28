@@ -1,9 +1,10 @@
 import {
   EconomyBasicsFormulaImg,
   EconomyBasicsImg,
+  EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
 import { BannerPage } from '@/shared/ui';
-import { Basics, Description } from '@/widgets/main/economy';
+import { Basics, Description, Stability } from '@/widgets/main/economy';
 import { useTranslation } from 'react-i18next';
 import { Fragment } from 'react/jsx-runtime';
 
@@ -18,6 +19,24 @@ export const EconomyPage = () => {
     };
   });
 
+  const stabilityList = Array.from({ length: 3 }, (_, i) => {
+    i++;
+    return {
+      title: t(`stability.list.${i}.title`),
+      body: t(`stability.list.${i}.body`),
+    };
+  });
+
+  const stabilityAdvantages = {
+    title: t('stability.advantages.title'),
+    body: [
+      t('stability.advantages.body.1'),
+      t('stability.advantages.body.2'),
+      t('stability.advantages.body.3'),
+      t('stability.advantages.body.4'),
+    ],
+  };
+
   return (
     <Fragment>
       <BannerPage title={t('title')}></BannerPage>
@@ -27,6 +46,13 @@ export const EconomyPage = () => {
         title={t('basics.title')}
         srcImg={EconomyBasicsImg}
         formula={EconomyBasicsFormulaImg}
+      />
+      <Stability
+        title={t('stability.title')}
+        subtitle={t('stability.subtitle')}
+        advantages={stabilityAdvantages}
+        srcImg={EconomyStabilityImg}
+        list={stabilityList}
       />
     </Fragment>
   );

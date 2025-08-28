@@ -1,0 +1,54 @@
+.stability {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__title,
+  &__advantages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    gap: var(--inner-title-row-gap);
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap-grid);
+
+    @include tablet {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__advantages {
+    row-gap: clamp(#{rem(8)}, 0.142rem + 1.79vw, #{rem(16)});
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(6);
+    }
+
+    &-item {
+      position: relative;
+      padding-left: rem(10);
+
+      &::before {
+        @include square(#{rem(8)});
+        position: absolute;
+        content: '';
+        background-color: var(--color-accent);
+        border-radius: 50%;
+        top: 50%;
+        left: 0;
+        translate: -50% -50%;
+      }
+    }
+  }
+}

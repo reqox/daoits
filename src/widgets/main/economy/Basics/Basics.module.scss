@@ -27,6 +27,7 @@
     padding: rem(16);
     transition-property: background-color;
     transition-duration: var(--transition-duration);
+    pointer-events: none;
 
     @include light {
       background-color: var(--color-light-grey);

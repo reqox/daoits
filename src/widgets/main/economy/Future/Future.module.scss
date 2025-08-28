@@ -1,0 +1,39 @@
+.future {
+  padding-block: var(--section-padding-y);
+
+  &__inner,
+  &__title,
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inner {
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__title {
+    row-gap: var(--inner-title-row-gap);
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-grid);
+    padding-block: rem(16);
+    border-bottom: var(--border);
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &:first-child {
+      border-top: var(--border);
+    }
+
+    &-title {
+      color: var(--color-accent);
+    }
+  }
+}

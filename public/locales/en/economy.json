@@ -1,0 +1,82 @@
+{
+  "title": "DFC – a new era of financial stability",
+  "description": {
+    "title": "Revolutionary Global Economy Analysis Algorithm",
+    "body": "We have developed a unique mathematical algorithm that analyzes the state of the global economy in real time through a comprehensive system of indicators. Our algorithm integrates data from leading international organizations, central banks, and trading platforms to create an objective picture of global financial processes."
+  },
+  "basics": {
+    "title": "Algorithm Fundamentals",
+    "formula": "Composite Economic Index FEHU formula with weighting coefficients",
+    "list": {
+      "1": {
+        "title": "Macroeconomic indicators:",
+        "body": "GDP of major economies, inflation levels, trade balances"
+      },
+      "2": {
+        "title": "Currency data:",
+        "body": "Exchange rates of 14 major world currencies with dynamic weights"
+      },
+      "3": {
+        "title": "Commodity markets",
+        "body": "Prices of 6 key commodities (gold, oil, gas, copper, silver, wheat)"
+      },
+      "4": {
+        "title": "Trade volumes",
+        "body": "Analysis of international trade and financial flows"
+      }
+    }
+  },
+  "stability": {
+    "title": "Fair Valuation and Settlement Stability",
+    "subtitle": "A new era of financial fairness and freedom. The algorithm provides an objective assessment of the global financial system and brings unprecedented stability to settlements between:",
+    "advantages": {
+      "title": "System Advantages:",
+      "body": {
+        "1": "Reduction of volatility by 40–60% compared to individual currencies",
+        "2": "Protection against inflation risks through dynamic weight adjustment",
+        "3": "Transparency of all operations via blockchain technologies",
+        "4": "Independence from political decisions of individual states"
+      }
+    },
+    "list": {
+      "1": {
+        "title": "<span class='company'>B2B (Business-to-Business):</span>",
+        "body": "Automated international contracts with currency risk protection"
+      },
+      "2": {
+        "title": "<span class='company'>G2G (Government-to-Government):</span>",
+        "body": "Intergovernmental settlements without the influence of political factors"
+      },
+      "3": {
+        "title": "<span class='company'>C2C (Consumer-to-Consumer):</span>",
+        "body": "Global P2P transactions with minimal fees"
+      }
+    }
+  },
+  "future": {
+    "title": "Digital Fiat Coin (DFC) – The Future of the Global Economy",
+    "subtitle": "Automatic regulation. Unlike traditional cryptocurrencies, the value and issuance of DFC are automatically regulated by a complex algorithm based on macroeconomic indicators:",
+    "list": {
+      "1": {
+        "title": "GDP",
+        "body": "Economic growth affects the coin supply"
+      },
+      "2": {
+        "title": "Inflation",
+        "body": "Dynamic weights are adjusted monthly"
+      },
+      "3": {
+        "title": "Trade balance",
+        "body": "Accounting for global trade flows"
+      },
+      "4": {
+        "title": "Trading volumes",
+        "body": "Analysis of global market liquidity"
+      },
+      "5": {
+        "title": "Commodity prices",
+        "body": "Integration of real assets for stability"
+      }
+    }
+  }
+}

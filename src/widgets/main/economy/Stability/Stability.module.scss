@@ -26,6 +26,10 @@
     }
   }
 
+  &-item {
+    display: flex;
+  }
+
   &__advantages {
     row-gap: clamp(#{rem(8)}, 0.142rem + 1.79vw, #{rem(16)});
 

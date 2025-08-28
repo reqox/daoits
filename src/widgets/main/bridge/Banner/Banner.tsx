@@ -1,12 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Banner.module.scss';
 import { BridgeWalletPng } from '@/shared/assets/images/bridge';
+import clsx from 'clsx';
 
 export const Banner = () => {
   const { t } = useTranslation('bridge');
   return (
     <section className={styles['banner']}>
-      <div className={styles['banner__inner']}>
+      <div className={clsx(styles['banner__inner'], 'container--lg')}>
         <div className={styles['banner__title']}>
           <h3 className={styles['banner__title-bridgeName']}>DeFiBridge</h3>
           <h1

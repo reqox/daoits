@@ -40,10 +40,10 @@ export const NavigationLinks: NavigationLinks[] = [
         title: 'navigation.developments.dropdown.defibridge',
         to: 'developments/defibridge',
       },
-      // {
-      //   title: 'navigation.developments.dropdown.economy',
-      //   to: 'developments/economy',
-      // },
+      {
+        title: 'navigation.developments.dropdown.economy',
+        to: 'developments/economy',
+      },
       // {
       //   title: 'navigation.developments.dropdown.feonyx',
       //   to: 'developments/feonyx',

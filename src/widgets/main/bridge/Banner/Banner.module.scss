@@ -6,10 +6,7 @@
     flex-direction: column;
     gap: var(--inner-row-gap);
 
-    max-width: calc(rem(1740) - var(--container-padding-x) * 2);
-    padding-inline: var(--container-padding-x);
     padding-block: var(--section-padding-y);
-    margin-inline: auto;
     background-color: var(--color-dark-alt);
     border-radius: var(--border-radius-lg);
     transition-duration: var(--transition-duration);

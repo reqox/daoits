@@ -6,6 +6,12 @@
   padding-inline: var(--container-padding-x);
 }
 
+.container--lg {
+  max-width: calc(rem(1740) - var(--container-padding-x) * 2);
+  padding-inline: var(--container-padding-x);
+  margin-inline: auto;
+}
+
 .hidden-mobile {
   @include mobile {
     display: none;

@@ -1,6 +1,7 @@
 export { PageToHome } from './PageToHome/PageToHome';
 export { FullWidthImage } from './FullWidthImage/FullWidthImage';
 export { AccentButton } from './AccentButton/AccentButton';
+export { InviteSection } from './InviteSection/InviteSection';
 export { BurgerButton } from './BurgerButton/BurgerButton';
 export { InfoCard } from './InfoCard/InfoCard';
 export { InfoLink } from './InfoLink/InfoLink';

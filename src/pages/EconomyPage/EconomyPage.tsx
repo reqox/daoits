@@ -1,10 +1,11 @@
+import { BlockchainInviteImage } from '@/shared/assets/images';
 import {
   EconomyBasicsFormulaImg,
   EconomyBasicsImg,
   EconomyProspectsImg,
   EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
-import { BannerPage } from '@/shared/ui';
+import { BannerPage, InfoLink, InviteSection } from '@/shared/ui';
 import {
   Advantages,
   Basics,
@@ -117,6 +118,17 @@ export const EconomyPage = () => {
         srcImg={EconomyProspectsImg}
         card={prospectsCards}
       />
+      <InviteSection
+        title={t('invite.title')}
+        subtitle={t('invite.subtitle')}
+        srcImg={BlockchainInviteImage}
+      >
+        <InfoLink
+          button={t('invite.button.title')}
+          description={t('invite.button.description')}
+          to={''}
+        />
+      </InviteSection>
     </Fragment>
   );
 };

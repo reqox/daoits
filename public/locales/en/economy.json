@@ -146,5 +146,13 @@
         "body": "As part of long-term development, a gradual transition to post-quantum cryptography is envisaged, including lattice-based algorithms, ensuring the system’s resilience against threats from quantum computing."
       }
     }
+  },
+  "invite": {
+    "title": "Want to invest and become a part of the project?",
+    "subtitle": "Let’s build an innovative and decentralized 'tomorrow' together!",
+    "button": {
+      "title": "Download Wallet",
+      "description": "Download and install the wallet to join the team of investors"
+    }
   }
 }

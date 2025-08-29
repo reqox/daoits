@@ -1,0 +1,35 @@
+.invite {
+  padding-block: var(--section-padding-y);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--inner-row-gap);
+  }
+
+  &__body {
+    @include flex(flex, space-between);
+    gap: var(--gap-grid);
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-grid);
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-grid);
+  }
+
+  &-image {
+    width: clamp(#{rem(150)}, 4.084rem + 11.038vw, #{rem(200)});
+    height: auto;
+
+    @include mobile {
+      display: none;
+    }
+  }
+}

@@ -104,5 +104,22 @@
         }
       }
     }
+  },
+  "advantages": {
+    "title": "Advantages of the Trading System and CFM",
+    "card": {
+      "1": {
+        "title": "<span class='company'>Technical Advantages:</span>",
+        "body": "<b>Scalability</b>: Processing thousands of transactions per second <br><br> <b>Energy Efficiency</b>: 99% lower energy consumption than Bitcoin <br><br> <b>Security</b>: Multi-layer cryptographic protection <br><br> <b>Interoperability</b>: Compatibility with existing systems"
+      },
+      "2": {
+        "title": "<span class='company'>Economic Advantages:</span>",
+        "body": "<b>Stability</b>: Volatility of 8–12% compared to 50%+ in cryptocurrencies <br><br> <b>Predictability</b>: Forecastable behavior enabled by the algorithm <br><br> <b>Fairness</b>: Equal conditions for all participants <br><br> <b>Efficiency</b>: Optimal resource allocation"
+      },
+      "3": {
+        "title": "<span class='company'>Social Advantages:</span>",
+        "body": "<b>Financial Inclusion</b>: Access to banking services for 1.7 billion people <br><br> <b>Economic Development</b>: Stimulating growth in developing countries <br><br> <b>Corruption Reduction</b>: Transparent and immutable records <br><br> <b>Global Stability</b>: Reducing systemic risks of the world economy"
+      }
+    }
   }
 }

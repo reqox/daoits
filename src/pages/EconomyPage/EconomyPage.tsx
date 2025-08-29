@@ -5,6 +5,7 @@ import {
 } from '@/shared/assets/images/economy';
 import { BannerPage } from '@/shared/ui';
 import {
+  Advantages,
   Basics,
   Description,
   Future,
@@ -65,6 +66,14 @@ export const EconomyPage = () => {
     };
   });
 
+  const advantagesCards = Array.from({ length: 3 }, (_, i) => {
+    i++;
+    return {
+      title: t(`advantages.card.${i}.title`),
+      body: t(`advantages.card.${i}.body`),
+    };
+  });
+
   return (
     <Fragment>
       <BannerPage title={t('title')}></BannerPage>
@@ -92,6 +101,7 @@ export const EconomyPage = () => {
         subtitle={t('history.subtitle')}
         card={historyList}
       />
+      <Advantages title={t('advantages.title')} card={advantagesCards} />
     </Fragment>
   );
 };

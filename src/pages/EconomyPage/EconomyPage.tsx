@@ -1,6 +1,7 @@
 import {
   EconomyBasicsFormulaImg,
   EconomyBasicsImg,
+  EconomyProspectsImg,
   EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
 import { BannerPage } from '@/shared/ui';
@@ -10,6 +11,7 @@ import {
   Description,
   Future,
   History,
+  Prospects,
   Stability,
 } from '@/widgets/main/economy';
 import { useTranslation } from 'react-i18next';
@@ -74,6 +76,14 @@ export const EconomyPage = () => {
     };
   });
 
+  const prospectsCards = Array.from({ length: 5 }, (_, i) => {
+    i++;
+    return {
+      title: t(`prospects.card.${i}.title`),
+      body: t(`prospects.card.${i}.body`),
+    };
+  });
+
   return (
     <Fragment>
       <BannerPage title={t('title')}></BannerPage>
@@ -102,6 +112,11 @@ export const EconomyPage = () => {
         card={historyList}
       />
       <Advantages title={t('advantages.title')} card={advantagesCards} />
+      <Prospects
+        title={t('prospects.title')}
+        srcImg={EconomyProspectsImg}
+        card={prospectsCards}
+      />
     </Fragment>
   );
 };

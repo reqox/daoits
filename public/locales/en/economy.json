@@ -121,5 +121,30 @@
         "body": "<b>Financial Inclusion</b>: Access to banking services for 1.7 billion people <br><br> <b>Economic Development</b>: Stimulating growth in developing countries <br><br> <b>Corruption Reduction</b>: Transparent and immutable records <br><br> <b>Global Stability</b>: Reducing systemic risks of the world economy"
       }
     }
+  },
+  "prospects": {
+    "title": "Prospects and Development Directions",
+    "card": {
+      "1": {
+        "title": "Integration with CBDCs (Central Bank Digital Currencies)",
+        "body": "The system is compatible with national digital currencies, including the digital ruble and the digital yuan, enabling cross-border settlements without the use of SWIFT. This ensures instant and reliable transfers between countries."
+      },
+      "2": {
+        "title": "Smart Contracts for Public Administration",
+        "body": "The use of smart contracts makes it possible to automate taxation and subsidy distribution, eliminating bureaucratic delays. Government projects can be funded through DAOs, where CFM holders vote on budget allocation."
+      },
+      "3": {
+        "title": "DeFi Development Based on CFM",
+        "body": "The system enables lending mechanisms with algorithmically adjusted interest rates that automatically change depending on economic conditions. In addition, staking with guaranteed returns allows users to earn profits by supporting the network."
+      },
+      "4": {
+        "title": "Global Adoption in Developing Countries",
+        "body": "CFM provides financial access for populations without bank accounts, expanding financial inclusion. For countries with unstable currencies, it also creates the possibility of partial transition to a stable system, reducing inflation levels."
+      },
+      "5": {
+        "title": "Protection Against Quantum Computing",
+        "body": "As part of long-term development, a gradual transition to post-quantum cryptography is envisaged, including lattice-based algorithms, ensuring the system’s resilience against threats from quantum computing."
+      }
+    }
   }
 }

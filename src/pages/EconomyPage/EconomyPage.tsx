@@ -4,7 +4,13 @@ import {
   EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
 import { BannerPage } from '@/shared/ui';
-import { Basics, Description, Future, Stability } from '@/widgets/main/economy';
+import {
+  Basics,
+  Description,
+  Future,
+  History,
+  Stability,
+} from '@/widgets/main/economy';
 import { useTranslation } from 'react-i18next';
 import { Fragment } from 'react/jsx-runtime';
 
@@ -45,6 +51,20 @@ export const EconomyPage = () => {
     };
   });
 
+  const historyList = Array.from({ length: 2 }, (_, i) => {
+    i++;
+    return {
+      title: t(`history.list.${i}.title`),
+      body: [
+        t(`history.list.${i}.body.1`),
+        t(`history.list.${i}.body.2`),
+        t(`history.list.${i}.body.3`),
+        t(`history.list.${i}.body.4`),
+        t(`history.list.${i}.body.5`),
+      ],
+    };
+  });
+
   return (
     <Fragment>
       <BannerPage title={t('title')}></BannerPage>
@@ -66,6 +86,11 @@ export const EconomyPage = () => {
         title={t('future.title')}
         subtitle={t('future.subtitle')}
         list={futureList}
+      />
+      <History
+        title={t('history.title')}
+        subtitle={t('history.subtitle')}
+        card={historyList}
       />
     </Fragment>
   );

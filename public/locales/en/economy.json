@@ -78,5 +78,31 @@
         "body": "Integration of real assets for stability"
       }
     }
+  },
+  "history": {
+    "title": "We are rewriting history",
+    "subtitle": "Problems solved by CFM",
+    "list": {
+      "1": {
+        "title": "Macroeconomic problems:",
+        "body": {
+          "1": "Currency wars: Eliminating manipulation of national currency exchange rates",
+          "2": "Inflationary shocks: Automatic protection through basket diversification",
+          "3": "Trade imbalances: Fair pricing without political influence",
+          "4": "Liquidity crises: Stable supply through algorithmic management",
+          "5": "Sanction restrictions: A decentralized system resistant to blockades"
+        }
+      },
+      "2": {
+        "title": "Microeconomic problems:",
+        "body": {
+          "1": "High fees: Reducing the cost of international transfers by up to 90%",
+          "2": "Payment delays: Instant settlements 24/7 with no downtime",
+          "3": "Currency risks: Automatic hedging through a stable basket",
+          "4": "Banking unavailability: Global accessibility without geographic limitations",
+          "5": "Lack of transparency: Full transparency of all transactions on the blockchain"
+        }
+      }
+    }
   }
 }

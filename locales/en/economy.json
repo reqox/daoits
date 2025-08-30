@@ -1,38 +1,38 @@
 {
-  "title": "DFC – a new era of financial stability",
+  "title": "DFM - A New Era of Financial Stability",
   "description": {
-    "title": "Revolutionary Global Economy Analysis Algorithm",
-    "body": "We have developed a unique mathematical algorithm that analyzes the state of the global economy in real time through a comprehensive system of indicators. Our algorithm integrates data from leading international organizations, central banks, and trading platforms to create an objective picture of global financial processes."
+    "title": "Revolutionary Algorithm for Global Economic Analysis",
+    "body": "We have created a unique mathematical algorithm that analyzes the state of the global economy in real time through a comprehensive system of indicators. Our algorithm combines data from leading international organizations, central banks, and trading platforms to create an objective picture of global financial processes."
   },
   "basics": {
     "title": "Algorithm Fundamentals",
-    "formula": "Composite Economic Index FEHU formula with weighting coefficients",
+    "formula": "FEHU Composite Economic Index Formula with Weighted Coefficients",
     "list": {
       "1": {
-        "title": "Macroeconomic indicators:",
+        "title": "Macroeconomic Indicators:",
         "body": "GDP of major economies, inflation levels, trade balances"
       },
       "2": {
-        "title": "Currency data:",
+        "title": "Currency Data:",
         "body": "Exchange rates of 14 major world currencies with dynamic weights"
       },
       "3": {
-        "title": "Commodity markets",
+        "title": "Commodity Markets",
         "body": "Prices of 6 key commodities (gold, oil, gas, copper, silver, wheat)"
       },
       "4": {
-        "title": "Trade volumes",
+        "title": "Trade Volumes",
         "body": "Analysis of international trade and financial flows"
       }
     }
   },
   "stability": {
     "title": "Fair Valuation and Settlement Stability",
-    "subtitle": "A new era of financial fairness and freedom. The algorithm provides an objective assessment of the global financial system and brings unprecedented stability to settlements between:",
+    "subtitle": "A new era of financial fairness and freedom. The algorithm ensures an objective assessment of the global financial system and brings unprecedented stability to settlements between:",
     "advantages": {
       "title": "System Advantages:",
       "body": {
-        "1": "Reduction of volatility by 40–60% compared to individual currencies",
+        "1": "40–60% reduction in volatility compared to individual currencies",
         "2": "Protection against inflation risks through dynamic weight adjustment",
         "3": "Transparency of all operations via blockchain technologies",
         "4": "Independence from political decisions of individual states"
@@ -41,7 +41,7 @@
     "list": {
       "1": {
         "title": "<span class='company'>B2B (Business-to-Business):</span>",
-        "body": "Automated international contracts with currency risk protection"
+        "body": "Automated international contracts with protection against currency risks"
       },
       "2": {
         "title": "<span class='company'>G2G (Government-to-Government):</span>",
@@ -59,96 +59,142 @@
     "list": {
       "1": {
         "title": "GDP",
-        "body": "Economic growth affects the coin supply"
+        "body": "Economic growth influences coin supply"
       },
       "2": {
         "title": "Inflation",
         "body": "Dynamic weights are adjusted monthly"
       },
       "3": {
-        "title": "Trade balance",
+        "title": "Trade Balance",
         "body": "Accounting for global trade flows"
       },
       "4": {
-        "title": "Trading volumes",
+        "title": "Trade Volumes",
         "body": "Analysis of global market liquidity"
       },
       "5": {
-        "title": "Commodity prices",
+        "title": "Commodity Prices",
         "body": "Integration of real assets for stability"
       }
     }
   },
   "history": {
-    "title": "We are rewriting history",
-    "subtitle": "Problems solved by CFM",
+    "title": "We Are Rewriting History",
+    "subtitle": "Problems Solved by DFC",
     "list": {
       "1": {
-        "title": "Macroeconomic problems:",
-        "body": {
-          "1": "Currency wars: Eliminating manipulation of national currency exchange rates",
-          "2": "Inflationary shocks: Automatic protection through basket diversification",
-          "3": "Trade imbalances: Fair pricing without political influence",
-          "4": "Liquidity crises: Stable supply through algorithmic management",
-          "5": "Sanction restrictions: A decentralized system resistant to blockades"
-        }
+        "title": "Macroeconomic Challenges:",
+        "body": [
+          "Currency wars: Elimination of manipulations with national currency rates",
+          "Inflationary shocks: Automatic protection through basket diversification",
+          "Trade imbalances: Fair pricing without political influence",
+          "Liquidity crises: Stable supply through algorithmic management",
+          "Sanctions restrictions: A decentralized system resilient to blockages"
+        ]
       },
       "2": {
-        "title": "Microeconomic problems:",
-        "body": {
-          "1": "High fees: Reducing the cost of international transfers by up to 90%",
-          "2": "Payment delays: Instant settlements 24/7 with no downtime",
-          "3": "Currency risks: Automatic hedging through a stable basket",
-          "4": "Banking unavailability: Global accessibility without geographic limitations",
-          "5": "Lack of transparency: Full transparency of all transactions on the blockchain"
-        }
+        "title": "Microeconomic Challenges:",
+        "body": [
+          "High fees: Reduction of international transfer costs by up to 90%",
+          "Payment delays: Instant 24/7 settlements without holidays",
+          "Currency risks: Automatic hedging through a stable basket",
+          "Banking inaccessibility: Global availability without geographic restrictions",
+          "Lack of transparency: Full transparency of all transactions on the blockchain"
+        ]
+      },
+      "3": {
+        "title": "Uneven Economic Development:",
+        "body": [
+          "A single stabilized unit will become a universal tool for valuing goods, services, and assets on a global scale, simplifying international trade and investment."
+        ]
+      },
+      "4": {
+        "title": "Lack of Trust in Fiat Currencies:",
+        "body": [
+          "Amid growing distrust in traditional currencies (due to inflation or political risks), such a unit can become a more reliable alternative."
+        ]
+      },
+      "5": {
+        "title": "Dependence on Reserve Currencies:",
+        "body": [
+          "Many countries depend on the dollar or euro as reserve currencies. A single stabilized unit can help resolve this dependence."
+        ]
+      },
+      "6": {
+        "title": "Currency Market Speculation:",
+        "body": [
+          "A universal unit can reduce volatility in currency markets, limiting opportunities for speculation."
+        ]
+      },
+      "7": {
+        "title": "Global Economic Crises:",
+        "body": [
+          "A system based on multiple indicators can help predict and mitigate the effects of global crises."
+        ]
       }
     }
   },
   "advantages": {
-    "title": "Advantages of the Trading System and CFM",
+    "title": "<span class='company'><b>Advantages</b></span> of Creating Such a System",
     "card": {
       "1": {
-        "title": "<span class='company'>Technical Advantages:</span>",
-        "body": "<b>Scalability</b>: Processing thousands of transactions per second <br><br> <b>Energy Efficiency</b>: 99% lower energy consumption than Bitcoin <br><br> <b>Security</b>: Multi-layer cryptographic protection <br><br> <b>Interoperability</b>: Compatibility with existing systems"
+        "title": "<span class='company'>Universal Measure of Value:</span>",
+        "body": "A single stabilized unit will become a universal tool for valuing goods, services, and assets on a global scale, simplifying international trade and investment."
       },
       "2": {
-        "title": "<span class='company'>Economic Advantages:</span>",
-        "body": "<b>Stability</b>: Volatility of 8–12% compared to 50%+ in cryptocurrencies <br><br> <b>Predictability</b>: Forecastable behavior enabled by the algorithm <br><br> <b>Fairness</b>: Equal conditions for all participants <br><br> <b>Efficiency</b>: Optimal resource allocation"
+        "title": "<span class='company'>Reducing Currency Risks:</span>",
+        "body": "Companies and investors will be able to minimize risks associated with currency fluctuations, which is especially important for international transactions."
       },
       "3": {
-        "title": "<span class='company'>Social Advantages:</span>",
-        "body": "<b>Financial Inclusion</b>: Access to banking services for 1.7 billion people <br><br> <b>Economic Development</b>: Stimulating growth in developing countries <br><br> <b>Corruption Reduction</b>: Transparent and immutable records <br><br> <b>Global Stability</b>: Reducing systemic risks of the world economy"
+        "title": "<span class='company'>Enhancing Economic Transparency:</span>",
+        "body": "An algorithm analyzing numerous indicators can reveal hidden interconnections and trends in the global economy, helping governments and organizations make better-informed decisions."
+      },
+      "4": {
+        "title": "<span class='company'>Financial System Stabilization:</span>",
+        "body": "A single stabilized unit can serve as a tool for smoothing economic crises, as it is less susceptible to local fluctuations."
+      },
+      "5": {
+        "title": "<span class='company'>Simplification of Settlements:</span>",
+        "body": "A universal unit can simplify international settlements by reducing the need for multiple currency conversions."
+      },
+      "6": {
+        "title": "<span class='company'>Combating Inflation:</span>",
+        "body": "The unit will be tied to stable economic indicators, which can help countries with high inflation stabilize their financial systems."
+      },
+      "7": {
+        "title": "<span class='company'>Support for Developing Countries:</span>",
+        "body": "Such a system will help countries with weak currencies integrate into the global economy, reducing their dependence on the dollar or euro."
       }
     }
   },
   "prospects": {
-    "title": "Prospects and Development Directions",
+    "title": "Challenges and <span class='company'><b>Solutions</b></span>",
     "card": {
       "1": {
         "title": "Integration with CBDCs (Central Bank Digital Currencies)",
-        "body": "The system is compatible with national digital currencies, including the digital ruble and the digital yuan, enabling cross-border settlements without the use of SWIFT. This ensures instant and reliable transfers between countries."
+        "body": "The system is compatible with national digital currencies, including the digital ruble and digital yuan, enabling intergovernmental settlements without the use of SWIFT. This ensures instant and reliable transfers between countries."
       },
       "2": {
-        "title": "Smart Contracts for Public Administration",
-        "body": "The use of smart contracts makes it possible to automate taxation and subsidy distribution, eliminating bureaucratic delays. Government projects can be funded through DAOs, where CFM holders vote on budget allocation."
+        "title": "Smart Contracts for Governance",
+        "body": "The use of smart contracts will automate taxation and subsidy distribution, eliminating bureaucratic delays. Funding for government projects can be carried out through DAOs, where DFC holders vote on budget allocation."
       },
       "3": {
-        "title": "DeFi Development Based on CFM",
-        "body": "The system enables lending mechanisms with algorithmically adjusted interest rates that automatically change depending on economic conditions. In addition, staking with guaranteed returns allows users to earn profits by supporting the network."
+        "title": "Development of DeFi Based on DFC",
+        "body": "The system can enable lending mechanisms with algorithmically regulated rates that automatically adjust depending on the economic situation. Additionally, staking with guaranteed returns will allow users to earn income by participating in network support."
       },
       "4": {
         "title": "Global Adoption in Developing Countries",
-        "body": "CFM provides financial access for populations without bank accounts, expanding financial inclusion. For countries with unstable currencies, it also creates the possibility of partial transition to a stable system, reducing inflation levels."
+        "body": "DFC provides access to financial services for the unbanked population, expanding financial inclusion. For countries with unstable currencies, it also creates the possibility of partially transitioning to a stable system, reducing inflation."
       },
       "5": {
         "title": "Protection Against Quantum Computing",
-        "body": "As part of long-term development, a gradual transition to post-quantum cryptography is envisaged, including lattice-based algorithms, ensuring the system’s resilience against threats from quantum computing."
+        "body": "As part of long-term development, a gradual transition to post-quantum cryptography is envisaged, including lattice-based algorithms, to ensure the system's resilience to threats from quantum computing."
       }
     }
   },
   "invite": {
-    "title": "Want to invest and become a part of the project?",
+    "title": "Want to invest and become part of the project?",
     "subtitle": "Let’s build an innovative and decentralized 'tomorrow' together!",
     "button": {
       "title": "Download Wallet",

@@ -17,7 +17,10 @@ export const Advantages: FC<iAdvantages> = ({ title, card }) => {
   return (
     <section className={styles['advantages']}>
       <div className={clsx(styles['advantages__inner'], 'container')}>
-        <h2 className={styles['advantages-title']}>{title}</h2>
+        <h2
+          className={styles['advantages-title']}
+          dangerouslySetInnerHTML={{ __html: title }}
+        ></h2>
         <ul className={styles['advantages-list']}>
           {card.map((item, id) => (
             <li key={id} className={styles['advantages-item']}>

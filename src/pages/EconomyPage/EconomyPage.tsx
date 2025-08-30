@@ -2,7 +2,6 @@ import { BlockchainInviteImage } from '@/shared/assets/images';
 import {
   EconomyBasicsFormulaImg,
   EconomyBasicsImg,
-  EconomyProspectsImg,
   EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
 import { BannerPage, InfoLink, InviteSection } from '@/shared/ui';
@@ -12,7 +11,6 @@ import {
   Description,
   Future,
   History,
-  Prospects,
   Stability,
 } from '@/widgets/main/economy';
 import { useTranslation } from 'react-i18next';
@@ -55,33 +53,23 @@ export const EconomyPage = () => {
     };
   });
 
-  const historyList = Array.from({ length: 2 }, (_, i) => {
+  const historyList = Array.from({ length: 7 }, (_, i) => {
     i++;
+    const body = t(`history.list.${i}.body`, {
+      defaultValue: [],
+      returnObjects: true,
+    }) as string[];
     return {
       title: t(`history.list.${i}.title`),
-      body: [
-        t(`history.list.${i}.body.1`),
-        t(`history.list.${i}.body.2`),
-        t(`history.list.${i}.body.3`),
-        t(`history.list.${i}.body.4`),
-        t(`history.list.${i}.body.5`),
-      ],
+      body: body,
     };
   });
 
-  const advantagesCards = Array.from({ length: 3 }, (_, i) => {
+  const advantagesCards = Array.from({ length: 7 }, (_, i) => {
     i++;
     return {
       title: t(`advantages.card.${i}.title`),
       body: t(`advantages.card.${i}.body`),
-    };
-  });
-
-  const prospectsCards = Array.from({ length: 5 }, (_, i) => {
-    i++;
-    return {
-      title: t(`prospects.card.${i}.title`),
-      body: t(`prospects.card.${i}.body`),
     };
   });
 
@@ -113,12 +101,7 @@ export const EconomyPage = () => {
         card={historyList}
       />
       <Advantages title={t('advantages.title')} card={advantagesCards} />
-      <Prospects
-        title={t('prospects.title')}
-        srcImg={EconomyProspectsImg}
-        card={prospectsCards}
-      />
-      <InviteSection
+      {/* <InviteSection
         title={t('invite.title')}
         subtitle={t('invite.subtitle')}
         srcImg={BlockchainInviteImage}
@@ -128,7 +111,7 @@ export const EconomyPage = () => {
           description={t('invite.button.description')}
           to={''}
         />
-      </InviteSection>
+      </InviteSection> */}
     </Fragment>
   );
 };

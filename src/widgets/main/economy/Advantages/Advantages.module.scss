@@ -19,5 +19,9 @@
 
   &-item {
     display: flex;
+
+    &:last-child {
+      grid-column: 1 / -1;
+    }
   }
 }

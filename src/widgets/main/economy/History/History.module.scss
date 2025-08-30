@@ -36,6 +36,10 @@
     transition: background-color var(--transition-duration);
     border-radius: var(--border-radius-rg);
 
+    &--odd {
+      grid-column: 1 / -1;
+    }
+
     @include light {
       background-color: var(--color-light-grey);
     }
@@ -53,18 +57,20 @@
     }
 
     &-item {
-      position: relative;
-      padding-left: rem(14);
+      &:not(&--one) {
+        position: relative;
+        padding-left: rem(14);
 
-      &::before {
-        @include square(#{rem(8)});
-        position: absolute;
-        content: '';
-        background-color: var(--color-accent);
-        border-radius: 50%;
-        top: 50%;
-        left: 0;
-        translate: -50% -50%;
+        &::before {
+          @include square(#{rem(8)});
+          position: absolute;
+          content: '';
+          background-color: var(--color-accent);
+          border-radius: 50%;
+          top: 50%;
+          left: 0;
+          translate: -50% -50%;
+        }
       }
     }
   }

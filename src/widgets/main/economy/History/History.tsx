@@ -29,14 +29,29 @@ export const History: FC<iHistory> = ({ title, subtitle, card }) => {
         </div>
         <ul className={styles['history-list']}>
           {card.map((item, id) => (
-            <li key={id} className={styles['history__item']}>
+            <li
+              key={id}
+              className={clsx(
+                styles['history__item'],
+                id === card.length - 1 &&
+                  card.length % 2 !== 0 &&
+                  styles['history__item--odd'],
+              )}
+            >
               <h3
                 className={styles['history__item-title']}
                 dangerouslySetInnerHTML={{ __html: item.title }}
               ></h3>
               <ul className={styles['history__item-list']}>
                 {item.body.map((text, idx) => (
-                  <li key={idx} className={styles['history__item-item']}>
+                  <li
+                    key={idx}
+                    className={clsx(
+                      styles['history__item-item'],
+                      item.body.length === 1 &&
+                        styles['history__item-item--one'],
+                    )}
+                  >
                     <p dangerouslySetInnerHTML={{ __html: text }}></p>
                   </li>
                 ))}

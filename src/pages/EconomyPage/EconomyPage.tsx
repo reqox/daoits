@@ -1,10 +1,9 @@
-import { BlockchainInviteImage } from '@/shared/assets/images';
 import {
   EconomyBasicsFormulaImg,
   EconomyBasicsImg,
   EconomyStabilityImg,
 } from '@/shared/assets/images/economy';
-import { BannerPage, InfoLink, InviteSection } from '@/shared/ui';
+import { BannerPage } from '@/shared/ui';
 import {
   Advantages,
   Basics,

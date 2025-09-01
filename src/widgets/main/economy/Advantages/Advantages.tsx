@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Advantages.module.scss';
 import type { FC } from 'react';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 interface card {
   title: string;
@@ -15,7 +15,7 @@ interface iAdvantages {
 
 export const Advantages: FC<iAdvantages> = ({ title, card }) => {
   return (
-    <section className={styles['advantages']}>
+    <AnimatedSection className={styles['advantages']}>
       <div className={clsx(styles['advantages__inner'], 'container')}>
         <h2
           className={styles['advantages-title']}
@@ -29,6 +29,6 @@ export const Advantages: FC<iAdvantages> = ({ title, card }) => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

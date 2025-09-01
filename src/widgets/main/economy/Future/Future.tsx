@@ -1,6 +1,7 @@
 import type { FC } from 'react';
 import styles from './Future.module.scss';
 import clsx from 'clsx';
+import { AnimatedSection } from '@/shared/ui';
 
 interface list {
   title: string;
@@ -15,7 +16,7 @@ interface iFuture {
 
 export const Future: FC<iFuture> = ({ title, subtitle, list }) => {
   return (
-    <section className={styles['future']}>
+    <AnimatedSection className={styles['future']}>
       <div className={clsx(styles['future__inner'], 'container')}>
         <div className={styles['future__title']}>
           <h2
@@ -42,6 +43,6 @@ export const Future: FC<iFuture> = ({ title, subtitle, list }) => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

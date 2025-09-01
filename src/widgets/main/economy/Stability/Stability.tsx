@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import styles from './Stability.module.scss';
 import clsx from 'clsx';
-import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage, InfoCard } from '@/shared/ui';
 
 interface list {
   title: string;
@@ -29,7 +29,7 @@ export const Stability: FC<iStability> = ({
   list,
 }) => {
   return (
-    <section className={styles['stability']}>
+    <AnimatedSection className={styles['stability']}>
       <div className={clsx(styles['stability__inner'], 'container')}>
         <div className={styles['stability__title']}>
           <h2
@@ -63,6 +63,6 @@ export const Stability: FC<iStability> = ({
           </div>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

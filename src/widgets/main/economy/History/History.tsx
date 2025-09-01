@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './History.module.scss';
 import type { FC } from 'react';
+import { AnimatedSection } from '@/shared/ui';
 
 interface card {
   title: string;
@@ -15,7 +16,7 @@ interface iHistory {
 
 export const History: FC<iHistory> = ({ title, subtitle, card }) => {
   return (
-    <section className={styles['history']}>
+    <AnimatedSection className={styles['history']}>
       <div className={clsx(styles['history__inner'], 'container')}>
         <div className={styles['history__title']}>
           <h2
@@ -60,6 +61,6 @@ export const History: FC<iHistory> = ({ title, subtitle, card }) => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

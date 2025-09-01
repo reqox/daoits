@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Basics.module.scss';
 import type { FC } from 'react';
-import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage, InfoCard } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 
 interface list {
@@ -19,7 +19,7 @@ interface iBasics {
 export const Basics: FC<iBasics> = ({ list, title, srcImg, formula }) => {
   const { t } = useTranslation('economy');
   return (
-    <section className={styles['basics']}>
+    <AnimatedSection className={styles['basics']}>
       <div className={clsx(styles['basics__inner'], 'container')}>
         <h2
           className={styles['basics-title']}
@@ -44,6 +44,6 @@ export const Basics: FC<iBasics> = ({ list, title, srcImg, formula }) => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

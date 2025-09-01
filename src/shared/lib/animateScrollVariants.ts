@@ -1,14 +1,14 @@
 import type { Variants, ViewportOptions } from 'framer-motion';
 
 export const viewport: ViewportOptions = {
-  once: true,
+  once: false,
   amount: 0.1,
 };
 
 export const animateScrollVariants: Variants = {
   hidden: {
     opacity: 0,
-    y: 100,
+    y: 50,
   },
   visible: {
     opacity: 1,

@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import './Mission.scss';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Mission = () => {
   const { t } = useTranslation('home');
   return (
-    <section className="mission">
+    <AnimatedSection className="mission">
       <div className="mission__inner container">
         <h2 className="mission-title">{t('mission.title')}</h2>
         <div className="mission__body">
@@ -23,6 +23,6 @@ export const Mission = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -1,4 +1,4 @@
-import { ServiceCard } from '@/shared/ui';
+import { AnimatedSection, ServiceCard } from '@/shared/ui';
 import './Services.scss';
 import {
   ServicesDecentralImage,
@@ -11,7 +11,7 @@ export const Services = () => {
   const { t } = useTranslation('home');
 
   return (
-    <section className={'services'}>
+    <AnimatedSection className={'services'}>
       <div className="services__inner container">
         <div className="services__title">
           <h2 className="services__title-title">{t('services.title')}</h2>
@@ -38,6 +38,6 @@ export const Services = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

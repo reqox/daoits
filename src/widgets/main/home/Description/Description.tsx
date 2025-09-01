@@ -6,12 +6,12 @@ import {
 } from '@/shared/assets/images';
 import './Description.scss';
 import { useTranslation } from 'react-i18next';
-import { SquareIcon } from '@/shared/ui';
+import { AnimatedSection, SquareIcon } from '@/shared/ui';
 
 export const Description = () => {
   const { t } = useTranslation('home');
   return (
-    <section className={'description'}>
+    <AnimatedSection className={'description'}>
       <div className="description__inner container">
         <h2
           className={'description-title'}
@@ -53,6 +53,6 @@ export const Description = () => {
           </div>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

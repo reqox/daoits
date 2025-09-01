@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import './Functions.scss';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Functions = () => {
   const { t } = useTranslation('home');
   return (
-    <section className={'functions'}>
+    <AnimatedSection className={'functions'}>
       <div className="functions__inner container">
         <h2 className="functions-title">{t('functions.title')}</h2>
         <div className="functions__body">
@@ -23,6 +23,6 @@ export const Functions = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

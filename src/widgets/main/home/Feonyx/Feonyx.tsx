@@ -1,4 +1,4 @@
-import { AccentButton } from '@/shared/ui';
+import { AccentButton, AnimatedSection } from '@/shared/ui';
 import './Feonyx.scss';
 import { useTranslation } from 'react-i18next';
 import { FenonyxImage } from '@/shared/assets/images';
@@ -6,7 +6,7 @@ import { FenonyxImage } from '@/shared/assets/images';
 export const Feonyx = () => {
   const { t } = useTranslation('home');
   return (
-    <section className={'feonyx'}>
+    <AnimatedSection className={'feonyx'}>
       <div className="feonyx__inner container">
         <div className="feonyx__body">
           <h2 className="feonyx-title">{t('feonyx.title')}</h2>
@@ -26,6 +26,6 @@ export const Feonyx = () => {
           loading="lazy"
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

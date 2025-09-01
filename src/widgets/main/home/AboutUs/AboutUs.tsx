@@ -1,11 +1,11 @@
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 import './AboutUs.scss';
 import { useTranslation } from 'react-i18next';
 
 export const AboutUs = () => {
   const { t } = useTranslation('home');
   return (
-    <section className={'about'}>
+    <AnimatedSection className={'about'}>
       <div className="about__inner container">
         <div className="about__title">
           <h2 className="about__title-main">{t('about.title')}</h2>
@@ -30,6 +30,6 @@ export const AboutUs = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

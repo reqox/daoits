@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import './Invest.scss';
-import { InfoLink } from '@/shared/ui';
+import { AnimatedSection, InfoLink } from '@/shared/ui';
 import { InvestFehuImage } from '@/shared/assets/images';
 
 export const Invest = () => {
   const { t } = useTranslation('home');
   return (
-    <section className={'invest'}>
+    <AnimatedSection className={'invest'}>
       <div className="invest__inner container">
         <div className="invest__main">
           <div className="invest__body">
@@ -30,6 +30,6 @@ export const Invest = () => {
           button={t('invest.button.main')}
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

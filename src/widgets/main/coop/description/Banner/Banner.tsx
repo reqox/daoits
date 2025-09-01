@@ -13,17 +13,17 @@ export const Banner = () => {
   const buttonList = [
     {
       title: t('descriptionPage.list.1.title'),
-      to: '/',
+      to: '#',
       srcImg: CoopBannerCaseIcon,
     },
     {
       title: t('descriptionPage.list.2.title'),
-      to: '/',
+      to: '#',
       srcImg: CoopBannerStarIcon,
     },
     {
       title: t('descriptionPage.list.3.title'),
-      to: '/',
+      to: '#',
       srcImg: CoopBannerDownloadIcon,
     },
   ];

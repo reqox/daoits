@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Mission.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Mission = () => {
   const { t } = useTranslation('blockchain');
@@ -15,7 +15,7 @@ export const Mission = () => {
   });
 
   return (
-    <section className={styles['mission']}>
+    <AnimatedSection className={styles['mission']}>
       <div className={clsx(styles['mission__inner'], 'container')}>
         <h2
           className={styles['mission-title']}
@@ -29,6 +29,6 @@ export const Mission = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

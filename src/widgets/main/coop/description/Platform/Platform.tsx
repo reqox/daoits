@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Platform.module.scss';
 import clsx from 'clsx';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Platform = () => {
   const { t } = useTranslation('coop');
@@ -14,7 +14,7 @@ export const Platform = () => {
   });
 
   return (
-    <section className={styles['platform']}>
+    <AnimatedSection className={styles['platform']}>
       <div className={clsx(styles['platform__inner'], 'container')}>
         <h2
           className={styles['platform-title']}
@@ -30,6 +30,6 @@ export const Platform = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

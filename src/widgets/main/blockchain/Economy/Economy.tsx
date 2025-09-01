@@ -1,12 +1,12 @@
 import clsx from 'clsx';
 import styles from './Economy.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Economy = () => {
   const { t } = useTranslation('blockchain');
   return (
-    <section className={styles['economy']}>
+    <AnimatedSection className={styles['economy']}>
       <div className={clsx(styles['economy__inner'], 'container')}>
         <h2
           className={styles['economy-title']}
@@ -53,6 +53,6 @@ export const Economy = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

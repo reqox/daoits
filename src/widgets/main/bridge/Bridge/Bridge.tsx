@@ -2,11 +2,12 @@ import clsx from 'clsx';
 import styles from './Bridge.module.scss';
 import { BridgeImg } from '@/shared/assets/images/bridge';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Bridge = () => {
   const { t } = useTranslation('bridge');
   return (
-    <section className={styles['bridge']}>
+    <AnimatedSection className={styles['bridge']}>
       <div className={clsx(styles['bridge__inner'], 'container')}>
         <img
           className={styles['bridge-image']}
@@ -25,6 +26,6 @@ export const Bridge = () => {
           </div>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

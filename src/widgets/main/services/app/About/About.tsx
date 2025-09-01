@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './About.module.scss';
 import { useTranslation } from 'react-i18next';
-import { NumberedList } from '@/shared/ui';
+import { AnimatedSection, NumberedList } from '@/shared/ui';
 
 export const About = () => {
   const { t } = useTranslation('services');
@@ -28,11 +28,11 @@ export const About = () => {
     },
   ];
   return (
-    <section className={styles['about']}>
+    <AnimatedSection className={styles['about']}>
       <div className={clsx(styles['about__inner'], 'container')}>
         <h2 className={styles['about-title']}>{t('app.about.title')}</h2>
         <NumberedList list={AboutList} />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

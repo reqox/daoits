@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Innovations.module.scss';
 import clsx from 'clsx';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Innovations = () => {
   const { t } = useTranslation('blockchain');
@@ -14,7 +15,7 @@ export const Innovations = () => {
   });
 
   return (
-    <section className={styles['innovations']}>
+    <AnimatedSection className={styles['innovations']}>
       <div className={clsx(styles['innovations__inner'], 'container')}>
         <h2 className={styles['innovations-title']}>
           {t('innovations.title')}
@@ -34,6 +35,6 @@ export const Innovations = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

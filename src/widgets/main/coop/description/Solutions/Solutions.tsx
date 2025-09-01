@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Solutions.module.scss';
 import clsx from 'clsx';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Solutions = () => {
   const { t } = useTranslation('coop');
@@ -15,7 +15,7 @@ export const Solutions = () => {
   });
 
   return (
-    <section className={styles['solutions']}>
+    <AnimatedSection className={styles['solutions']}>
       <div className={clsx(styles['solutions__inner'], 'container')}>
         <div className={styles['solutions__title']}>
           <h2
@@ -40,6 +40,6 @@ export const Solutions = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

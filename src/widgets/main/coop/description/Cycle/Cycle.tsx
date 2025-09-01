@@ -1,12 +1,12 @@
 import clsx from 'clsx';
 import styles from './Cycle.module.scss';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 import { useTranslation } from 'react-i18next';
 
 export const Cycle = () => {
   const { t } = useTranslation('coop');
   return (
-    <section className={styles['cycle']}>
+    <AnimatedSection className={styles['cycle']}>
       <div className={clsx(styles['cycle__inner'], 'container')}>
         <h2
           className={styles['cycle-title']}
@@ -29,6 +29,6 @@ export const Cycle = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

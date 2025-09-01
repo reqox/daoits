@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './Advantage.module.scss';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Advantage = () => {
   const { t } = useTranslation('coop');
@@ -41,7 +42,7 @@ export const Advantage = () => {
   ];
 
   return (
-    <section className={styles['advantage']}>
+    <AnimatedSection className={styles['advantage']}>
       <div className={clsx(styles['advantage__inner'], 'container')}>
         <h2
           className={styles['advantage-title']}
@@ -65,6 +66,6 @@ export const Advantage = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -2,11 +2,12 @@ import clsx from 'clsx';
 import styles from './Vision.module.scss';
 import { useTranslation } from 'react-i18next';
 import { CoopVisionImage } from '@/shared/assets/images';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Vision = () => {
   const { t } = useTranslation('coop');
   return (
-    <section className={styles['vision']}>
+    <AnimatedSection className={styles['vision']}>
       <div className={clsx(styles['vision__inner'], 'container')}>
         <h2
           className={styles['vision-title']}
@@ -27,6 +28,6 @@ export const Vision = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

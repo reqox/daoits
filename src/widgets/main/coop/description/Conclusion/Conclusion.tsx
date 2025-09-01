@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Conclusion.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 import { CoopConclusionImage } from '@/shared/assets/images';
 
 export const Conclusion = () => {
@@ -15,7 +15,7 @@ export const Conclusion = () => {
   });
 
   return (
-    <section className={styles['conclusion']}>
+    <AnimatedSection className={styles['conclusion']}>
       <div className={clsx(styles['conclusion__inner'], 'container')}>
         <h2
           className={styles['conclusion-title']}
@@ -46,6 +46,6 @@ export const Conclusion = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Development.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Development = () => {
   const { t } = useTranslation('services');
@@ -28,7 +28,7 @@ export const Development = () => {
     },
   ];
   return (
-    <section className={styles['development']}>
+    <AnimatedSection className={styles['development']}>
       <div className={clsx(styles['development__inner'], 'container')}>
         <h2 className={styles['development-title']}>
           {t('web.development.title')}
@@ -41,6 +41,6 @@ export const Development = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

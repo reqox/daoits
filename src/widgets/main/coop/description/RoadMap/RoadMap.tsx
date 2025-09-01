@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './RoadMap.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const RoadMap = () => {
   const { t } = useTranslation('coop');
@@ -15,7 +15,7 @@ export const RoadMap = () => {
   });
 
   return (
-    <section className={styles['roadmap']}>
+    <AnimatedSection className={styles['roadmap']}>
       <div className={clsx(styles['roadmap__inner'], 'container')}>
         <div className={styles['roadmap__title']}>
           <h2
@@ -39,6 +39,6 @@ export const RoadMap = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

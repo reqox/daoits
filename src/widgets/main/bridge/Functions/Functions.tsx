@@ -11,6 +11,7 @@ import {
   BridgeFunc7Img,
   BridgeFunc8Img,
 } from '@/shared/assets/images/bridge';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Functions = () => {
   const { t } = useTranslation('bridge');
@@ -30,7 +31,7 @@ export const Functions = () => {
   const funcId = Array.from({ length: 9 }, (_, i) => i + 1);
 
   return (
-    <section className={styles['functions']}>
+    <AnimatedSection className={styles['functions']}>
       <div className={clsx(styles['functions__inner'], 'container')}>
         <h2 className={styles['functions-title']}>{t('functions.title')}</h2>
         <ul className={styles['functions-list']}>
@@ -70,6 +71,6 @@ export const Functions = () => {
           })}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

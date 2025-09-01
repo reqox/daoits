@@ -1,6 +1,7 @@
 import type { FC, ReactNode } from 'react';
 import styles from './InviteSection.module.scss';
 import clsx from 'clsx';
+import { AnimatedSection } from '../AnimatedSection/AnimatedSection';
 
 interface iInvite {
   title: string;
@@ -16,7 +17,7 @@ export const InviteSection: FC<iInvite> = ({
   children,
 }) => {
   return (
-    <section className={styles['invite']}>
+    <AnimatedSection className={styles['invite']}>
       <div className={clsx(styles['invite__inner'], 'container')}>
         <div className={styles['invite__body']}>
           <div className={styles['invite__description']}>
@@ -40,6 +41,6 @@ export const InviteSection: FC<iInvite> = ({
         </div>
         <div className={styles['invite__actions']}>{children}</div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

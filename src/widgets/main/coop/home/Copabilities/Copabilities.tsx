@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import styles from './Copabilities.module.scss';
 import { useTranslation } from 'react-i18next';
 import { CoopCopabilitiesImage } from '@/shared/assets/images';
-import { FullWidthImage } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage } from '@/shared/ui';
 
 export const Copabilities = () => {
   const { t } = useTranslation('coop');
@@ -29,7 +29,7 @@ export const Copabilities = () => {
   ];
 
   return (
-    <section className={styles['copabilities']}>
+    <AnimatedSection className={styles['copabilities']}>
       <div className={clsx(styles['copabilities__inner'], 'container')}>
         <h2
           className={styles['copabilities-title']}
@@ -57,6 +57,6 @@ export const Copabilities = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Management.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 import {
   BlockchainManagement1Icon,
   BlockchainManagement2Icon,
@@ -24,7 +24,7 @@ export const Management = () => {
   ];
 
   return (
-    <section className={styles['management']}>
+    <AnimatedSection className={styles['management']}>
       <div className={clsx(styles['management__inner'], 'container')}>
         <h2
           className={styles['management-title']}
@@ -38,6 +38,6 @@ export const Management = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

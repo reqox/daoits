@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './WhyUs.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 import {
   WhyUsIcon1Svg,
   WhyUsIcon2Svg,
@@ -48,7 +48,7 @@ export const WhyUs = () => {
   ];
 
   return (
-    <section className={styles['why']}>
+    <AnimatedSection className={styles['why']}>
       <div className={clsx(styles['why__inner'], 'container')}>
         <h2 className={styles['why-title']}>{t('web.whyus.title')}</h2>
         <ul className={styles['why-list']}>
@@ -63,6 +63,6 @@ export const WhyUs = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

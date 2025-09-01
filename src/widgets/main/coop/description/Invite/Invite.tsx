@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './Invite.module.scss';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Invite = () => {
   const { t } = useTranslation('coop');
@@ -12,7 +13,7 @@ export const Invite = () => {
   ];
 
   return (
-    <section className={styles['invite']}>
+    <AnimatedSection className={styles['invite']}>
       <div className={clsx(styles['invite__inner'], 'container')}>
         <h2
           className={styles['invite-title']}
@@ -40,6 +41,6 @@ export const Invite = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

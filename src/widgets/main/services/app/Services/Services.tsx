@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Services.module.scss';
 import clsx from 'clsx';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Services = () => {
   const { t } = useTranslation('services');
@@ -32,8 +32,8 @@ export const Services = () => {
     },
   ];
   return (
-    <section className={styles['services']}>
-      <section className={clsx(styles['services__inner'], 'container')}>
+    <AnimatedSection className={styles['services']}>
+      <div className={clsx(styles['services__inner'], 'container')}>
         <h2 className={styles['services-title']}>{t('app.services.title')}</h2>
         <ul className={styles['services-list']}>
           {servicesList.map((item) => (
@@ -42,7 +42,7 @@ export const Services = () => {
             </li>
           ))}
         </ul>
-      </section>
-    </section>
+      </div>
+    </AnimatedSection>
   );
 };

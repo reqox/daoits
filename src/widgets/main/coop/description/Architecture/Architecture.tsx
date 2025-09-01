@@ -1,11 +1,12 @@
 import clsx from 'clsx';
 import styles from './Architecture.module.scss';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Architecture = () => {
   const { t } = useTranslation('coop');
   return (
-    <section className={styles['architecture']}>
+    <AnimatedSection className={styles['architecture']}>
       <div className={clsx(styles['architecture__inner'], 'container')}>
         <h2
           className={styles['architecture-title']}
@@ -31,6 +32,6 @@ export const Architecture = () => {
           ></p>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

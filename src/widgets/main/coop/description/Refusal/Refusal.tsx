@@ -2,11 +2,12 @@ import clsx from 'clsx';
 import styles from './Refusal.module.scss';
 import { useTranslation } from 'react-i18next';
 import { CoopRefusalImage } from '@/shared/assets/images';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Refusal = () => {
   const { t } = useTranslation('coop');
   return (
-    <section className={styles['refusal']}>
+    <AnimatedSection className={styles['refusal']}>
       <div className={clsx(styles['refusal__inner'], 'container')}>
         <h2
           className={styles['refusal-title']}
@@ -37,6 +38,6 @@ export const Refusal = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

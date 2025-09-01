@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Admission.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Admission = () => {
   const { t } = useTranslation('coop');
@@ -30,7 +30,7 @@ export const Admission = () => {
   ];
 
   return (
-    <section className={styles['admission']}>
+    <AnimatedSection className={styles['admission']}>
       <div className={clsx(styles['admission__inner'], 'container')}>
         <div className={styles['admission__title']}>
           <h2 className={styles['admission__title-title']}>
@@ -54,6 +54,6 @@ export const Admission = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Blockchain.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Blockchain = () => {
   const { t } = useTranslation('blockchain');
@@ -15,7 +15,7 @@ export const Blockchain = () => {
   });
 
   return (
-    <section className={styles['blockchain']}>
+    <AnimatedSection className={styles['blockchain']}>
       <div className={clsx(styles['blockchain__inner'], 'container')}>
         <div className={styles['blockchain__title']}>
           <h2
@@ -35,6 +35,6 @@ export const Blockchain = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

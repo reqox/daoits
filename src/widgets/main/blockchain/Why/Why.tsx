@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import styles from './Why.module.scss';
-import { FullWidthImage } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage } from '@/shared/ui';
 import { BlockchainWhyImage } from '@/shared/assets/images';
 import { useTranslation } from 'react-i18next';
 
@@ -17,7 +17,7 @@ export const Why = () => {
   });
 
   return (
-    <section className={styles['why']}>
+    <AnimatedSection className={styles['why']}>
       <div className={clsx(styles['why__inner'], 'container')}>
         <h2
           className={styles['why-title']}
@@ -46,6 +46,6 @@ export const Why = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

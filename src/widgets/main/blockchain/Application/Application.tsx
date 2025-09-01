@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Application.module.scss';
 import { useTranslation } from 'react-i18next';
-import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage, InfoCard } from '@/shared/ui';
 import { BlockchainApplicationImage } from '@/shared/assets/images';
 
 export const Application = () => {
@@ -16,7 +16,7 @@ export const Application = () => {
   });
 
   return (
-    <section className={styles['application']}>
+    <AnimatedSection className={styles['application']}>
       <div className={clsx(styles['application__inner'], 'container')}>
         <h2
           className={styles['application-title']}
@@ -31,6 +31,6 @@ export const Application = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

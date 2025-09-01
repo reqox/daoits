@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import styles from './StepFuture.module.scss';
 import { useTranslation } from 'react-i18next';
 import { StepImage } from '@/shared/assets/images';
+import { AnimatedSection } from '@/shared/ui';
 
 export const StepFuture = () => {
   const { t } = useTranslation('services');
@@ -14,7 +15,7 @@ export const StepFuture = () => {
   ];
 
   return (
-    <section className={styles['step']}>
+    <AnimatedSection className={styles['step']}>
       <div className={clsx(styles['step__inner'], 'container')}>
         <div className={styles['step__title']}>
           <h2 className={styles['step__title-title']}>{t('app.step.title')}</h2>
@@ -39,6 +40,6 @@ export const StepFuture = () => {
           />
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

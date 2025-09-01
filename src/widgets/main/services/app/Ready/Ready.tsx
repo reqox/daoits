@@ -1,12 +1,12 @@
 import clsx from 'clsx';
 import styles from './Ready.module.scss';
 import { useTranslation } from 'react-i18next';
-import { AccentButton } from '@/shared/ui';
+import { AccentButton, AnimatedSection } from '@/shared/ui';
 
 export const Ready = () => {
   const { t } = useTranslation('services');
   return (
-    <section className={styles['ready']}>
+    <AnimatedSection className={styles['ready']}>
       <div className={clsx(styles['ready__inner'], 'container')}>
         <div className={styles['ready__invite']}>
           <h2 className={styles['ready-title']}>
@@ -26,6 +26,6 @@ export const Ready = () => {
           </div>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

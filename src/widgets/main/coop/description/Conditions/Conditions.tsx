@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Conditions.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Conditions = () => {
   const { t } = useTranslation('coop');
@@ -15,7 +15,7 @@ export const Conditions = () => {
   });
 
   return (
-    <section className={styles['conditions']}>
+    <AnimatedSection className={styles['conditions']}>
       <div className={clsx(styles['conditions__inner'], 'container')}>
         <h2
           className={styles['conditions-title']}
@@ -46,6 +46,6 @@ export const Conditions = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

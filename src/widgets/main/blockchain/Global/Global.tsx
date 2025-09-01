@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './Global.module.scss';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Global = () => {
   const { t } = useTranslation('blockchain');
@@ -14,7 +15,7 @@ export const Global = () => {
   });
 
   return (
-    <section className={styles['global']}>
+    <AnimatedSection className={styles['global']}>
       <div className={clsx(styles['global__inner'], 'container')}>
         <h2
           className={styles['global-title']}
@@ -35,6 +36,6 @@ export const Global = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

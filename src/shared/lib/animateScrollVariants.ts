@@ -2,7 +2,7 @@ import type { Variants, ViewportOptions } from 'framer-motion';
 
 export const viewport: ViewportOptions = {
   once: true,
-  amount: 0.3,
+  amount: 0.1,
 };
 
 export const animateScrollVariants: Variants = {

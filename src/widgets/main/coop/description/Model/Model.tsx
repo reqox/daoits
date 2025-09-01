@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Model.module.scss';
 import { useTranslation } from 'react-i18next';
-import { FullWidthImage, InfoCard } from '@/shared/ui';
+import { AnimatedSection, FullWidthImage, InfoCard } from '@/shared/ui';
 import { CoopModelImage } from '@/shared/assets/images';
 
 export const Model = () => {
@@ -16,7 +16,7 @@ export const Model = () => {
   });
 
   return (
-    <section className={styles['model']}>
+    <AnimatedSection className={styles['model']}>
       <div className={clsx(styles['model__inner'], 'container')}>
         <div className={styles['model__title']}>
           <h2
@@ -41,6 +41,6 @@ export const Model = () => {
         </ul>
         <FullWidthImage srcImg={CoopModelImage} />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -2,11 +2,12 @@ import clsx from 'clsx';
 import styles from './Description.module.scss';
 import { useTranslation } from 'react-i18next';
 import { DescriptionAppImage } from '@/shared/assets/images';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Description = () => {
   const { t } = useTranslation('services');
   return (
-    <section className={clsx(styles['description'])}>
+    <AnimatedSection className={clsx(styles['description'])}>
       <div className={clsx(styles['description__inner'], 'container')}>
         <div className={styles['description__body']}>
           <h2 className={styles['description-title']}>
@@ -26,6 +27,6 @@ export const Description = () => {
           loading="lazy"
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

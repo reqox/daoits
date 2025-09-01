@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Steps.module.scss';
-import { NumberedList } from '@/shared/ui';
+import { AnimatedSection, NumberedList } from '@/shared/ui';
 import clsx from 'clsx';
 
 export const Steps = () => {
@@ -28,7 +28,7 @@ export const Steps = () => {
     },
   ];
   return (
-    <section className={styles['steps']}>
+    <AnimatedSection className={styles['steps']}>
       <div className={clsx(styles['steps__inner'], 'container')}>
         <h2
           className={styles['steps-title']}
@@ -36,6 +36,6 @@ export const Steps = () => {
         ></h2>
         <NumberedList list={StepsList} />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

@@ -2,11 +2,12 @@ import clsx from 'clsx';
 import styles from './Description.module.scss';
 import { useTranslation } from 'react-i18next';
 import { BridgeDiagramPng } from '@/shared/assets/images/bridge';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Description = () => {
   const { t } = useTranslation('bridge');
   return (
-    <section className={styles['description']}>
+    <AnimatedSection className={styles['description']}>
       <div className={clsx(styles['description__inner'], 'container')}>
         <div className={styles['description__body']}>
           <h3 className={styles['description-title']}>DeFiBridge</h3>
@@ -28,6 +29,6 @@ export const Description = () => {
           loading={'lazy'}
         />
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

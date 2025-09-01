@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './Initiatives.module.scss';
 import { useTranslation } from 'react-i18next';
-import { InfoCard } from '@/shared/ui';
+import { AnimatedSection, InfoCard } from '@/shared/ui';
 
 export const Initiatives = () => {
   const { t } = useTranslation('coop');
@@ -15,7 +15,7 @@ export const Initiatives = () => {
   });
 
   return (
-    <section className={styles['initiatives']}>
+    <AnimatedSection className={styles['initiatives']}>
       <div className={clsx(styles['initiatives__inner'], 'container')}>
         <div className={styles['initiatives__title']}>
           <h2
@@ -39,6 +39,6 @@ export const Initiatives = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

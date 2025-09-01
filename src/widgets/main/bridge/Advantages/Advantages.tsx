@@ -7,6 +7,7 @@ import {
   BridgeAdvantages3Icon,
   BridgeAdvantages4Icon,
 } from '@/shared/assets/icons/bridge';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Advantages = () => {
   const { t } = useTranslation('bridge');
@@ -27,7 +28,7 @@ export const Advantages = () => {
   ];
 
   return (
-    <section className={styles['advantages']}>
+    <AnimatedSection className={styles['advantages']}>
       <div className={clsx(styles['advantages__inner'], 'container')}>
         <h2 className={styles['advantages-title']}>{t('advantages.title')}</h2>
         <ul className={styles['advantages-list']}>
@@ -54,6 +55,6 @@ export const Advantages = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

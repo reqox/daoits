@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import styles from './Roadmap.module.scss';
 import { useTranslation } from 'react-i18next';
+import { AnimatedSection } from '@/shared/ui';
 
 export const Roadmap = () => {
   const { t } = useTranslation('blockchain');
@@ -14,7 +15,7 @@ export const Roadmap = () => {
   });
 
   return (
-    <section className={styles['roadmap']}>
+    <AnimatedSection className={styles['roadmap']}>
       <div className={clsx(styles['roadmap__inner'], 'container')}>
         <h2
           className={styles['roadmap-title']}
@@ -32,6 +33,6 @@ export const Roadmap = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

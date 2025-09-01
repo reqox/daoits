@@ -1,7 +1,12 @@
 import clsx from 'clsx';
 import styles from './GlobalUp.module.scss';
 import { useTranslation } from 'react-i18next';
-import { FullWidthImage, InfoCard, InfoLink } from '@/shared/ui';
+import {
+  AnimatedSection,
+  FullWidthImage,
+  InfoCard,
+  InfoLink,
+} from '@/shared/ui';
 import { BlockchainGlobalUpImage } from '@/shared/assets/images';
 
 export const GlobalUp = () => {
@@ -16,7 +21,7 @@ export const GlobalUp = () => {
   });
 
   return (
-    <section className={styles['global']}>
+    <AnimatedSection className={styles['global']}>
       <div className={clsx(styles['global__inner'], 'container')}>
         <h2
           className={styles['global-title']}
@@ -38,6 +43,6 @@ export const GlobalUp = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </AnimatedSection>
   );
 };

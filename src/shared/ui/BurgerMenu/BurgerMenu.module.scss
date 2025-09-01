@@ -14,6 +14,7 @@ $color-active: #{rgba(
   height: 100vh;
   padding: rem(16);
   background: rgb(0, 0, 0, 0.6);
+  overflow: hidden;
   z-index: var(--layer-md);
   transition-property: width, opacity;
   transition-duration: var(--transition-duration);

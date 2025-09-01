@@ -6,7 +6,7 @@ import '@/shared/styles/main.scss';
 import {
   HomePage,
   AppPage,
-  ServicesPage,
+  // ServicesPage,
   WebPage,
   NotFoundPage,
   DevelopingPage,
@@ -30,7 +30,7 @@ const App = () => {
           <Route path={'coop'} element={<CoopPage />} />
           <Route path={'coop/description'} element={<DescriptionPage />} />
 
-          <Route path={'services'} element={<ServicesPage />} />
+          {/* <Route path={'services'} element={<ServicesPage />} /> */}
           <Route path={'services/app'} element={<AppPage />} />
           <Route path={'services/web'} element={<WebPage />} />
 

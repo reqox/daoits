@@ -22,7 +22,7 @@ export const NavigationLinks: NavigationLinks[] = [
   },
   {
     title: 'navigation.services.title',
-    to: 'services',
+    to: 'services/app',
     dropdown: [
       { title: 'navigation.services.dropdown.app', to: 'services/app' },
       { title: 'navigation.services.dropdown.web', to: 'services/web' },
@@ -34,7 +34,7 @@ export const NavigationLinks: NavigationLinks[] = [
   },
   {
     title: 'navigation.developments.title',
-    to: 'developments',
+    to: 'developments/defibridge',
     dropdown: [
       {
         title: 'navigation.developments.dropdown.defibridge',

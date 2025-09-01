@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import styles from './BannerPage.module.scss';
 import type { FC, ReactNode } from 'react';
 import { BannerAbstractImage } from '@/shared/assets/images';
-import { motion } from 'motion/react';
+import { motion, type Variants } from 'framer-motion';
 
 interface BannerPageProps {
   title: string;
@@ -10,6 +10,17 @@ interface BannerPageProps {
 }
 
 export const BannerPage: FC<BannerPageProps> = ({ title, children }) => {
+  const imgVariants: Variants = {
+    animation: {
+      scale: [1, 1.1, 1],
+      transition: {
+        duration: 6,
+        repeat: Infinity,
+        ease: [0.4, 0, 0.6, 1],
+      },
+    },
+  };
+
   return (
     <section className={clsx(styles['banner'])}>
       <div className={clsx(styles['banner__inner'], 'container')}>
@@ -19,14 +30,8 @@ export const BannerPage: FC<BannerPageProps> = ({ title, children }) => {
           alt=""
           width={100}
           height={100}
-          animate={{
-            scale: [1, 1.1, 1],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: 'easeInOut',
-          }}
+          variants={imgVariants}
+          animate={'animation'}
         />
         <div className={styles['banner__body']}>
           <h1

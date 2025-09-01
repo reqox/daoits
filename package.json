@@ -20,10 +20,10 @@
   "dependencies": {
     "@a1rth/css-normalize": "^1.2.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
-    "motion": "^12.23.12",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.62.0",

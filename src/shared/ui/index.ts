@@ -17,3 +17,4 @@ export { SquareIcon } from './SquareIcon/SquareIcon';
 export { TelegramLink } from './TelegramLink/TelegramLink';
 export { ScrollToTop } from './ScrollToTop/ScrollToTop';
 export { DocumentModal } from './DocumentModal/DocumentModal';
+// export { AnimateScrollWrapper as asw } from './AnimateScrollWrapper/AnimateScrollWrapper.tsx';

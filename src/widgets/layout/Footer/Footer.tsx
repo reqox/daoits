@@ -69,7 +69,7 @@ export const Footer = () => {
   return (
     <footer className={styles['footer']}>
       <div className={clsx(styles['footer__inner'], 'container')}>
-        <div className={styles['footer__action']}>
+        {/* <div className={styles['footer__action']}>
           <div className={styles['footer__description']}>
             <h2 className={styles['footer-title']}>{t('action.title')}</h2>
             <div className={styles['footer-subtitle']}>
@@ -104,7 +104,7 @@ export const Footer = () => {
               {t('action.form.button')}
             </button>
           </form>
-        </div>
+        </div> */}
         <div className={styles['footer__body']}>
           <div className={styles['footer__main']}>
             <img
